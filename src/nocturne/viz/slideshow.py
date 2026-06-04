@@ -104,6 +104,8 @@ def build(out_path: Path = ART / "slideshow.html") -> Path:
         "__ABLATION__": ablation,
         "__MODEL__": bundle.get("model", "?"),
         "__REM__": bundle.get("rem_model", "") or "—",
+        "__CELLARIUS__": (("data:image/jpeg;base64," + base64.b64encode((ART / "art" / "cellarius_moon.jpg").read_bytes()).decode())
+                          if (ART / "art" / "cellarius_moon.jpg").exists() else ""),
     }
     html = _TEMPLATE
     for k, v in repl.items():
@@ -179,6 +181,9 @@ table.wins .a{color:var(--blue)} table.wins .b{color:var(--amber)}
 .big{font-family:var(--serif);font-size:84px;color:var(--amber);line-height:1}.big span{font-size:32px;color:var(--muted)}
 .cap{font-family:var(--mono);font-size:13px;color:var(--muted);letter-spacing:1px} .vs{color:var(--faint);margin-top:6px}
 img.chart{max-width:100%;max-height:54vh;border-radius:12px;border:1px solid var(--line)}
+.plate{margin:0;text-align:center}
+.plate img{max-width:100%;max-height:48vh;border-radius:12px;border:1px solid var(--line);box-shadow:0 22px 60px rgba(0,0,0,.55)}
+.plate figcaption{font-family:var(--mono);font-size:11px;color:var(--faint);margin-top:8px;letter-spacing:.4px}
 /* demo */
 .demo-wrap{position:absolute;inset:0;padding:64px 40px 56px}
 .demo-frame{width:100%;height:100%;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5);background:#05060d}
@@ -210,8 +215,14 @@ img.chart{max-width:100%;max-height:54vh;border-radius:12px;border:1px solid var
   <section class="slide">
     <div class="reveal eyebrow">the inspiration</div>
     <h2 class="reveal">A constellation is meaning drawn from chaos.</h2>
-    <p class="reveal">Inspired by baroque star atlases — Cellarius, 1660. The night sky is an overwhelming field of stars: the raw stream. The astronomer working through the night doesn't catalog every one — they draw a few <span class="gold">constellations</span>, the figures you steer by.</p>
-    <p class="reveal faint">Every visual here is drawn in code — a live nebula, procedural constellations. We borrowed the period, not its pictures.</p>
+    <div class="reveal cols" style="grid-template-columns:1.05fr .95fr">
+      <div>
+        <p>Inspired by baroque star atlases — Cellarius, 1660. The night sky is an overwhelming field of stars: the raw stream. The astronomer working through the night doesn't catalog every one — they draw a few <span class="gold">constellations</span>, the figures you steer by.</p>
+        <p class="faint">Everything in the app itself is drawn in code — a live nebula, procedural constellations. We borrowed the period's spirit, not its pictures.</p>
+      </div>
+      <figure class="plate"><img src="__CELLARIUS__" alt="Cellarius celestial plate, 1660"/>
+        <figcaption>Andreas Cellarius · <i>The Varying Phases of the Moon</i> · Harmonia Macrocosmica, 1660</figcaption></figure>
+    </div>
   </section>
 
   <section class="slide">
@@ -294,8 +305,6 @@ img.chart{max-width:100%;max-height:54vh;border-radius:12px;border:1px solid var
   <section class="slide s-title">
     <div class="reveal eyebrow">thank you</div>
     <h1 class="reveal" style="font-size:clamp(40px,6vw,76px)">the smallest memory<br/>that still makes you<br/>effective tomorrow.</h1>
-    <p class="reveal faint" style="margin-top:20px">github.com/singhh5050/nocturne · built solo with heavy AI assistance (disclosed) · real compute on DigitalOcean</p>
-    <p class="reveal faint">cite: sleep-time compute (2504.13171) · Reflexion (2303.11366) · MemGPT (2310.08560) · GBrain</p>
   </section>
 
 </div>
@@ -331,38 +340,66 @@ img.chart{max-width:100%;max-height:54vh;border-radius:12px;border:1px solid var
 })();
 
 // deck navigation
-const slides=[...document.querySelectorAll(".slide")];const N=slides.length;let cur=0,autopilot=null;
+const slides=[...document.querySelectorAll(".slide")];const N=slides.length;let cur=0;
+let timers=[];function T(fn,ms){const id=setTimeout(fn,ms);timers.push(id);return id;}
+function clearTimers(){timers.forEach(clearTimeout);timers=[];}
 const dots=document.getElementById("dots");slides.forEach((_,i)=>{const b=document.createElement("b");b.onclick=()=>go(i);dots.appendChild(b);});
 function go(i){cur=Math.max(0,Math.min(N-1,i));slides.forEach((s,j)=>s.classList.toggle("active",j===cur));
   [...dots.children].forEach((b,j)=>b.classList.toggle("on",j===cur));
-  document.getElementById("pageno").textContent=(cur+1)+" / "+N;
-  history.replaceState(null,"","#s="+(cur+1));
-  if(autopilot){clearTimeout(autopilot);autopilot=null;}hideDemoFx();
-  if(slides[cur].dataset.demo)startDemo();}
+  document.getElementById("pageno").textContent=(cur+1)+" / "+N;history.replaceState(null,"","#s="+(cur+1));
+  stopDemo();hideDemoFx();if(slides[cur].dataset.demo)T(startDemo,520);}
 document.getElementById("next").onclick=()=>go(cur+1);
 document.getElementById("prev").onclick=()=>go(cur-1);
 addEventListener("keydown",e=>{if(e.key==="ArrowRight"||e.key===" ")go(cur+1);if(e.key==="ArrowLeft")go(cur-1);});
-// click right/left thirds to navigate (but not on the demo slide, so the iframe stays interactive)
-addEventListener("click",e=>{if(slides[cur].dataset.demo)return;if(e.target.closest(".nav,.dots"))return;
-  go(cur + (e.clientX>innerWidth*0.5?1:-1));});
+addEventListener("click",e=>{if(slides[cur].dataset.demo)return;if(e.target.closest(".nav,.dots"))return;go(cur+(e.clientX>innerWidth*0.5?1:-1));});
 
-// demo autopilot: move cursor + scrub the embedded dashboard through the highlight moments
+// ---- auto-piloted demo: a queue of beats; the cursor is anchored to REAL elements in the
+// embedded app, scrolls to them, and the next beat fires when the cursor ARRIVES (not on a timer).
+// render(night) inside the app triggers its own animations (stars glide, briefing types, panels cross-fade).
 const cursor=document.getElementById("cursor"),caption=document.getElementById("caption");
-function moveCursor(xf,yf){cursor.style.opacity="1";cursor.style.left=(innerWidth*xf)+"px";cursor.style.top=(innerHeight*yf)+"px";}
-function say(t){caption.textContent=t;caption.style.opacity="1";}
+function moveCursorPx(x,y){cursor.style.opacity="1";cursor.style.left=x+"px";cursor.style.top=y+"px";}
+let capTok=0;
+function say(t){const tok=++capTok;caption.style.opacity="1";caption.textContent="";let i=0;
+  (function typ(){if(tok!==capTok)return;i+=2;caption.textContent=t.slice(0,i);if(i<t.length)T(typ,16);})();}
 function hideDemoFx(){cursor.style.opacity="0";caption.style.opacity="0";}
 function postNight(n){const f=document.getElementById("demoframe");if(f&&f.contentWindow)f.contentWindow.postMessage({nocturne:1,night:n},"*");}
-function startDemo(){
-  const steps=[
-    [400,()=>{say("the night's intake → memory");moveCursor(.5,.34);postNight(2);}],
-    [3200,()=>{say("a flood arrives — it keeps the one that matters");moveCursor(.3,.30);postNight(6);}],
-    [6400,()=>{say("night 11 · the meeting moves — it RECONCILES (drops the stale time)");moveCursor(.5,.55);postNight(11);}],
-    [10200,()=>{say("two brains · a constellation vs an exploding catalog");moveCursor(.5,.7);postNight(16);}],
-    [13600,()=>{say("night 22 · a latent insight, confirmed ✦");moveCursor(.78,.45);postNight(22);}],
-    [17200,()=>{say("click any star to see why the brain believes it");moveCursor(.3,.42);postNight(27);}],
-    [20600,()=>{hideDemoFx();}],
-  ];
-  let i=0;(function run(){if(i>=steps.length)return;const [dt,fn]=steps[i++];autopilot=setTimeout(()=>{fn();run();},i===1?dt:dt-steps[i-2][0]);})();
+function frameDoc(){const f=document.getElementById("demoframe");try{return [f,f.contentWindow,f.contentDocument||f.contentWindow.document];}catch(e){return [f,null,null];}}
+function placeOn(f,el){const ir=f.getBoundingClientRect(),er=el.getBoundingClientRect();
+  moveCursorPx(ir.left+er.left+Math.min(er.width,44)/2, ir.top+er.top+Math.min(er.height,44)/2);}
+function arrive(fn){let done=false;const h=e=>{if(e&&e.propertyName&&e.propertyName!=="left"&&e.propertyName!=="top")return;
+  if(done)return;done=true;cursor.removeEventListener("transitionend",h);fn();};
+  cursor.addEventListener("transitionend",h);T(()=>{if(!done){done=true;cursor.removeEventListener("transitionend",h);fn();}},1600);}
+let demoActive=false,beatIdx=0;
+const BEATS=[
+  {night:2,  sel:"#intake",          cap:"the night's intake — it keeps the signal, lets the noise go"},
+  {night:6,  sel:"#intake",          cap:"every night a flood arrives; only the few that matter are kept"},
+  {night:9,  sel:"#cl-nodes circle", scroll:"#constellation", click:1, cap:"click any star — see the raw items it was built from"},
+  {night:11, sel:"#constellation",   cap:"night 11 · the meeting moved — it reconciles, dropping the stale time"},
+  {night:16, sel:"#b-lib",           cap:"two brains — a small constellation versus an exploding catalog"},
+  {night:22, sel:"#ledger",          cap:"night 22 · a cross-thread insight, confirmed"},
+  {night:24, sel:"#policy",          cap:"the policy it rewrote for itself, overnight"},
+  {night:27, sel:"#dec",             cap:"every overnight decision, logged"},
+];
+function stopDemo(){demoActive=false;clearTimers();}
+function startDemo(){demoActive=true;beatIdx=0;beat();}
+function beat(){
+  if(!demoActive)return;
+  if(beatIdx>=BEATS.length)beatIdx=0;
+  const b=BEATS[beatIdx++];const [f,fw,fd]=frameDoc();
+  try{if(b.night)(fw&&fw.render?fw.render(b.night):postNight(b.night));}catch(e){postNight(b.night);}
+  if(b.cap)say(b.cap);
+  const sc=fd&&fd.querySelector(b.scroll||b.sel);if(sc)sc.scrollIntoView({behavior:"smooth",block:"center"});
+  T(()=>{                                            // let the scroll + the app's render animation settle
+    const el=fd&&fd.querySelector(b.sel);if(!el){T(beat,1800);return;}
+    placeOn(f,el);                                   // glide the cursor to the real element
+    arrive(()=>{                                     // fire only once the cursor has ARRIVED
+      if(b.click){try{el.dispatchEvent(new MouseEvent("click",{bubbles:true}));}catch(_){}
+        const insp=fd.querySelector("#inspector");
+        if(insp){T(()=>{insp.scrollIntoView({behavior:"smooth",block:"center"});
+          T(()=>{placeOn(f,insp);say("provenance — why the brain believes it");arrive(()=>T(beat,2200));},700);},450);return;}}
+      T(beat,2300);
+    });
+  },b.scrollWait||760);
 }
 const _h=(location.hash.match(/s=(\d+)/)||[])[1];go(_h?+_h-1:0);
 addEventListener("hashchange",()=>{const m=(location.hash.match(/s=(\d+)/)||[])[1];if(m&&+m-1!==cur)go(+m-1);});
