@@ -82,12 +82,13 @@ def run_our_arm(
             policy = best_policy.clone()
             policy.current_night = n
 
-        # morning QA
+        # morning QA — ours answers from the WHOLE bounded memory (no retrieval step needed)
         for qa in trace.qa_for_night(n):
             ans = answer_question(llm, memory_render=render, question=qa.question, model=model)
             qa_results.append({"qa_id": qa.id, "night": n, "thread": qa.thread,
                                "question": qa.question, "answer": ans,
-                               "correct": M.grade_qa(ans, qa)})
+                               "correct": M.grade_qa(ans, qa),
+                               "query_tokens": store.total_tokens()})
 
         briefing = ""
         if do_briefing:
@@ -117,6 +118,7 @@ def run_our_arm(
         "nights": nights,
         "qa": qa_results,
         "qa_accuracy": _qa_acc(qa_results),
+        "avg_query_tokens": _avg_query_tokens(qa_results),
         "insight_found_night": insight_found_night,
         "final_policy": policy.snapshot()["directives"],
         "usage": llm.usage.snapshot(),
@@ -129,22 +131,27 @@ def run_our_arm(
 
 def run_baseline_arm(llm: LLM, trace: WorldTrace, arm_name: str, *, model: str | None = None) -> dict:
     arm = make_baseline(arm_name)
+    has_retrieval = hasattr(arm, "render_for_query")
     nights: list[dict] = []
     qa_results: list[dict] = []
     for ni in trace.nights:
         n = ni.night
         arm.ingest(n, ni.items)
-        render = arm.render()
+        render = arm.render()  # full store → storage-footprint metrics
         metrics = M.memory_metrics(render, arm.item_count(), trace, n)
         for qa in trace.qa_for_night(n):
-            ans = answer_question(llm, memory_render=render, question=qa.question, model=model)
+            # retrieval arms answer from top-K (like GBrain); naive arms dump the whole store
+            qrender = arm.render_for_query(qa.question) if has_retrieval else render
+            ans = answer_question(llm, memory_render=qrender, question=qa.question, model=model)
             qa_results.append({"qa_id": qa.id, "night": n, "thread": qa.thread,
                                "question": qa.question, "answer": ans,
-                               "correct": M.grade_qa(ans, qa)})
+                               "correct": M.grade_qa(ans, qa),
+                               "query_tokens": _tok(qrender)})
         nights.append({"night": n, "tokens": arm.total_tokens(), "facts": arm.item_count(),
                        "metrics": metrics, "score": M.composite_score(metrics)})
     return {"arm": arm_name, "nights": nights, "qa": qa_results,
-            "qa_accuracy": _qa_acc(qa_results), "usage": llm.usage.snapshot()}
+            "qa_accuracy": _qa_acc(qa_results), "avg_query_tokens": _avg_query_tokens(qa_results),
+            "usage": llm.usage.snapshot()}
 
 
 # ---------------------------------------------------------------------------
@@ -180,3 +187,12 @@ def _qa_acc(qa_results: list[dict]) -> float:
     if not qa_results:
         return 0.0
     return round(sum(1 for q in qa_results if q["correct"]) / len(qa_results), 4)
+
+
+def _tok(s: str) -> int:
+    return max(1, len(s) // 4)
+
+
+def _avg_query_tokens(qa_results: list[dict]) -> int:
+    vals = [q.get("query_tokens", 0) for q in qa_results]
+    return round(sum(vals) / len(vals)) if vals else 0
