@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n27-noise-1\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-2\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-3\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-4\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-5\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-6\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-7\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-8\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-9\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-10\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-11\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n27-noise-12\",\"reason\":\"Promotional/low\u2011signal content\"},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Paper accepted: Reviewer\u202f2 score increased to\u202f6 after rebuttal. Camera\u2011ready due in two weeks (deadline: date\u202f+\u202f14\u202fdays).\",\"weight\":1.0,\"tags\":[\"deadline\",\"camera\u2011ready\",\"decision\"],\"provenance\":[\"n27-gmail-1\"]},{\"op\":\"reweight\",\"id\":\"3c50c5d7\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 1917,
+    "output_tokens": 1640,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

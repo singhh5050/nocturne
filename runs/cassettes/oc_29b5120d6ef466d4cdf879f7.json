@@ -1,0 +1,9 @@
+{
+  "text": "## Open Items (weight\u202f1.00)\n\n* **ICLR Submission \u2013 Reviewer\u202f2 (score\u202f4)**  \n  *Deadline*: **+48\u202fh (by tomorrow 12:00)**  \n  **Draft reply**:  \n  ```\n  Thank you for your thorough review. We appreciate your concerns regarding [specific point]. In response, we have performed additional experiments (see Appendix\u202fC) that demonstrate ...\n  ```  \n\n## Readings (weight\u202f0.42)\n\n* **MemGPT \u2013 Saved MemGPT**  \n  *Action*: read and summarize key insights for memory\u2011rewrite idea.  \n  *Deadline*: end of day, tomorrow.  \n\n---  \n\n*No hypotheses or overnight insights are available yet.*",
+  "usage": {
+    "input_tokens": 326,
+    "output_tokens": 475,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

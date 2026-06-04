@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"H100 allocation approved \u2014 2400 GPU\u2011hours granted for May; quota resets monthly\",\"weight\":0.5,\"tags\":[\"resource\",\"gpu\",\"lab\"],\"provenance\":[\"n09-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n09-noise-1\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-2\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-3\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-4\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-5\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-6\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-7\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-8\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-9\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-10\",\"reason\":\"routine promotional notification, low signal\"},{\"op\":\"drop\",\"id\":\"n09-noise-11\",\"reason\":\"routine promotional notification, low signal\"}]}",
+  "usage": {
+    "input_tokens": 1569,
+    "output_tokens": 558,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The accuracy decline observed when storing more than 40 items is caused by increased cross\u2011fact interference, which can be mitigated by introducing periodic consolidation (summary/compression) as described in the accumulation\u2011vs\u2011compression paper, thereby stabilizing QA performance beyond the 40\u2011item threshold.\",\"confidence\":0.78,\"support_ids\":[\"562412ff\",\"72ccf918\"],\"tags\":[\"interference\",\"consolidation\",\"accuracy_drop\",\"memory_management\"]},{\"statement\":\"The superiority of the rewrite\u2011based memory over naive append stems from implicit virtual paging: rewrite limits token growth similarly to MemGPT\u2019s paging between in\u2011context and external memory, explaining why the append baseline exceeds the token budget while rewrite stays within limits.\",\"confidence\":0.65,\"support_ids\":[\"ad2ef3b4\",\"a962f389\"],\"tags\":[\"memory_rewrite\",\"append_vs_rewrite\",\"virtual_paging\",\"token_budget\"]}]}",
+  "usage": {
+    "input_tokens": 848,
+    "output_tokens": 429,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

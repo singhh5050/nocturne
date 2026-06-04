@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"ccf4afd1\",\"n06-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Co\u2011author a workshop paper on agent\u2011memory benchmarks with Maya. Awaiting response. Follow\u2011up received: rough outline sketched; please review. Update: d.okafor remains keen, no rush at all.\",\"weight\":0.31,\"tags\":[\"coauthor\",\"workshop\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New paper (arxiv) 'Consolidation reduces cross-fact interference' \u2014 technique paper: periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall. Relevant to memory rewrite work.\",\"weight\":0.8,\"tags\":[\"arxiv\",\"memgpt\",\"consolidation\"],\"provenance\":[\"n06-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1400,
+    "output_tokens": 1011,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

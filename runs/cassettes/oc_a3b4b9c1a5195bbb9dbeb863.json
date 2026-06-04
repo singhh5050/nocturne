@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n14-noise-1\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-2\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-3\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-4\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-5\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-6\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-7\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-8\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-9\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-10\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n14-noise-11\",\"reason\":\"Promotional low-signal chatter duplicate of existing entry; safe to ignore.\"}]}",
+  "usage": {
+    "input_tokens": 1823,
+    "output_tokens": 665,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

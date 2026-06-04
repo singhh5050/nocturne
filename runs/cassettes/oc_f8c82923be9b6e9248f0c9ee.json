@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New arXiv paper: lifelong memory for agents \u2014 another agent-memory paper. Saved to reading list.\",\"weight\":0.0,\"tags\":[\"arxiv\",\"memory\",\"readinglist\"],\"provenance\":[\"n18-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"1a657990\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"02ec5ad5\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"dff9996b\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"1e9a2244\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"3a8224db\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"214f0698\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"1f9b78ad\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"99a304d0\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"5fb523f6\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"611ed269\",\"reason\":\"duplicate promotional content\"},{\"op\":\"drop\",\"id\":\"ba0578cf\",\"reason\":\"duplicate promotional content\"}]}",
+  "usage": {
+    "input_tokens": 2045,
+    "output_tokens": 3161,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

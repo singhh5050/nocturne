@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"1924534d\",\"reason\":\"stale review information updated on acceptance\"},{\"op\":\"drop\",\"id\":\"a0faafe3\",\"reason\":\"stale review information updated on acceptance\"},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Decision + camera-ready \u2014 Good news: Reviewer 2 raised their score from 4 to 6 after rebuttal. Paper accepted; camera-ready due in two weeks.\",\"weight\":1.0,\"tags\":[\"review\",\"iclr\",\"acceptance\"],\"provenance\":[\"n27-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 2622,
+    "output_tokens": 1244,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

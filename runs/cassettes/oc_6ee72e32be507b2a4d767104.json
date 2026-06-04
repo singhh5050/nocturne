@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"0c5b4ee7\",\"weight\":0.5},{\"op\":\"reweight\",\"id\":\"d0f8e306\",\"weight\":0.5},{\"op\":\"reweight\",\"id\":\"33d0e2fd\",\"weight\":0.5},{\"op\":\"reweight\",\"id\":\"57afc643\",\"weight\":0.5},{\"op\":\"reweight\",\"id\":\"74154e6a\",\"weight\":0.5},{\"op\":\"reweight\",\"id\":\"0fcc3e65\",\"weight\":0.5},{\"op\":\"reweight\",\"id\":\"179d7ac0\",\"weight\":0.5}]}",
+  "usage": {
+    "input_tokens": 2397,
+    "output_tokens": 5141,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Decision + camera-ready \u2014 Good news: Reviewer 2 raised their score from 4 to 6 after the rebuttal. Paper accepted; camera-ready due in two weeks.\",\"weight\":0.05,\"tags\":[\"email\",\"deadline\",\"research\"],\"provenance\":[\"n27-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 2135,
+    "output_tokens": 427,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

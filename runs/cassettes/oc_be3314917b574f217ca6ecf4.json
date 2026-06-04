@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":1.80},{\"op\":\"add\",\"content\":\"When a GPU model keyword (e.g., H100, A100) is followed by an equals sign and a numeric value, treat the value as a resource\u2011allocation entry and store it even if no unit is present; this captures patterns like \\\"H100 = 2400\\\".\",\"weight\":1.00}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 542,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

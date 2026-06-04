@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"b9be5bd5\",\"weight\":0.3}]}",
+  "usage": {
+    "input_tokens": 496,
+    "output_tokens": 350,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

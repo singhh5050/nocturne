@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Applying learned compression (compact summarization) to the append\u2011based memory store will prevent the observed accuracy drop after ~40 items by reducing interference, thereby matching or exceeding the performance gains seen with the rewrite method.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"d2609f66\", \"a575e46b\", \"6b6bffed\"],\n      \"tags\": [\"compression\", \"interference\", \"append\", \"rewrite\", \"memory_management\"]\n    },\n    {\n      \"statement\": \"Leveraging the allocated H100 GPU hours to run MemGPT\u2019s virtual paging combined with the rewrite strategy will enable scaling beyond the token budget while maintaining or improving F1 scores, making it feasible to handle larger lifelong memory datasets.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"ca4aab4c\", \"dd46edef\", \"6b6bffed\"],\n      \"tags\": [\"gpu_allocation\", \"MemGPT\", \"rewrite\", \"token_budget\", \"scalability\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 744,
+    "output_tokens": 559,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

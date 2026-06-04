@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Creating a benchmark for the workshop that explicitly includes a naive-append baseline derived from MemGPT\u2019s external\u2011memory paging architecture will both satisfy the reviewer\u2019s ablation demand and give the workshop a concrete, reusable evaluation suite for sleep\u2011time memory rewrite methods\",\"confidence\":0.78,\"support_ids\":[\"447301e4\",\"dd46edef\",\"93c63327\"],\"tags\":[\"ablation\",\"benchmark\",\"MemGPT\",\"sleep-time\",\"memory-rewrite\"]},{\"statement\":\"The structured memory\u2011rewrite operations proposed for sleep\u2011time agents can be operationalized as transformations on MemGPT\u2019s virtual context pages, so testing rewrite vs. simple append via the new benchmark will reveal whether gains stem from the rewrite logic itself or merely from the presence of any external memory\",\"confidence\":0.65,\"support_ids\":[\"447301e4\",\"dd46edef\",\"93c63327\"],\"tags\":[\"rewrite\",\"append\",\"MemGPT\",\"ablation\",\"benchmark\"]}]}",
+  "usage": {
+    "input_tokens": 480,
+    "output_tokens": 492,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"f4066698\",\"n04-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Reviewer 2 comments: the paper does not isolate whether gains come from rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it we lean reject. Advisor advises prioritizing this rewrite\u2011vs\u2011append ablation for the rebuttal, with deadline day 19, results needed well before then.\",\"weight\":0.67,\"tags\":[\"reviewer\",\"ICLR\",\"rebuttal\"],\"provenance\":[\"f4066698\",\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"1d4f294b\",\"n04-gmail-2\"],\"tier\":\"preferences\",\"content\":\"Co-author a quick workshop paper on agent-memory benchmarks? Potential low\u2011effort opportunity. Following up on the sketch of a rough outline from the co\u2011author email, please review when ready.\",\"weight\":0.5,\"tags\":[\"coauthor\",\"workshop\",\"opportunity\"],\"provenance\":[\"1d4f294b\",\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1425,
+    "output_tokens": 1317,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Periodically consolidating stored items into a compact summary (as described in the consolidation papers and MemGPT paging) will prevent the accuracy decline observed after ~40 items in the naive append baseline, replicating the flat recall performance seen with the bounded\u2011memory variant.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"93ae3681\", \"e8af7ee8\", \"45562236\", \"800e430c\", \"085f93d4\"],\n      \"tags\": [\"consolidation\", \"interference\", \"capacity\", \"append\", \"bounded_memory\"]\n    },\n    {\n      \"statement\": \"The reported gains of the Structured Memory Rewrite approach are largely driven by the implicit bounded\u2011window memory management rather than the rewrite transformation itself; an ablation that keeps the same window size but disables rewriting should retain most of the performance boost.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"853b30eb\", \"d421fc37\", \"93ae3681\"],\n      \"tags\": [\"ablation\", \"rewrite\", \"bounded_memory\", \"performance\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 897,
+    "output_tokens": 655,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Store only facts with a clear source and timestamp; discard unverified data.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Merge overlapping items about the same entity to avoid duplicates; keep the most comprehensive version.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Up\u2011weight items containing explicit deadlines as the deadline nears, prioritizing them in memory retrieval.\",\"weight\":0.8}]}",
+  "usage": {
+    "input_tokens": 464,
+    "output_tokens": 320,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"658fa145\",\"n16-notes-1\"],\"tier\":\"episodic\",\"content\":\"ICLR rebuttal:\\n- Rewrite vs naive append ablation plan: rewrite beats naive append by ~9\u202fF1 points on needle survival.\\n- Append blows the token budget by day\u202f20 of the simulation.\\n- Rebuttal deadline day\u202f19 \u2013 results needed well before deadline.\\n- GitHub issue\u202f#214 opened to kickoff rewrite\u2011vs\u2011append ablation runs.\\n- Prioritized by advisor for review before deadline.\",\"weight\":0.9,\"tags\":[\"ICLR\",\"ablation\",\"rebuttal\",\"rewrite\"],\"provenance\":[\"658fa145\",\"n16-notes-1\"]},{\"op\":\"drop\",\"id\":\"658fa145\",\"reason\":\"merged into comprehensive rebuttal memory\"}]}",
+  "usage": {
+    "input_tokens": 1707,
+    "output_tokens": 1396,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

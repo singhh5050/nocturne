@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"ed11f621\",\"d98df1e9\",\"433373c0\",\"e0fe18d5\"],\"content\":\"Keep items that contain quantitative data (resource allocations, figures, dates, times). For items about the same resource or figure, replace earlier entries with the most recent one and consolidate duplicates into a single entry. Do not keep superseded or redundant quantitative information. Keep only the latest useful fact and discard older versions.\",\"weight\":1.80},{\"op\":\"drop\",\"id\":\"ed11f621\",\"reason\":\"Merged into broader quantitative data rule.\"},{\"op\":\"drop\",\"id\":\"d98df1e9\",\"reason\":\"Merged into broader quantitative data rule.\"},{\"op\":\"drop\",\"id\":\"433373c0\",\"reason\":\"Merged into broader quantitative data rule.\"},{\"op\":\"drop\",\"id\":\"e0fe18d5\",\"reason\":\"Merged into broader quantitative data rule.\"}]}",
+  "usage": {
+    "input_tokens": 709,
+    "output_tokens": 625,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n07-noise-1\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-2\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-3\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-4\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-5\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-6\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-7\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-8\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-9\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-10\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-11\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n07-noise-12\",\"reason\":\"trivial promotional mail\u2014safe to ignore.\"}]}",
+  "usage": {
+    "input_tokens": 1535,
+    "output_tokens": 737,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

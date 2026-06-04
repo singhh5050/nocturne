@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n25-noise-1\",\"reason\":\"duplicate low-signal opportunity notice\"},{\"op\":\"drop\",\"id\":\"n25-noise-2\",\"reason\":\"duplicate low-signal promotion notice\"},{\"op\":\"drop\",\"id\":\"n25-noise-3\",\"reason\":\"duplicate low-signal connection request\"},{\"op\":\"drop\",\"id\":\"n25-noise-4\",\"reason\":\"duplicate low-signal parking reminder\"},{\"op\":\"drop\",\"id\":\"n25-noise-5\",\"reason\":\"duplicate low-signal policy roundup\"},{\"op\":\"drop\",\"id\":\"n25-noise-6\",\"reason\":\"duplicate low-signal DB promote\"},{\"op\":\"drop\",\"id\":\"n25-noise-7\",\"reason\":\"duplicate low-signal course recommendation\"},{\"op\":\"drop\",\"id\":\"n25-noise-8\",\"reason\":\"duplicate low-signal AI batch news\"}]}",
+  "usage": {
+    "input_tokens": 2105,
+    "output_tokens": 671,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop promotional newsletters and recruiter mail; never store them.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 512,
+    "output_tokens": 337,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

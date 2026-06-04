@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Applying the periodic consolidation technique described in the \\\"Consolidation reduces cross-fact interference\\\" paper to the rewrite-based memory system will cut token consumption and further raise F1 beyond the ~9\u2011point gain already seen over naive append, thereby solving the token\u2011budget overflow observed in the ablation study.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"db8849d5\", \"13b3b6fa\", \"623631bc\"],\n      \"tags\": [\"consolidation\", \"rewrite\", \"token_budget\", \"ablation\"]\n    },\n    {\n      \"statement\": \"Integrating an episodic memory module (as surveyed for LLM agents) into the rewrite operation will improve retention of recent facts and reduce cross\u2011fact interference, potentially increasing the rewrite vs. naive\u2011append performance gap beyond the reported 9\u202fF1 points.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"efa31e4d\", \"db8849d5\", \"13b3b6fa\"],\n      \"tags\": [\"episodic_memory\", \"rewrite\", \"performance\", \"interference\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 713,
+    "output_tokens": 889,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

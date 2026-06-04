@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"252ee31f\",\"weight\":1.2},{\"op\":\"add\",\"content\":\"Retain items that involve critical resources or institutional scheduling\u2014such as GPU\u2011hour allocations, budget limits, lab or conference meetings\u2014even if they lack explicit deadlines or action verbs. These high\u2011impact entries should be preserved to avoid missing essential updates.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 475,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n29-noise-1\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-2\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-3\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-4\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-5\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-6\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-7\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-8\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-9\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-10\",\"reason\":\"routine, low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n29-noise-11\",\"reason\":\"routine, low-signal chatter\"}]}",
+  "usage": {
+    "input_tokens": 1681,
+    "output_tokens": 436,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

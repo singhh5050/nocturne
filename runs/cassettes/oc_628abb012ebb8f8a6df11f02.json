@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Your ICLR submission: reviews available \u2014 Reviews are in for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address.\",\"weight\":0.8,\"tags\":[\"ICLR\",\"review\"],\"provenance\":[\"n02-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n02-noise-1\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-2\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-3\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-4\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-5\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-6\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-7\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-8\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-9\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-10\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-11\",\"reason\":\"duplicate promotional email already in memory\"},{\"op\":\"drop\",\"id\":\"n02-noise-12\",\"reason\":\"duplicate promotional email already in memory\"}]}",
+  "usage": {
+    "input_tokens": 1763,
+    "output_tokens": 1190,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

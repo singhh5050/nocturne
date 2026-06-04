@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews available \u2014 Reviews are in for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address.\",\"weight\":1.0,\"tags\":[\"gmail\",\"submission\",\"iclr\"],\"provenance\":[\"n02-gmail-1\"]},{\"op\":\"drop\",\"id\":\"d379e532\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"86997d48\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"a25673de\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"81c43d6a\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"64b30b35\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"cb69b12b\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"4c98da7d\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"52780657\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"6ecd4652\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"d8fb5816\",\"reason\":\"promo/low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1851,
+    "output_tokens": 888,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Retain explicit resource allocation statements, such as GPU-hour allocations, in memory.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 515,
+    "output_tokens": 220,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

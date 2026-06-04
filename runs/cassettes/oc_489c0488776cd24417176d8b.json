@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n14-noise-1\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-2\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-3\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-4\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-5\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-6\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-7\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-8\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-9\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-10\",\"reason\":\"Promotional low-signal content per policy.\"},{\"op\":\"drop\",\"id\":\"n14-noise-11\",\"reason\":\"Promotional low-signal content per policy.\"}]}",
+  "usage": {
+    "input_tokens": 1624,
+    "output_tokens": 458,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

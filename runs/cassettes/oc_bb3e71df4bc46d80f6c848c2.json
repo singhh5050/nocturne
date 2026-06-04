@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n24-noise-1\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-2\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-3\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-4\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-5\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-6\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-7\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-8\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-9\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-10\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"drop\",\"id\":\"n24-noise-11\",\"reason\":\"promotional or low\u2011signal content\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved episodic memory survey for LLM agents.\",\"weight\":0.15,\"tags\":[\"notes\",\"episodic\",\"survey\"],\"provenance\":[\"n24-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 2080,
+    "output_tokens": 1091,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

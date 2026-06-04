@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n25-noise-1\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-2\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-3\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-4\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-5\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-6\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-7\",\"reason\":\"promotional/recruiter mail\"},{\"op\":\"drop\",\"id\":\"n25-noise-8\",\"reason\":\"promotional/recruiter mail\"}]}",
+  "usage": {
+    "input_tokens": 1600,
+    "output_tokens": 376,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

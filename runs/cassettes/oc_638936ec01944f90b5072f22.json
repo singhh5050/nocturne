@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"In the required rewrite\u2011vs\u2011append ablation, replacing the naive append baseline with MemGPT\u2019s virtual context paging (as described in the saved MemGPT notes) will narrow the performance gap, indicating that sophisticated external memory management can offset the benefits of explicit rewrite operations.\",\"confidence\":0.66,\"support_ids\":[\"52bebe86\",\"f1fbdbac\",\"5f9f3bae\"],\"tags\":[\"ablation\",\"memory-management\",\"benchmark\"]},{\"statement\":\"The agent\u2011memory benchmark suite planned with Maya provides a suitable, task\u2011diverse evaluation platform; applying the rewrite\u2011vs\u2011append ablation across its tasks will show that rewrite operations significantly improve performance only on long\u2011horizon, dependency\u2011heavy tasks, while showing negligible differences on short\u2011term or static\u2011memory tasks.\",\"confidence\":0.58,\"support_ids\":[\"52bebe86\",\"5f9f3bae\"],\"tags\":[\"benchmark\",\"evaluation\",\"rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 497,
+    "output_tokens": 682,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

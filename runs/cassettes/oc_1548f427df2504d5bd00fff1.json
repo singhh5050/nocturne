@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"315a5120\"],\"tier\":\"in_progress\",\"content\":\"Experiment log: weird accuracy drop \u2014 odd: in the append baseline, QA accuracy drops once the store grows past ~40 items even though the target fact is still in there. Not a retrieval miss \u2014 feels like the extra material is getting in the way.\\n\\nBounded-memory variant works \u2014 ran bounded\u2011memory variant: the accuracy drop is gone \u2014 recall held flat as the stream grew. Aggressive consolidation fixed it.\",\"weight\":0.02,\"tags\":[\"notes\",\"experiment\",\"accuracy\"],\"provenance\":[\"n22-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1800,
+    "output_tokens": 1323,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

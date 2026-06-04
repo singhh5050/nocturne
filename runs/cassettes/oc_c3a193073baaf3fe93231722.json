@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Incorporating the periodic consolidation technique (as described in the arXiv paper) into the naive\u2011append baseline will reduce its token\u2011budget explosion and improve its F1 score, narrowing the performance gap with the rewrite method.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"db8849d5\", \"13b3b6fa\"],\n      \"tags\": [\"ablation\", \"consolidation\", \"token_budget\", \"rewrite_vs_append\"]\n    },\n    {\n      \"statement\": \"Leveraging the 50% GPU discount to run experiments on larger context\u2011length models will alleviate the token\u2011budget overflow observed in the naive\u2011append approach, potentially making it competitive with rewrite.\",\n      \"confidence\": 0.62,\n      \"support_ids\": [\"24e2a566\", \"db8849d5\"],\n      \"tags\": [\"gpu\", \"cost_savings\", \"context_length\", \"ablation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 572,
+    "output_tokens": 506,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

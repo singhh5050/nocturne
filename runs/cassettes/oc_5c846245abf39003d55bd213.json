@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"ed11f621\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When an item specifies a resource allocation or quantitative figure and a prior item with the same resource exists, replace the old item with the new one to avoid duplication and keep the most recent value earned as a latent fact.\",\"weight\":1.2},{\"op\":\"add\",\"content\":\"Merge items that refer to identical resource allocations or quantitative figures into a single consolidated entry, keeping only the latest information.\",\"weight\":0.8}]}",
+  "usage": {
+    "input_tokens": 590,
+    "output_tokens": 958,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

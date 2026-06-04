@@ -1,0 +1,9 @@
+{
+  "text": "The lab meeting now takes place on Wednesdays at 11:00.",
+  "usage": {
+    "input_tokens": 4999,
+    "output_tokens": 145,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

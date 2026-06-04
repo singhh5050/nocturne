@@ -1,0 +1,9 @@
+{
+  "text": "Research on artificial\u2011memory systems for agents, especially consolidation, compression, and lifelong/episodic memory.",
+  "usage": {
+    "input_tokens": 10450,
+    "output_tokens": 162,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Follow up: workshop paper with d.okafor \u2013 still interested; no rush at all. Track progress and coordinate with Maya.\",\"weight\":0.2,\"tags\":[\"workshop-paper\",\"coauthor\",\"d.okafor\"],\"provenance\":[\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New arxiv paper: Consolidation reduces cross-fact interference \u2013 periodic consolidation into a compact summary improves downstream recall. Relevant to memory rewrite concept.\",\"weight\":0.6,\"tags\":[\"memory-consolidation\",\"arxiv\",\"technique\"],\"provenance\":[\"n06-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1400,
+    "output_tokens": 831,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

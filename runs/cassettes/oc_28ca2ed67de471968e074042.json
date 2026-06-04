@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n28-noise-1\",\"reason\":\"Low-signal chatter \u2013 routine calendar reminder\"},{\"op\":\"drop\",\"id\":\"n28-noise-2\",\"reason\":\"Low-signal chatter \u2013 routine calendar event\"},{\"op\":\"drop\",\"id\":\"n28-noise-3\",\"reason\":\"Low-signal chatter \u2013 email marketing\"},{\"op\":\"drop\",\"id\":\"n28-noise-4\",\"reason\":\"Low-signal chatter \u2013 slack promotion\"},{\"op\":\"drop\",\"id\":\"n28-noise-5\",\"reason\":\"Low-signal chatter \u2013 arXiv newsletter\"},{\"op\":\"drop\",\"id\":\"n28-noise-6\",\"reason\":\"Low-signal chatter \u2013 job posting\"},{\"op\":\"drop\",\"id\":\"n28-noise-7\",\"reason\":\"Low-signal chatter \u2013 promotional offer\"},{\"op\":\"drop\",\"id\":\"n28-noise-8\",\"reason\":\"Low-signal chatter \u2013 email connection requests\"},{\"op\":\"drop\",\"id\":\"n28-noise-9\",\"reason\":\"Low-signal chatter \u2013 duplicate parking reminder\"}]}",
+  "usage": {
+    "input_tokens": 1752,
+    "output_tokens": 359,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

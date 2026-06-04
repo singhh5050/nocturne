@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a scheduled event is rescheduled or its time changes, replace the existing memory item instead of creating a duplicate, ensuring the update stays current and the old item is removed.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"Drop promotional newsletters, recruiter mail, spam, and other low\u2011signal items unless explicitly tagged for recall to keep memory focused.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 594,
+    "output_tokens": 1024,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

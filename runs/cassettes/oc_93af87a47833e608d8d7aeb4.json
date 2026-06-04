@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"23f90598\",\"reason\":\"Too restrictive; remove to increase retention\"},{\"op\":\"add\",\"content\":\"Keep items that contain quantitative data (numbers, dates, times) even if not actionable or with explicit deadlines, unless they are duplicates or superseded.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 660,
+    "output_tokens": 1285,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"9de5362f\",\"n03-gmail-1\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews available \u2014 Reviews are in for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address. Reviewer 2 detailed comments: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.'\",\"weight\":0.9,\"tags\":[\"email\",\"review\",\"ICLR\",\"memory_rewrite\",\"gmail\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper? \u2014 Hey Maya \u2014 want to co-author a quick workshop paper on agent-memory benchmarks? Could be low effort. Let me know!\",\"weight\":0.6,\"tags\":[\"email\",\"coauthor\",\"workshop\"],\"provenance\":[\"n03-gmail-2\"]},{\"op\":\"drop\",\"id\":\"n03-noise-1\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-2\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-3\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-4\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-5\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-6\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-7\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-8\",\"reason\":\"routine promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n03-noise-9\",\"reason\":\"routine promotional or low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1252,
+    "output_tokens": 1464,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

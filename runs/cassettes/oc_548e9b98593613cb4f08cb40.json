@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Periodically consolidating the stored context\u2014using the compression\u2011summarisation technique described in 'Consolidation reduces cross\u2011fact interference'\u2014will prevent the accuracy drop observed in the append\u2011only baseline once the store exceeds ~40 items, reproducing the flat recall seen with the aggressive\u2011consolidation bounded\u2011memory variant.\",\"confidence\":0.78,\"support_ids\":[\"e8af7ee8\",\"93ae3681\",\"45562236\",\"800e430c\"],\"tags\":[\"consolidation\",\"append\",\"capacity\",\"interference\"]},{\"statement\":\"A rewrite\u2011operation memory rewrite will yield increasingly larger accuracy gains over naive append as the memory store approaches its capacity limit, because rewrite reduces cross\u2011fact interference; thus, an ablation that varies store size should show a growing performance gap favoring rewrite at higher item counts.\",\"confidence\":0.72,\"support_ids\":[\"853b30eb\",\"d421fc37\",\"e8af7ee8\"],\"tags\":[\"rewrite\",\"append\",\"ablation\",\"interference\"]}]}",
+  "usage": {
+    "input_tokens": 952,
+    "output_tokens": 605,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

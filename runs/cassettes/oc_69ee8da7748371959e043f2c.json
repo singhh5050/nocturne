@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0},{\"op\":\"merge\",\"source_ids\":[\"912c44b3\",\"09a91bd6\"],\"content\":\"When a new resource allocation datum arrives, update the existing record for that type and sum the values; do not create duplicate entries.\",\"weight\":1.5},{\"op\":\"drop\",\"id\":\"09a91bd6\",\"reason\":\"Merged into consolidated entry\"}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 807,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

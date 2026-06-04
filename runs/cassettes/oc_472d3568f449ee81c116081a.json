@@ -1,0 +1,9 @@
+{
+  "text": "Yes, Reviewer\u202f2 raised their score to\u202f6.",
+  "usage": {
+    "input_tokens": 1112,
+    "output_tokens": 173,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

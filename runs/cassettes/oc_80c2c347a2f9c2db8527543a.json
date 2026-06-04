@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"603615a7\",\"weight\":2.0},{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When a known GPU model is mentioned with a numeric value that lacks an explicit unit, treat it as a resource\u2011allocation entry and store it\u2014override consolidation rules that might otherwise merge or ignore it.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 849,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

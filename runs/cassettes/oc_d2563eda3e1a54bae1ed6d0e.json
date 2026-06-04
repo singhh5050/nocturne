@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating MemGPT's virtual context paging with a bounded-memory consolidation strategy will prevent the token\u2011budget overflow observed with naive append while preserving QA accuracy beyond the 40\u2011item threshold.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"a962f389\", \"333b655e\", \"ad2ef3b4\", \"562412ff\"],\n      \"tags\": [\"memory_management\", \"token_budget\", \"accuracy\", \"virtual_paging\"]\n    },\n    {\n      \"statement\": \"The sharp QA accuracy drop after storing >40 items is caused by cross\u2011fact interference, which can be mitigated more effectively by compression\u2011based summarization (periodic consolidation) than by simple accumulation or bounded windows.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"562412ff\", \"72ccf918\", \"333b655e\"],\n      \"tags\": [\"interference\", \"compression\", \"consolidation\", \"accuracy_drop\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 937,
+    "output_tokens": 518,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

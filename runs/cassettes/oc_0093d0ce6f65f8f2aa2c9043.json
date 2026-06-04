@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The reviewers' criticism about missing a rewrite\u2011vs\u2011append ablation is directly addressed by the ongoing Issue #214 tracking rewrite, append, and window ablation runs, implying that completing that ablation study will likely raise the paper's evaluation score.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"d421fc37\", \"853b30eb\"],\n      \"tags\": [\"ablation\", \"review-feedback\", \"evaluation\"]\n    },\n    {\n      \"statement\": \"Integrating the consolidation\u2011by\u2011summarization method (which reduces cross\u2011fact interference) into the naive append baseline will narrow or eliminate the performance advantage of the rewrite strategy, suggesting that the rewrite gains observed in the ICLR submission stem mainly from interference mitigation rather than the structural rewrite itself.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"45562236\", \"853b30eb\", \"d421fc37\"],\n      \"tags\": [\"consolidation\", \"interference\", \"memory-rewrite\", \"ablation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 628,
+    "output_tokens": 590,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

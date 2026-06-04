@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Adapting MemGPT's virtual context management (paging between in\u2011context and external memory) as the experimental framework for the requested rewrite\u2011vs\u2011append ablation will demonstrate that rewrite operations achieve higher task performance than naive appending, because they mitigate token\u2011budget overflow and preserve relevant context more efficiently.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"f1fbdbac\", \"52bebe86\"],\n      \"tags\": [\"ablation\", \"memory-rewrite\", \"MemGPT\", \"ICLR\"]\n    },\n    {\n      \"statement\": \"Including the rewrite\u2011vs\u2011append ablation results (derived from the MemGPT\u2011inspired setup) as an empirical case study in the planned agent\u2011memory benchmarks workshop paper will both satisfy the ICLR reviewer\u2019s demand for concrete analysis and provide a ready\u2011made benchmark dataset for evaluating future memory\u2011augmented agents.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"52bebe86\", \"5f9f3bae\", \"f1fbdbac\"],\n      \"tags\": [\"workshop-paper\", \"benchmark\", \"memory-rewrite\", \"cross\u2011paper\"}\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 536,
+    "output_tokens": 701,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

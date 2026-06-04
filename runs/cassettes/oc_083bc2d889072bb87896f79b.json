@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"8eb16535\",\"reason\":\"Second directive unnecessary; no noise leaked and is not aiding retention.\"}]}",
+  "usage": {
+    "input_tokens": 521,
+    "output_tokens": 405,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

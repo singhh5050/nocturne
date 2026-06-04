@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n10-noise-1\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-2\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-3\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-4\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-5\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-6\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-7\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n10-noise-8\",\"reason\":\"duplicate promotional or low-signal content; safe to ignore.\"},{\"op\":\"merge\",\"source_ids\":[\"b206819e\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper? \u2013 Hi Maya, there is a plan to prioritize the rewrite\u2011vs\u2011append ablation for our ICLR rebuttal. Reviewer\u00a02 needs a clear comparison between rewrite and naive append, and we should deliver the ablation results before day\u00a019. Issue\u00a0#214: kick off rewrite\u2011vs\u2011append ablation runs \u2013 tracking issue opened for the rebuttal ablation sweep (rewrite vs append vs window).\",\"weight\":0.15,\"tags\":[\"ablation\",\"gmail\",\"rebuttal\",\"review\",\"github\"],\"provenance\":[\"n10-github-1\"]}]}",
+  "usage": {
+    "input_tokens": 1615,
+    "output_tokens": 2014,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

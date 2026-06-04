@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Retain scheduled meetings and resource allocations even if they lack explicit deadlines; consider them actionable.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"When an event\u2019s time or details change, replace the previous memory item rather than keeping both; treat the updated event as a single item.\",\"weight\":1.2}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 961,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

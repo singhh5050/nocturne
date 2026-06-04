@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating the consolidation technique described in the arXiv paper (which reduces cross\u2011fact interference) into the naive\u2011append baseline should trim its token\u2011budget blowout and raise its F1 score, narrowing the performance gap with the rewrite method observed in the current ablation study.\",\"confidence\":0.68,\"support_ids\":[\"db8849d5\",\"13b3b6fa\"],\"tags\":[\"ablation\",\"consolidation\",\"token_budget\",\"memory_rewrite\"]},{\"statement\":\"Leveraging the 50% off cloud GPU promotion will allow the team to scale up additional ablation runs (e.g., testing more rewrite variants or longer simulation horizons) within the existing budget, helping meet the upcoming deadline and strengthening the rebuttal.\",\"confidence\":0.55,\"support_ids\":[\"24e2a566\",\"db8849d5\"],\"tags\":[\"gpu_discount\",\"ablation\",\"deadline\",\"resources\"]}]}",
+  "usage": {
+    "input_tokens": 572,
+    "output_tokens": 528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a scheduled meeting or project item is rescheduled, replace the previous entry with the updated one instead of keeping duplicates.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Keep items that have a scheduled follow\u2011up action even if they have no explicit deadline, until the action is completed.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Automatically drop any promotional, advertising, or low\u2011signal subscriptions and newsletters from memory.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 594,
+    "output_tokens": 994,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

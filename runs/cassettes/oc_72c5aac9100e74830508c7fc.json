@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Retain explicit resource allocation items (e.g., GPU hours, budget) as important facts that should not be discarded.\",\"weight\":1.20},{\"op\":\"add\",\"content\":\"When a scheduled event (meeting, appointment) changes, replace the old entry with the updated one rather than keeping both copies; consolidate event changes into a single record.\",\"weight\":1.20}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 569,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

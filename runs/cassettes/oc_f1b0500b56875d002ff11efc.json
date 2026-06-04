@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Introducing periodic consolidation/compression of the appended context store will raise the effective capacity ceiling beyond the observed ~40-item accuracy drop, by reducing cross\u2011fact interference and thus improving QA performance.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8af7ee8\", \"085f93d4\", \"45562236\"],\n      \"tags\": [\"capacity\", \"consolidation\", \"interference\", \"memory-management\"]\n    },\n    {\n      \"statement\": \"The performance gains reported for the memory\u2011rewrite model are primarily due to its implicit consolidation effect\u2014compressing accumulated facts\u2014rather than any intrinsic advantage of the rewrite operation itself; a proper naive\u2011append baseline with equivalent consolidation would close the gap.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"d421fc37\", \"853b30eb\", \"45562236\"],\n      \"tags\": [\"ablation\", \"rewrite\", \"consolidation\", \"evaluation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 738,
+    "output_tokens": 588,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

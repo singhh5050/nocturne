@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n30-noise-1\",\"reason\":\"irrelevant promotional email\"},{\"op\":\"drop\",\"id\":\"n30-noise-2\",\"reason\":\"irrelevant promotional message\"},{\"op\":\"drop\",\"id\":\"n30-noise-3\",\"reason\":\"irrelevant promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n30-noise-4\",\"reason\":\"irrelevant promotional announcement\"},{\"op\":\"drop\",\"id\":\"n30-noise-5\",\"reason\":\"irrelevant promotional offer\"},{\"op\":\"drop\",\"id\":\"n30-noise-6\",\"reason\":\"irrelevant social connection request\"},{\"op\":\"drop\",\"id\":\"n30-noise-7\",\"reason\":\"irrelevant reminder\"},{\"op\":\"drop\",\"id\":\"n30-noise-8\",\"reason\":\"irrelevant promotional newsletter\"}]}",
+  "usage": {
+    "input_tokens": 1625,
+    "output_tokens": 319,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

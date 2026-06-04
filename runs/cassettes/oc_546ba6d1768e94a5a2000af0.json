@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"1031f4ee\",\"n22-notes-1\"],\"tier\":\"in_progress\",\"content\":\"Accuracy drop in append baseline fixed by bounded-memory variant; aggressive consolidation prevents recall degradation.\",\"weight\":0.0,\"tags\":[\"experiment\",\"accuracy\",\"append\",\"baseline\",\"consolidation\"]},{\"op\":\"drop\",\"id\":\"n22-noise-1\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-2\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-3\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-4\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-5\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-6\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-7\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-8\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-9\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-10\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-11\",\"reason\":\"promotional or noisy content\"},{\"op\":\"drop\",\"id\":\"n22-noise-12\",\"reason\":\"promotional or noisy content\"}]}",
+  "usage": {
+    "input_tokens": 2443,
+    "output_tokens": 1133,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

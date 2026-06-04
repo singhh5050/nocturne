@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating MemGPT\u2019s virtual context paging mechanism into lifelong\u2011memory agents will prevent the sharp QA accuracy drop observed when the stored fact count exceeds ~40 items, by keeping the active token window within budget.\",\"confidence\":0.66,\"support_ids\":[\"f7b5be16\",\"a962f389\",\"562412ff\"],\"tags\":[\"memory\",\"paging\",\"accuracy_drop\",\"lifelong_memory\"]},{\"statement\":\"The QA accuracy degradation after 40 stored items is primarily due to token\u2011budget overflow caused by naive append strategies, explaining the reviewer\u2019s observation that append \u201cblows the token budget\u201d and supporting the need for a rewrite\u2011vs\u2011append ablation.\",\"confidence\":0.71,\"support_ids\":[\"ad2ef3b4\",\"562412ff\"],\"tags\":[\"append\",\"token_budget\",\"accuracy_drop\",\"ablation\"]}]}",
+  "usage": {
+    "input_tokens": 848,
+    "output_tokens": 482,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Weekly lab meeting scheduled \u2013 recurring: Lab meeting every Thursday 14:00, room\u00a0311.\",\"weight\":0.8,\"tags\":[\"deadline\",\"meeting\",\"lab\"],\"provenance\":[\"n05-cal-1\"]},{\"op\":\"drop\",\"id\":\"n05-noise-1\",\"reason\":\"Routine promotional email, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-2\",\"reason\":\"Routine promotional Slack message, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-3\",\"reason\":\"Routine promotional recommendation, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-4\",\"reason\":\"Routine promotional email, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-5\",\"reason\":\"Routine recruitment email, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-6\",\"reason\":\"Routine promotional offer, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-7\",\"reason\":\"Routine Slack notification, no research relevance.\"},{\"op\":\"drop\",\"id\":\"n05-noise-8\",\"reason\":\"Routine calendar reminder, no research relevance.\"}]}",
+  "usage": {
+    "input_tokens": 1329,
+    "output_tokens": 609,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

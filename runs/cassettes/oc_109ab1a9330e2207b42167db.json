@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"715063a8\"],\"tier\":\"in_progress\",\"content\":\"Consolidation reduces cross\u2011fact interference; recent evidence shows that a bounded\u2011memory variant with aggressive consolidation maintains flat accuracy as the stream grows, preventing accuracy drops.\",\"weight\":0.2,\"tags\":[\"arxiv\",\"consolidation\",\"research\"],\"provenance\":[\"n22-notes-1\"]},{\"op\":\"drop\",\"id\":\"n22-noise-1\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-2\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-3\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-4\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-5\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-6\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-7\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-8\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-9\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-10\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-11\",\"reason\":\"irrelevant promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-12\",\"reason\":\"irrelevant promotional chatter\"}]}",
+  "usage": {
+    "input_tokens": 1955,
+    "output_tokens": 2011,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Applying the periodic consolidation technique from the arXiv paper ('Consolidation reduces cross-fact interference') to the rewrite\u2011vs\u2011append ablation runs will lower cross\u2011fact interference and boost recall performance of the rewrite variant, making the benefit observable within the month\u2019s H100 GPU\u2011hour quota.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"0cab017c\", \"1d798fb7\", \"ca4aab4c\"],\n      \"tags\": [\"consolidation\", \"ablation\", \"recall\", \"gpu_allocation\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT's virtual context paging with periodic consolidation can achieve comparable memory\u2011rewrite effectiveness while staying within the allocated 2400 H100 GPU\u2011hours, because paging reduces in\u2011GPU memory load and consolidation compresses history.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"dd46edef\", \"0cab017c\", \"ca4aab4c\"],\n      \"tags\": [\"memgpt\", \"consolidation\", \"resource_efficiency\", \"gpu_budget\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 600,
+    "output_tokens": 602,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

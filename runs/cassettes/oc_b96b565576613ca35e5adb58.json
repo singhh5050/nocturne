@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n08-noise-1\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-2\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-3\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-4\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-5\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-6\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-7\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-8\",\"reason\":\"duplicate low\u2011signal item\"},{\"op\":\"drop\",\"id\":\"n08-noise-9\",\"reason\":\"duplicate low\u2011signal item\"}]}",
+  "usage": {
+    "input_tokens": 1989,
+    "output_tokens": 387,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

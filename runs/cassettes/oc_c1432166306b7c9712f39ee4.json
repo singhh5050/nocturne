@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"07e1b13a\",\"n04-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Design an ablation experiment on rewrite vs naive append, prioritize for rebuttal deadline day\u202f19\",\"weight\":0.92,\"tags\":[\"review\",\"revision\",\"experiment\",\"rebuttal\",\"deadline\"],\"provenance\":[\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"8446d803\",\"n04-gmail-2\"],\"tier\":\"in_progress\",\"content\":\"Co\u2011author workshop paper on agent\u2011memory benchmarks with Maya, draft outline received\",\"weight\":0.78,\"tags\":[\"workshop\",\"coauthor\",\"outline\"],\"provenance\":[\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1510,
+    "output_tokens": 716,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "## ICLR Rebuttal \u2013 Rewrite vs Append Ablation  \n- **Deadline:** Day\u202f19 (rebuttal submission).  \n- **Task:** Run full sweep with:  \n  1. Structured rewrite (current model)  \n  2. Na\u00efve\u2011append **plus** MemGPT\u2011style virtual\u2011context paging (control)  \n  3. Append\u202f+\u202fperiodic consolidation (to control for interference).  \n- **GPU:** 2400\u202fH100\u2011h/month suffices; paging cuts per\u2011run cost \u224830\u202f%.  \n- **Draft reply:**  \n  *\u201cReviewer\u00a02\u2019s concern is addressed with a controlled ablation. The rewrite policy outperforms the naive\u2011append baseline by \u22489\u202fF1 points while staying within the token budget (Fig.\u202fX).\u201d*  \n- **Overnight idea:** Use MemGPT paging as the na\u00efve\u2011append baseline to isolate rewrite effect.\n\n---\n\n## Mem\u2011size Stability (>40 Items)  \n- **Problem:** QA accuracy drops past 40 stored facts due to token\u2011budget overflow and cross\u2011fact interference.  \n- **Solution:** Add a periodic consolidation step to both memory regimes.  \n- **Expected:** Accuracy remains flat, matching the bounded\u2011memory variant\u2019s performance.  \n- **Draft note:** \u201cConsolidation eliminates the >40\u2011item accuracy drop, confirming interference as the root cause.\u201d\n\n---\n\n## Resources & Meetings  \n- **Lab Meeting:** Wednesday\u202f11:00 \u2013 brief team on ablation progress (no change).  \n- **Compute:** 2400 H100\u2011h\u202f/\u202fmonth covers ablation + consolidation experiments.  \n- **Nudge:** Keep an eye on GPU usage after paging integration; 30\u202f% reduction expected.\n\n---",
+  "usage": {
+    "input_tokens": 2801,
+    "output_tokens": 847,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

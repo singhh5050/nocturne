@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"lifelong memory for agents \u2014 Another agent-memory paper. Saved to the reading list.\",\"weight\":0.5,\"tags\":[\"reading\",\"paper\",\"memory\",\"agent\"],\"provenance\":[\"n18-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1555,
+    "output_tokens": 986,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

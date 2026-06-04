@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved: episodic memory survey \u2014 Saved a survey on episodic memory for LLM agents.\",\"weight\":0.5,\"tags\":[\"notes\",\"reading-list\",\"episodic-memory-survey\"],\"provenance\":[\"n24-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1842,
+    "output_tokens": 563,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

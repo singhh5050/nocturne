@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Store reviewer\u2011request items (sentences containing the word \\\"Reviewer\\\" or \\\"reviewer\\\" that outline a task) with high weight (e.g., 1.5) to ensure they are retained.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"Drop promotional newsletters and recruiter mail; never store them.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"When multiple memory items refer to the same task, deadline, or meeting, merge them into a single consolidated item rather than keeping duplicates.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 585,
+    "output_tokens": 1159,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Weekly lab meeting scheduled \u2013 Recurring: Lab meeting every Thursday 14:00, room 311.\",\"weight\":0.5,\"tags\":[\"calendar\",\"lab_meeting\"],\"provenance\":[\"n05-cal-1\"]},{\"op\":\"drop\",\"id\":\"n05-noise-1\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-2\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-3\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-4\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-5\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-6\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-7\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n05-noise-8\",\"reason\":\"routine promotional low-signal chatter\"}]}",
+  "usage": {
+    "input_tokens": 1289,
+    "output_tokens": 590,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

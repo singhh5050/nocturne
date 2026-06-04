@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying the context\u2011compression strategies described in recent consolidation papers (e.g., summarizing stored facts into compact representations) should counteract the accuracy drop observed when the memory store exceeds ~40 items, because compression reduces interference among unrelated facts.\",\"confidence\":0.73,\"support_ids\":[\"d2609f66\",\"a575e46b\"],\"tags\":[\"interference\",\"compression\",\"accuracy\"]},{\"statement\":\"Integrating a virtual\u2011context paging mechanism akin to MemGPT\u2019s external memory management will mitigate the recall interference seen at larger store sizes by offloading older items and keeping active context succinct, thereby preserving QA performance.\",\"confidence\":0.68,\"support_ids\":[\"d2609f66\",\"dd46edef\"],\"tags\":[\"paging\",\"external_memory\",\"recall\"]}]}",
+  "usage": {
+    "input_tokens": 648,
+    "output_tokens": 393,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

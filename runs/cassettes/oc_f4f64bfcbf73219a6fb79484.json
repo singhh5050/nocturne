@@ -1,0 +1,9 @@
+{
+  "text": "Wednesday at 11:00.",
+  "usage": {
+    "input_tokens": 644,
+    "output_tokens": 133,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

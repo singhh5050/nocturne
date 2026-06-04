@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The performance improvements reported for the \\\"Structured Memory Rewrite for Sleep\u2011Time Agents\\\" may be largely due to periodic consolidation reducing cross\u2011fact interference, rather than the rewrite operation itself; inserting a consolidation step into the append\u2011only baseline should close the performance gap.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"3b78000a\", \"04901678\"],\n      \"tags\": [\"ablation\", \"consolidation\", \"memory\", \"rewrite\"]\n    },\n    {\n      \"statement\": \"Implementing MemGPT's virtual context management (external memory paging) for the naive append baseline will substantially increase its effectiveness, suggesting that the rewrite advantage observed in the current experiments stems from improved memory accessibility rather than the transformation process.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"3b78000a\", \"a962f389\"],\n      \"tags\": [\"ablation\", \"append\", \"memory\", \"paging\", \"rewrite\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1223,
+    "output_tokens": 643,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

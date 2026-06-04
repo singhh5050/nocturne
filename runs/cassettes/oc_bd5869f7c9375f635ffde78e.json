@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"5791c903\",\"weight\":1.80},{\"op\":\"reweight\",\"id\":\"12629958\",\"weight\":1.80},{\"op\":\"add\",\"content\":\"Drop any promotional newsletter, subscription renewal notice, or marketing email unless it contains an explicit user request or action item.\",\"weight\":1.50}]}",
+  "usage": {
+    "input_tokens": 693,
+    "output_tokens": 692,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

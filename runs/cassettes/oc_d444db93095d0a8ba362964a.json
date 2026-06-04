@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"f419a5c5\",\"n16-notes-1\"],\"tier\":\"in_progress\",\"content\":\"Ablation results: rewrite beats naive append by ~9 F1 points on needle survival; append blows token budget by day 20 of the sim. Clean result for the rebuttal.\",\"weight\":0.50,\"tags\":[\"iclr\",\"rebuttal\",\"deadline\",\"ablation\",\"ablation_results\",\"rewrite\",\"append\",\"sim\",\"f1\"],\"provenance\":[\"n16-notes-1\"]},{\"op\":\"drop\",\"id\":\"296dfab5\",\"reason\":\"promotional or low-signal content per policy f158b548\"}]}",
+  "usage": {
+    "input_tokens": 1750,
+    "output_tokens": 1602,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

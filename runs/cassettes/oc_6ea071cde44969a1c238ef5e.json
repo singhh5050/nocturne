@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Incorporating compression\u2011based consolidation (as used in MemGPT and recent compression papers) into the naive append memory architecture will both keep token usage within budget and close the ~9\u202fF1\u2011point performance gap that the rewrite method currently enjoys.\",\n      \"confidence\": 0.68,\n      \"support_ids\": [\"6b6bffed\", \"a575e46b\", \"dd46edef\"],\n      \"tags\": [\"memory_consolidation\", \"compression\", \"append_baseline\", \"performance\"]\n    },\n    {\n      \"statement\": \"A bounded\u2011memory variant that periodically creates compact summary representations of stored facts can sustain flat QA accuracy for arbitrarily long streams, and the newly allocated 2400\u202fGPU\u2011hours will enable large\u2011scale experiments to verify this at scale using MemGPT\u2011style paging.\",\n      \"confidence\": 0.63,\n      \"support_ids\": [\"656e9540\", \"a575e46b\", \"ca4aab4c\", \"dd46edef\"],\n      \"tags\": [\"bounded_memory\", \"summary_consolidation\", \"GPU_allocation\", \"scalability\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 772,
+    "output_tokens": 671,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

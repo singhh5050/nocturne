@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"54a31d1b\",\"n06-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper? \u2014 Hey Maya \u2014 want to co-author a quick workshop paper on agent\u2011memory benchmarks? Could be low effort. Let me know! Follow-up: sketched a rough outline, take a look when you have a sec. d.okafor: still keen on that workshop paper? no rush at all.\",\"weight\":0.38,\"tags\":[\"coauthor\",\"workshop\",\"memory_rewrite\",\"slack\"],\"provenance\":[\"54a31d1b\",\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New arXiv paper: Consolidation reduces cross-fact interference \u2013 Technique paper: periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall. Relevant to memory work.\",\"weight\":1.0,\"tags\":[\"arxiv\",\"memory_rewrite\",\"technique\"],\"provenance\":[\"n06-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"n06-noise-1\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-2\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-3\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-4\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-5\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-6\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-7\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-8\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-9\",\"reason\":\"promotional low\u2011signal\"},{\"op\":\"drop\",\"id\":\"n06-noise-10\",\"reason\":\"promotional low\u2011signal\"]}",
+  "usage": {
+    "input_tokens": 1477,
+    "output_tokens": 1255,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

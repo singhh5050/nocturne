@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"f8c27275\",\"weight\":0.2},{\"op\":\"add\",\"content\":\"Drop promotional newsletters, marketing emails, and other low\u2011signal material; never store them.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 512,
+    "output_tokens": 395,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

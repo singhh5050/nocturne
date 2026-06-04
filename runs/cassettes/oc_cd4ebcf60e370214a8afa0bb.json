@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Using MemGPT's virtual context management as a naive-append baseline in the ICLR submission\u2019s ablation study will isolate the true contribution of Structured Memory Rewrite, showing that performance gains stem from the rewrite operation itself rather than merely increased memory capacity.\",\"confidence\":0.78,\"support_ids\":[\"8fc98fdd\",\"a962f389\"],\"tags\":[\"ablation\",\"memory-rewrite\",\"MemGPT\",\"evaluation\"]},{\"statement\":\"Incorporating the planned agent\u2011memory benchmark (co\u2011authored with Maya) into the evaluation of Structured Memory Rewrite will reveal that existing benchmarks fail to capture the benefit of rewrite mechanisms, and that the new benchmark can differentiate rewrite from simple append strategies.\",\"confidence\":0.65,\"support_ids\":[\"8fc98fdd\",\"d1f4cbc0\"],\"tags\":[\"benchmark\",\"memory-rewrite\",\"evaluation\",\"agent-memory\"]}]}",
+  "usage": {
+    "input_tokens": 475,
+    "output_tokens": 434,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

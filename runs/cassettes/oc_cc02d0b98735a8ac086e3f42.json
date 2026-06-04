@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"New: lifelong memory for agents \u2014 Another agent-memory paper. Saved to the reading list.\",\"weight\":1.0,\"tags\":[\"arxiv\",\"reading-list\"],\"provenance\":[\"n18-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"n18-noise-1\",\"reason\":\"Low-signal promotional message, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-2\",\"reason\":\"Low-signal notification, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-3\",\"reason\":\"Low-signal reminder, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-4\",\"reason\":\"Low-signal Slack post, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-5\",\"reason\":\"Low-signal promotional material, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-6\",\"reason\":\"Low-signal recommendation, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-7\",\"reason\":\"Low-signal calendar entry, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-8\",\"reason\":\"Low-signal email, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n18-noise-9\",\"reason\":\"Low-signal promotional message, safe to ignore.\"}]}",
+  "usage": {
+    "input_tokens": 1575,
+    "output_tokens": 878,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

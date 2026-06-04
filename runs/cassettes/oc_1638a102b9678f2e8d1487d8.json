@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"0c06cc8d\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When new resource allocation data for an existing type (e.g., GPU model) arrives, update the existing record and sum values instead of adding separate items; keep a single consolidated entry per type.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 554,
+    "output_tokens": 672,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

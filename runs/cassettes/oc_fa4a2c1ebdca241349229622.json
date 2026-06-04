@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The periodic consolidation technique described in the arXiv paper (13b3b6fa) likely underlies the success of the bounded\u2011memory variant (623631bc) by preventing the token\u2011budget overflow that the naive\u2011append baseline suffers in the rewrite\u2011vs\u2011append ablation (db8849d5), suggesting that adding consolidation to the rewrite system will further improve recall and curb token growth.\",\"confidence\":0.78,\"support_ids\":[\"db8849d5\",\"623631bc\",\"13b3b6fa\"],\"tags\":[\"consolidation\",\"token-budget\",\"ablation\",\"memory-rewrite\"]},{\"statement\":\"Including the bounded\u2011memory/consolidation condition as a third arm in the reviewer\u2011requested ablation study (db8849d5) will provide a crucial data point: it may match or exceed rewrite performance while avoiding the naive\u2011append\u2019s token\u2011budget blowout, thereby strengthening the rebuttal and informing model design choices.\",\"confidence\":0.65,\"support_ids\":[\"db8849d5\",\"623631bc\"],\"tags\":[\"ablation\",\"experimental-design\",\"bounded-memory\",\"review\"]}]}",
+  "usage": {
+    "input_tokens": 624,
+    "output_tokens": 701,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

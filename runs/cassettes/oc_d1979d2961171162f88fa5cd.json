@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Rebuttal plan: rewrite vs append ablation; results need to be ready well before day\u202f19 deadline.\",\"weight\":1.0,\"tags\":[\"rebuttal\",\"ablation\"],\"provenance\":[\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"3424e10b\"],\"tier\":\"in_progress\",\"content\":\"Co\u2011author workshop paper on agent\u2011memory benchmarks; follow\u2011up: drafted rough outline for paper now available for review.\",\"weight\":0.3,\"tags\":[\"proposal\",\"workshop\"],\"provenance\":[\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1392,
+    "output_tokens": 858,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

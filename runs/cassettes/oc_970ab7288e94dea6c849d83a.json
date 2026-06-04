@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop promotional newsletters and low\u2010signal promotional content unless explicitly marked relevant.\",\"weight\":1.0},{\"op\":\"reweight\",\"id\":\"15bbca3c\",\"weight\":0.25}]}",
+  "usage": {
+    "input_tokens": 512,
+    "output_tokens": 530,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "Yes.",
+  "usage": {
+    "input_tokens": 681,
+    "output_tokens": 157,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

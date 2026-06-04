@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating a dynamic compression/paging system (as described in MemGPT) into the append-only memory architecture will prevent the accuracy drop observed after ~40 items and avoid token\u2011budget overflow, thereby matching or exceeding the performance of the rewrite method.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"d2609f66\", \"a575e46b\", \"dd46edef\"],\n      \"tags\": [\"memory_management\", \"compression\", \"paging\", \"interference\"]\n    },\n    {\n      \"statement\": \"The superior F1 gain of the rewrite technique over naive append is due to its implicit consolidation of stored facts into compact summaries, mirroring the benefits reported in recent consolidation/compression papers, suggesting that rewrite acts as an on\u2011the\u2011fly summarization layer.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"6b6bffed\", \"a575e46b\"],\n      \"tags\": [\"rewrite\", \"consolidation\", \"summary\", \"interference_reduction\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 702,
+    "output_tokens": 551,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

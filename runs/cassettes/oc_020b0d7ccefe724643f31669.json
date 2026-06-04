@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"927a4e34\"],\"tier\":\"episodic\",\"content\":\"Rebuttal received: author response for submission 4127 has been received (deadline day 19). Decision + camera-ready \u2014 Good news: Reviewer 2 raised their score from 4 to 6 after the rebuttal. Paper accepted; camera-ready due in two weeks.\",\"weight\":0.0,\"tags\":[\"email\",\"submission\",\"deadline\"],\"provenance\":[\"n27-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1738,
+    "output_tokens": 1266,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

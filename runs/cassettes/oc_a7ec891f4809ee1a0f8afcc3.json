@@ -1,0 +1,9 @@
+{
+  "text": "# Night 1 Morning Briefing\n\n## 1\ufe0f\u20e3 Priority Item (w\u202f=\u202f1.00)\n- **Task**: Read MemGPT literature  \n  *Source*: Saved MemGPT (virtual context management, paging between in\u2011context and external memory)  \n  *ID*: a962f389  \n- **Deadline**: 10\u202fAM today  \n- **Next Action**  \n  - **Draft**: \u201cKey take\u2011aways from MemGPT architecture for virtual context paging.\u201d  ",
+  "usage": {
+    "input_tokens": 263,
+    "output_tokens": 377,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

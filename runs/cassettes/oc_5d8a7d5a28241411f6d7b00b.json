@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"ICLR submission reviews: scores 6,6,4; address reviewer 2.\",\"weight\":0.5,\"tags\":[\"paper\",\"ICLR\",\"submission\",\"reviews\",\"reviewer2\"],\"provenance\":[\"n02-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1305,
+    "output_tokens": 731,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The drop in baseline QA accuracy after ~40 appended items is caused by cross\u2011fact interference that exceeds the effective working\u2011set capacity, and can be alleviated by periodically consolidating the stored context into a compressed summary\u2014as shown in the consolidation papers\u2014thereby raising the interference threshold and preserving recall performance.\",\"confidence\":0.78,\"support_ids\":[\"e8af7ee8\",\"085f93d4\",\"45562236\"],\"tags\":[\"interference\",\"consolidation\",\"capacity\"]},{\"statement\":\"Integrating a virtual\u2011memory paging mechanism (e.g., MemGPT) to move older context out of the active window and back in on demand will emulate the benefits of a rewrite\u2011based memory without performing explicit rewrites, which explains the observed superiority of rewrite over naive append and suggests a hybrid approach for the planned rewrite\u2011vs\u2011append ablation studies.\",\"confidence\":0.62,\"support_ids\":[\"800e430c\",\"d421fc37\",\"e8af7ee8\"],\"tags\":[\"virtual_memory\",\"rewrite\",\"ablation\"]}]}",
+  "usage": {
+    "input_tokens": 738,
+    "output_tokens": 613,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

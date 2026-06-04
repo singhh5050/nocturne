@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"d346e268\"],\"tier\":\"in_progress\",\"content\":\"ICLR submission: Reviews available for 'Structured Memory Rewrite for Sleep-Time Agents'. Reviewer 2 (score 4) highlighted the need for ablation comparing rewrite vs. naive append. Issue #214 was created to track rewrite\u2011vs\u2011append ablation runs (plus window). Deadline day 19.\",\"weight\":0.03,\"tags\":[\"iclr\",\"review\",\"to-do\",\"github\",\"issue\",\"ablation\",\"tracking\"],\"provenance\":[\"n10-github-1\"]}]}",
+  "usage": {
+    "input_tokens": 1467,
+    "output_tokens": 1912,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

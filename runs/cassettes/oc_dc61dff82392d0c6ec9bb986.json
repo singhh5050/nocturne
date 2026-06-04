@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying the paper\u2019s periodic consolidation technique to the rewrite operation will further reduce token budget growth and increase needle\u2011survival F1 beyond the ~9\u2011point gain observed in the current ablation, suggesting consolidation as a synergistic optimization for the rewrite\u2011based memory system.\",\"confidence\":0.72,\"support_ids\":[\"f9710547\",\"13b3b6fa\"],\"tags\":[\"rewrite\",\"consolidation\",\"ablation\",\"memory\",\"efficiency\"]},{\"statement\":\"Introducing consolidation into the naive append baseline should alleviate its token\u2011budget blowout and close the performance gap with rewrite, predicting that an append\u2011plus\u2011consolidation model will achieve comparable F1 to rewrite alone.\",\"confidence\":0.65,\"support_ids\":[\"f9710547\",\"13b3b6fa\"],\"tags\":[\"append\",\"consolidation\",\"token_budget\",\"memory\",\"performance\"]}]}",
+  "usage": {
+    "input_tokens": 540,
+    "output_tokens": 397,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

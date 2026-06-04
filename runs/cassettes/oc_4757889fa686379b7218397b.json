@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"603615a7\",\"weight\":2.0},{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0},{\"op\":\"reweight\",\"id\":\"912c44b3\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When a message contains a GPU model name (e.g., H100, A100) and a numeric value anywhere in the same message \u2013 regardless of order and whether a unit is present \u2013 treat the value as GPU\u2011hours, storing it as a resource allocation entry. If no unit is specified, assume \\\"GPU-hours\\\".\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 812,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

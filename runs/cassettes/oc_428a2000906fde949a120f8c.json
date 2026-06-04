@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"dee0331e\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper with Maya. Follow-up from d.okafor: still keen on that workshop paper, no rush. Rough outline sketched; take a look when possible.\",\"weight\":0.5,\"tags\":[\"collaboration\",\"workshop\"],\"provenance\":[\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New arXiv paper: \\\"Consolidation reduces cross-fact interference\\\" \u2013 periodical consolidation of accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall. Relevant to memory work.\",\"weight\":0.2,\"tags\":[\"arxiv\",\"consolidation\"],\"provenance\":[\"n06-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"524c04c2\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"0f2c6379\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"4f026ab8\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"fe7c7206\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"39c26fa2\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"44731acc\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"bbb5b758\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"39332c0e\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"bf58a1f4\",\"reason\":\"Routine promotional email \u2013 low signal.\"},{\"op\":\"drop\",\"id\":\"93a9937a\",\"reason\":\"Routine promotional email \u2013 low signal.\"}]}",
+  "usage": {
+    "input_tokens": 1941,
+    "output_tokens": 1119,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

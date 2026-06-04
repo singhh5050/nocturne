@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"0e7fa418\",\"n10-github-1\"],\"tier\":\"in_progress\",\"content\":\"ICLR submission reviews: 6, 6, 4. Reviewer 2 questions whether gains come from memory rewrite versus naive append. Lab has prioritized an ablation study comparing rewrite vs append for the rebuttal. Issue #214 tracks rewrite\u2011vs\u2011append ablation runs, including a sweep of rewrite, append, and window strategies, to prepare results before the rebuttal deadline on day 19.\",\"weight\":0.12,\"tags\":[\"ablation\",\"gmail\",\"iclr\",\"lab\",\"slack\",\"submission\",\"github\"],\"provenance\":[\"0e7fa418\",\"n10-github-1\"]}]}",
+  "usage": {
+    "input_tokens": 1411,
+    "output_tokens": 1179,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating the periodic consolidation technique from the arXiv paper (13b3b6fa) into the naive\u2011append baseline will curb its token\u2011budget explosion and close the ~9\u202fF1 point gap with the rewrite operation observed in the ablation study (db8849d5).\",\"confidence\":0.78,\"support_ids\":[\"db8849d5\",\"13b3b6fa\",\"623631bc\"],\"tags\":[\"consolidation\",\"token-budget\",\"ablation\",\"rewrite\"]},{\"statement\":\"The bounded\u2011memory variant\u2019s restored accuracy (623631bc) is driven by the same cross\u2011fact interference reduction mechanism described in the consolidation paper (13b3b6fa), suggesting that periodic summarization is a key factor for stable recall in memory\u2011rewrite models as streams grow.\",\"confidence\":0.85,\"support_ids\":[\"623631bc\",\"13b3b6fa\"],\"tags\":[\"bounded-memory\",\"consolidation\",\"cross-fact interference\",\"recall\"]}]}",
+  "usage": {
+    "input_tokens": 624,
+    "output_tokens": 702,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

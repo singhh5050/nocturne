@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Introducing periodic summarization/compression of stored facts (as described in the consolidation paper) will mitigate the observed QA accuracy drop that occurs when more than 40 items are stored, by reducing cross\u2011fact interference.\",\"confidence\":0.78,\"support_ids\":[\"562412ff\",\"72ccf918\"],\"tags\":[\"interference\",\"compression\",\"accuracy\"]},{\"statement\":\"Incorporating MemGPT\u2019s external paging mechanism into the naive append memory strategy will curb its token\u2011budget overflow (observed by day\u202f20) and narrow the performance gap with the rewrite approach in the ICLR ablation study.\",\"confidence\":0.65,\"support_ids\":[\"ad2ef3b4\",\"a962f389\"],\"tags\":[\"memory_management\",\"token_budget\",\"append\"]}]}",
+  "usage": {
+    "input_tokens": 756,
+    "output_tokens": 560,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

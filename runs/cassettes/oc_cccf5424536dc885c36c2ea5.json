@@ -1,0 +1,9 @@
+{
+  "text": "# \u2705 Open Items (Highest\u2011Weight First)\n\n| # | Task | Weight | Deadline | Next Action |\n|---|------|--------|----------|--------------|\n| 1 | **Read MemGPT notes** \u2013 review virtual\u2011context paging for potential RAG optimisation. | 0.50 | **Mon\u202f09\u202fAM** | *Draft: \u201cThanks for the MemGPT docs. I\u2019ll review them and map to our vector DB stack.\u201d* |\n| 2 | **Prototype RAG latency reduction** \u2013 implement MemGPT paging with our managed vector DB to keep only relevant vectors in active context. | \u2014 | **Fri\u202f5\u202fPM** | *Draft: \u201cWe\u2019ll run a small benchmark on the current vDB. Expected metrics: query latency \u2193, memory footprint \u2193.\u201d* |\n| 3 | **Draft response to VM\u2011stack promotion** \u2013 proactive note on reducing RAG stack slowness using our internal solution. | \u2014 | **Tue\u202f12\u202fPM** | Draft: \u201cYour managed vector DB could be further accelerated by leveraging MemGPT\u2011style context paging. I\u2019d love to demonstrate a quick proof\u2011of\u2011concept.\u201d |\n\n# \ud83d\udccc Overnight Insight\n\n> **Overnight idea**  \n> Applying MemGPT\u2019s virtual\u2011context paging to the managed vector database can cut RAG query latency by loading only the most relevant vectors into the active context, directly addressing the \u201cslow RAG stack\u201d warning in the promotional message.  \n\n# \ud83d\udcc5 Quick Nudge\n\n- **Connect with the vector\u2011DB vendor** by **Mon\u202f10\u202fAM** to confirm API support for selective vector retrieval (required for paging).",
+  "usage": {
+    "input_tokens": 956,
+    "output_tokens": 506,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

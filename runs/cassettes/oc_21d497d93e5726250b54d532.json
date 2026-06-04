@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Incorporating the periodic consolidation technique (which reduces cross-fact interference) as a control condition can serve as a principled ablation to separate the benefits of memory rewrite from mere memory addition in the ICLR submission, because consolidation neutralizes interference and thus isolates the effect of the rewrite operation.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"03dbf21b\", \"04901678\"],\n      \"tags\": [\"ablation\", \"memory_rewrite\", \"consolidation\", \"interference\"]\n    },\n    {\n      \"statement\": \"Deploying MemGPT (virtual context management with paging) to automatically capture and summarize weekly lab meeting notes (37240862) provides a real\u2011world testbed for the rewrite\u2011vs\u2011append comparison, allowing the research team to evaluate how dynamic external memory paging interacts with structured memory rewrite mechanisms.\",\n      \"confidence\": 0.64,\n      \"support_ids\": [\"a962f389\", \"37240862\", \"03dbf21b\"],\n      \"tags\": [\"MemGPT\", \"lab_meeting\", \"memory_rewrite\", \"evaluation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 590,
+    "output_tokens": 492,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

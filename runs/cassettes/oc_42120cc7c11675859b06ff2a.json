@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New: lifelong memory for agents \u2014 another agent-memory paper. Saved to reading list.\",\"weight\":0.2,\"tags\":[\"arxiv\",\"read_later\",\"agent_memory\",\"paper\"],\"provenance\":[\"n18-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"n18-noise-1\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-2\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-3\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-4\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-5\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-6\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-7\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-8\",\"reason\":\"routine promotional notification\"},{\"op\":\"drop\",\"id\":\"n18-noise-9\",\"reason\":\"routine promotional notification\"}]}",
+  "usage": {
+    "input_tokens": 1436,
+    "output_tokens": 747,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

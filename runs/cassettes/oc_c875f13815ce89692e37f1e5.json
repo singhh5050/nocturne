@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"4a536fd3\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"f62a6459\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"937f4a88\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"63a2939f\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"97bba406\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"1e2218be\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"8a2d3d4f\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"9073e510\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"1de657bd\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"4a9f5153\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"78f09714\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"5b0ac588\",\"reason\":\"low-signal promotional content\"}]}",
+  "usage": {
+    "input_tokens": 2156,
+    "output_tokens": 1510,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

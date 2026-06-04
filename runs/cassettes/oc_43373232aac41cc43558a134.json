@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When an event (meeting or project) is rescheduled, update the existing memory entry with the new time and drop the old item instead of keeping both, ensuring continuity and avoiding duplicate entries.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"Never store promotional newsletters, recruiter mail, or other low-signal items; drop them immediately on receipt.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 594,
+    "output_tokens": 646,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

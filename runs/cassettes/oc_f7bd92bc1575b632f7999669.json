@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"6115fb55\"],\"tier\":\"in_progress\",\"content\":\"Consolidation reduces cross\u2011fact interference; plus recent evidence that compression beats accumulation for working sets.\",\"weight\":0.5,\"tags\":[\"research\",\"consolidation\"],\"provenance\":[\"n13-notes-2\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Experiment log: odd QA accuracy drop after 40 items in append baseline; extra material seems to interfere despite target fact present.\",\"weight\":0.5,\"tags\":[\"note\",\"research\",\"experiment\",\"accuracy\"],\"provenance\":[\"n13-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1786,
+    "output_tokens": 1629,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

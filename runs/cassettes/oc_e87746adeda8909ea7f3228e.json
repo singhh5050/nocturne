@@ -1,0 +1,9 @@
+{
+  "text": "Yes, Reviewer\u00a02 raised their score from\u202f4 to\u202f6 after the rebuttal.",
+  "usage": {
+    "input_tokens": 11688,
+    "output_tokens": 140,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

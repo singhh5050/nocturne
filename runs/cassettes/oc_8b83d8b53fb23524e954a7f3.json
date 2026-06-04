@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"252ee31f\",\"weight\":0.80},{\"op\":\"add\",\"content\":\"Keep resource allocation items (e.g., GPU\u2011hour or CPU\u2011hour counts) even if they lack explicit deadlines, as they are essential operational facts.\",\"weight\":1.00},{\"op\":\"add\",\"content\":\"When a scheduled event (meeting, deadline, or appointment) is rescheduled, replace the old entry with the updated details and discard the old one to avoid duplicate or stale items.\",\"weight\":1.00}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 891,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n21-noise-1\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-2\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-3\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-4\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-5\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-6\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-7\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-8\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-9\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n21-noise-10\",\"reason\":\"Routine, promotional, or low-signal chatter \u2013 safe to ignore.\"}]}",
+  "usage": {
+    "input_tokens": 1814,
+    "output_tokens": 651,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

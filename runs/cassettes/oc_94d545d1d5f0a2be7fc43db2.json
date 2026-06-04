@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"a6f71bef\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"da42e70d\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"6ea5a61f\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"67fb95de\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"63319369\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"636319b3\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"61374566\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"d9f470d6\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"457bd147\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"1f59d244\",\"reason\":\"promotional newsletter\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Experiment log: weird accuracy drop \u2014 when store >40 items, QA accuracy drops even though target fact present\",\"weight\":0.1,\"tags\":[\"notes\",\"accuracy_drop\",\"append_baseline\"],\"provenance\":[\"n13-notes-1\"]},{\"op\":\"merge\",\"source_ids\":[\"04901678\"],\"tier\":\"episodic\",\"content\":\"Consolidation reduces cross\u2011fact interference via periodic summary. A new paper argues compression beats accumulation for working sets.\",\"weight\":0.1,\"tags\":[\"consolidation\",\"interference\",\"technique\",\"compression\",\"accumulation\"],\"provenance\":[\"n13-notes-2\"]}]}",
+  "usage": {
+    "input_tokens": 2073,
+    "output_tokens": 2604,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

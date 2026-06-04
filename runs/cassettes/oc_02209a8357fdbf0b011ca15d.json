@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating MemGPT's virtual context paging (external memory lookup) with structured memory rewrite could reduce cross\u2011fact interference by allowing the agent to consolidate and retrieve compact summaries during sleep, leading to higher downstream recall than rewrite alone.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"8e3bb063\", \"0a553296\", \"61f4d4ec\"],\n      \"tags\": [\"memory-rewrite\", \"virtual-context\", \"consolidation\", \"sleep-time\"]\n    },\n    {\n      \"statement\": \"Using the periodic consolidation method from the arXiv paper as an ablation baseline (i.e., append\u2011only memory with consolidation) will isolate the contribution of the rewrite operation in the ICLR submission, predicting that gains from rewrite will diminish when consolidation is already applied.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"0a553296\", \"61f4d4ec\", \"303fb425\", \"d244e4a9\"],\n      \"tags\": [\"ablation\", \"memory-consolidation\", \"benchmark\", \"agent-memory\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 665,
+    "output_tokens": 553,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

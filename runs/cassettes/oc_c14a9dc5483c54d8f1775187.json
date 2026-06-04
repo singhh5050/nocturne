@@ -1,0 +1,9 @@
+{
+  "text": "## 1.\u202fPaper & Review  \n- **Camera\u2011ready**: Deadline\u202fday\u202f19 (2\u202fwks).  \n  - Draft rebuttal **now** \u2013 include ablation results (Rewrite\u202fvs\u202fAppend F1\u202f\u2248\u202f+9) and a *consolidation* baseline (see hypothesis 13b3b6fa).  \n  - `Draft: \u201cRebuttal draft \u2013 include ablation + consolidation arm, clarify token\u2011budget benefit.\u201d`  \n\n## 2.\u202fExperimental & Compute  \n- Allocate **2400\u202fH100\u202fGPU\u2011hrs** to:  \n  1. Complete ablation (Rewrite\u202fvs\u202fAppend).  \n  2. Run *consolidation* baseline (periodic summarization).  \n  3. Measure latent cross\u2011fact interference (\u223c40\u2011item drop).  \n- Use the **50\u202f% GPU discount** to double runs or extend model size.  \n- Schedule all runs before day\u202f19; log results in issue\u202f#214.  \n\n## 3.\u202fPromotion & Logistics  \n- Place GPU orders **now** to lock in 50\u202f% discount before the promo expires.  \n\n**Overnight idea:**  \nIntegrate consolidation into the rewrite system (periodic summarization) as a third experimental arm; hypothesis accuracy \u2265 rewrite\u2011only, token\u2011budget reduced, meets Reviewer\u202f2\u2019s request efficiently.",
+  "usage": {
+    "input_tokens": 2872,
+    "output_tokens": 1039,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

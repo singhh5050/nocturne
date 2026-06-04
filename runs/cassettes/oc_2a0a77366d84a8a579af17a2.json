@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Paper 'Consolidation vs Accumulation' argues compression beats accumulation for working sets; supports earlier finding that consolidation reduces cross\u2011fact interference.\",\"weight\":0.5,\"tags\":[\"paper\",\"consolidation\",\"compression\"],\"provenance\":[\"n13-notes-2\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Experiment log: when append baseline QA accuracy drops after the store reaches ~40 items, suggesting additional material interferes with retrieval rather than being absent; indicates a capacity/ interference effect.\",\"weight\":0.4,\"tags\":[\"experiment\",\"accuracy\",\"append\"],\"provenance\":[\"n13-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1487,
+    "output_tokens": 1291,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

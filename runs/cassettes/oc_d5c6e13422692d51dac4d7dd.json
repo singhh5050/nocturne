@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Retain entries tagged as \\\"Allocation\\\", \\\"Schedule\\\", or \\\"Deadline\\\" even if they are not actionable; these represent critical facts such as resource allotments and planned events.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"When a scheduled event or allocation is updated, replace the previous entry with the new information rather than adding a duplicate; merge or overwrite based on a common \\\"Event ID\\\" tag.\",\"weight\":1.2}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 812,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

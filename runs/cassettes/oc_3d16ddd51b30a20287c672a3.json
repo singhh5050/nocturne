@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating MemGPT\u2019s virtual context management (external memory paging) into the bounded\u2011memory variant with aggressive consolidation will further reduce GPU memory usage while maintaining or improving accuracy on streaming continual\u2011learning tasks\",\"confidence\":0.73,\"support_ids\":[\"ea8b2804\",\"cbddd6cc\"],\"tags\":[\"memory\u2011management\",\"bounded\u2011memory\",\"MemGPT\",\"consolidation\"]},{\"statement\":\"The gaps identified in the episodic memory survey for LLM agents (e.g., lack of selective replay) can be addressed by adopting the replay\u2011buffer approach presented in the new arXiv preprint on lifelong memory, leading to measurable gains on episodic\u2011memory benchmarks\",\"confidence\":0.65,\"support_ids\":[\"0b7d09e2\",\"60fe2d70\"],\"tags\":[\"episodic\u2011memory\",\"replay\u2011buffer\",\"lifelong\u2011learning\",\"survey\u2011gap\"]}]}",
+  "usage": {
+    "input_tokens": 819,
+    "output_tokens": 612,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

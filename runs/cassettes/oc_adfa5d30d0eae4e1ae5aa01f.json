@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Implementing periodic consolidation (compact summary) as a baseline in the ablation study for the Structured Memory Rewrite paper will isolate the effect of rewrite operations, demonstrating that performance gains stem from active rewrites rather than merely having any stored memory.\",\n      \"confidence\": 0.75,\n      \"support_ids\": [\"45562236\", \"853b30eb\"],\n      \"tags\": [\"ablation\", \"memory rewrite\", \"consolidation\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT's virtual context management (paging between in-context and external memory) into the proposed agent\u2011memory benchmark (co\u2011author workshop) will create a more comprehensive benchmark that assesses both memory scalability and retrieval latency, linking external memory techniques with internal summary\u2011based approaches.\",\n      \"confidence\": 0.6,\n      \"support_ids\": [\"800e430c\", \"0360a38f\"],\n      \"tags\": [\"benchmark\", \"virtual memory\", \"agent memory\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 583,
+    "output_tokens": 593,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Introducing a periodic consolidation step that compresses the accumulated context into a summary before the store exceeds ~40 items will eliminate the accuracy drop seen with naive appending, confirming that cross\u2011fact interference drives the degradation and can be mitigated by compression.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8af7ee8\", \"085f93d4\", \"45562236\", \"d421fc37\"],\n      \"tags\": [\"interference\", \"consolidation\", \"compression\", \"ablation\"]\n    },\n    {\n      \"statement\": \"Adopting a MemGPT\u2011style virtual context paging system that moves older entries to external storage while maintaining a rewritten compact summary in\u2011context will outperform both pure append and rewrite\u2011only baselines, because it simultaneously expands capacity and reduces interference via summarization.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"e8af7ee8\", \"800e430c\", \"085f93d4\", \"d421fc37\"],\n      \"tags\": [\"paging\", \"memory-management\", \"capacity\", \"interference\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 738,
+    "output_tokens": 806,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

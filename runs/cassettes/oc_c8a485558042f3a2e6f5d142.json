@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n30-noise-1\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-2\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-3\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-4\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-5\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-6\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-7\",\"reason\":\"low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n30-noise-8\",\"reason\":\"low-signal promotional content\"}]}",
+  "usage": {
+    "input_tokens": 1666,
+    "output_tokens": 355,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

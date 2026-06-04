@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Experiment log: weird accuracy drop \u2014 odd: in the append baseline, QA accuracy drops once the store grows past ~40 items even though the target fact is still in there. Not a retrieval miss \u2014 feels like the extra material is getting in the way.\",\"weight\":0.5,\"tags\":[\"notes\",\"experiment\"],\"provenance\":[\"n13-notes-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Saved: consolidation vs accumulation \u2014 Saved another memory paper arguing compression beats accumulation for working sets.\",\"weight\":0.5,\"tags\":[\"notes\",\"paper\",\"consolidation\"],\"provenance\":[\"n13-notes-2\"]}]}",
+  "usage": {
+    "input_tokens": 1502,
+    "output_tokens": 640,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

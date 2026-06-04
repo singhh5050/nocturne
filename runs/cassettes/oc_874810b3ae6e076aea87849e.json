@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"edc4a29c\",\"reason\":\"promotional newsletter per policy\"},{\"op\":\"drop\",\"id\":\"3bb7d3f4\",\"reason\":\"promotional newsletter per policy\"},{\"op\":\"drop\",\"id\":\"268bb7ea\",\"reason\":\"promotional newsletter per policy\"},{\"op\":\"drop\",\"id\":\"5dd8e458\",\"reason\":\"promotional newsletter per policy\"},{\"op\":\"drop\",\"id\":\"8ec840db\",\"reason\":\"promotional newsletter per policy\"},{\"op\":\"drop\",\"id\":\"ae8ec0c9\",\"reason\":\"promotional newsletter per policy\"}]}",
+  "usage": {
+    "input_tokens": 2156,
+    "output_tokens": 1390,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

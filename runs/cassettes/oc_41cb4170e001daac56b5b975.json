@@ -1,0 +1,9 @@
+{
+  "text": "They consistently save papers about memory for AI agents, focusing on episodic/lifelong memory and context consolidation.",
+  "usage": {
+    "input_tokens": 675,
+    "output_tokens": 155,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

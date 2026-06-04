@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n14-noise-1\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-2\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-3\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-4\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-5\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-6\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-7\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-8\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-9\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-10\",\"reason\":\"Routine promotional chatter, low-signal\"},{\"op\":\"drop\",\"id\":\"n14-noise-11\",\"reason\":\"Routine promotional chatter, low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1631,
+    "output_tokens": 712,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

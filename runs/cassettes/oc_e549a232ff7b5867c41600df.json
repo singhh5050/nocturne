@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The accuracy drop observed when the memory store exceeds ~40 items is caused by cross\u2011fact interference, which is mitigated by periodic consolidation or compression; implementing a bounded\u2011memory variant with aggressive consolidation (or compression) eliminates the drop, confirming that interference reduction\u2014not just capacity limits\u2014is the key factor.\",\"confidence\":0.78,\"support_ids\":[\"562412ff\",\"333b655e\",\"72ccf918\"],\"tags\":[\"accuracy_drop\",\"consolidation\",\"interference\",\"memory_management\"]},{\"statement\":\"The superior performance of the rewrite-based memory scheme over naive append arises because rewrite implicitly implements a virtual context management (paging) strategy akin to MemGPT, keeping the active token window bounded and avoiding budget overflow; thus, externalizing or rewriting memory, rather than simply appending, yields better F1 scores and token efficiency.\",\"confidence\":0.66,\"support_ids\":[\"9858241e\",\"a962f389\",\"333b655e\"],\"tags\":[\"rewrite\",\"append\",\"paging\",\"MemGPT\",\"token_budget\"]}]}",
+  "usage": {
+    "input_tokens": 956,
+    "output_tokens": 566,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

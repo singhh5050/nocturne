@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"a664c1c2\",\"n03-gmail-1\"],\"tier\":\"episodic\",\"content\":\"ICLR submission review: scores 6,6,4; reviewer 2: detailed comments\u2014needs ablation comparing rewrite vs naive append\",\"weight\":0.5,\"tags\":[\"review\",\"ICLR\"],\"provenance\":[\"a664c1c2\",\"n03-gmail-1\"]},{\"op\":\"drop\",\"id\":\"a664c1c2\",\"reason\":\"merged into new consolidated memory\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper on agent-memory benchmarks\",\"weight\":0.2,\"tags\":[\"proposal\",\"workshop\"],\"provenance\":[\"n03-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1271,
+    "output_tokens": 1606,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

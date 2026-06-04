@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n18-noise-1\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-2\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-3\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-4\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-5\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-6\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-7\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-8\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"drop\",\"id\":\"n18-noise-9\",\"reason\":\"Promotional low-signal content\"},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Paper 'Lifelong Memory for Agents', added to reading list.\",\"weight\":1.0,\"tags\":[\"paper\",\"reading_list\"],\"provenance\":[\"n18-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1859,
+    "output_tokens": 515,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

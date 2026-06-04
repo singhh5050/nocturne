@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When an email or message mentions a GPU model and a numeric value but does not specify a unit, assume the unit is GPU\u2011hours and store the entry as a resource\u2011allocation record.\",\"weight\":1.50}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 960,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

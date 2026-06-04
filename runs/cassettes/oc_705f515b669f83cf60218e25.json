@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Periodic consolidation (compression) of stored facts mitigates the accuracy drop observed when the memory exceeds ~40 items by reducing cross\u2011fact interference, which explains why the bounded\u2011memory variant remains accurate and why MemGPT\u2019s paging\u2011style management improves performance.\",\"confidence\":0.78,\"support_ids\":[\"562412ff\",\"333b655e\",\"72ccf918\",\"a962f389\"],\"tags\":[\"consolidation\",\"interference\",\"accuracy_drop\",\"bounded_memory\"]},{\"statement\":\"The naive\u2011append memory strategy\u2019s token\u2011budget overflow is the underlying cause of the QA accuracy degradation seen after 40 items, so enforcing a fixed token budget (e.g., via windowed or bounded memory) is necessary to maintain stable performance.\",\"confidence\":0.65,\"support_ids\":[\"562412ff\",\"9858241e\",\"333b655e\"],\"tags\":[\"token_budget\",\"append_vs_rewrite\",\"accuracy_drop\",\"windowed_memory\"]}]}",
+  "usage": {
+    "input_tokens": 956,
+    "output_tokens": 650,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"ICLR submission: Reviews available \u2014 Reviews are in for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address.\",\"weight\":1.0,\"tags\":[\"iclr\",\"review\",\"to-do\"],\"provenance\":[\"n02-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1271,
+    "output_tokens": 302,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

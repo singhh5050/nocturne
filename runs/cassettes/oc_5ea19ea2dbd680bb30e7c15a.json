@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Introducing a periodic consolidation step\u2014summarizing and compressing accumulated context as described in the arXiv consolidation paper\u2014into the rewrite operation will further reduce cross\u2011fact interference and yield higher downstream task scores than both plain rewrite and naive append in the required ablation study.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"52bebe86\", \"13b3b6fa\"],\n      \"tags\": [\"ablation\", \"consolidation\", \"rewrite\", \"interference\"]\n    },\n    {\n      \"statement\": \"Implementing the rewrite mechanism via MemGPT\u2011style virtual context management (paging between in\u2011context and external memory) will achieve comparable or superior performance to naive append while decreasing the in\u2011context token load, providing a more efficient alternative for the rewrite\u2011vs\u2011append comparison.\",\n      \"confidence\": 0.72,\n      \"support_ids\": [\"52bebe86\", \"f1fbdbac\"],\n      \"tags\": [\"rewrite\", \"MemGPT\", \"efficiency\", \"ablation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 634,
+    "output_tokens": 702,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

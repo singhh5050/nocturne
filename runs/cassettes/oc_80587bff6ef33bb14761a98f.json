@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"2ed08aff\",\"weight\":1.2},{\"op\":\"add\",\"content\":\"Prioritize items that mention reviewer requests or rebuttals with deadlines; store with higher weight to avoid dropping.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Drop promotional newsletters, recruiter mail, and other low-signal items; never store them.\",\"weight\":0.0}]}",
+  "usage": {
+    "input_tokens": 585,
+    "output_tokens": 885,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

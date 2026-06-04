@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Experiment log: weird accuracy drop \u2014 Odd: in the append baseline, QA accuracy drops once the store grows past ~40 items even though the target fact is still in there. Not a retrieval miss\u2014feels like the extra material is getting in the way.\",\"weight\":0.30,\"tags\":[\"experiment\",\"accuracy\",\"append\",\"baseline\"],\"provenance\":[\"n13-notes-1\"]},{\"op\":\"merge\",\"source_ids\":[\"dafdc53b\",\"n13-notes-2\"],\"tier\":\"in_progress\",\"content\":\"Consolidation reduces cross-fact interference by periodically compressing accumulated context into a compact summary, outperforming simple accumulation. Recent work further shows that compression (consolidation) beats accumulation for working sets, emphasizing efficient memory compression for improved downstream recall.\",\"weight\":0.50,\"tags\":[\"consolidation\",\"memory\",\"technique\",\"paper\",\"compression\"]}]}",
+  "usage": {
+    "input_tokens": 1560,
+    "output_tokens": 855,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "Researching memory management and consolidation techniques for AI agents, especially episodic and working\u2011set memory.",
+  "usage": {
+    "input_tokens": 10450,
+    "output_tokens": 191,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

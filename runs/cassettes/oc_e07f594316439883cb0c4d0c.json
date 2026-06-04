@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating on\u2011the\u2011fly context compression and paging (as in MemGPT and recent compression\u2011consolidation studies) into a growing QA store will eliminate the accuracy drop observed after ~40 items, achieving flat accuracy comparable to the bounded\u2011memory variant.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"656e9540\", \"a575e46b\", \"dd46edef\", \"6b6bffed\"],\n      \"tags\": [\"memory_management\", \"compression\", \"accuracy\", \"interference\"]\n    },\n    {\n      \"statement\": \"Embedding the episodic recall metrics from the LLM episodic memory survey into the upcoming agent\u2011memory benchmark will demonstrate that rewrite\u2011based memory updates consistently outperform naive append methods on episodic tasks.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"bbb4b94b\", \"56cc7f88\", \"6b6bffed\", \"656e9540\"],\n      \"tags\": [\"benchmark\", \"episodic_memory\", \"rewrite\", \"evaluation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 848,
+    "output_tokens": 828,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Compressing stored facts into concise summaries before appending them will stop the sharp QA\u2011accuracy drop that occurs once the store exceeds ~40 items, thereby reducing interference and narrowing the ~9\u202fF1 gap between the naive append baseline and the rewrite method.\",\"confidence\":0.78,\"support_ids\":[\"d2609f66\",\"a575e46b\",\"6b6bffed\"],\"tags\":[\"compression\",\"interference\",\"append\",\"rewrite\",\"memory_consolidation\"]},{\"statement\":\"Integrating MemGPT\u2019s virtual context paging (external memory + in\u2011context swapping) in place of the naive append strategy will replicate the ~9\u202fF1 gain of the rewrite approach while staying within the token budget, making the method scalable within the allocated H100 GPU hours.\",\"confidence\":0.65,\"support_ids\":[\"6b6bffed\",\"dd46edef\",\"ca4aab4c\"],\"tags\":[\"MemGPT\",\"paging\",\"rewrite\",\"token_budget\",\"GPU_allocation\"]}]}",
+  "usage": {
+    "input_tokens": 744,
+    "output_tokens": 653,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

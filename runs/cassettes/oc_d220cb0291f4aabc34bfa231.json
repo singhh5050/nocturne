@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The QA accuracy drop after storing more than ~40 items is caused by cross\u2011fact interference, which is mitigated by periodic consolidation; applying a consolidation schedule (as in the bounded\u2011memory variant) restores flat accuracy, confirming the interference\u2011reduction mechanism described in the consolidation literature.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"562412ff\", \"333b655e\", \"72ccf918\"],\n      \"tags\": [\"accuracy_drop\", \"consolidation\", \"interference\", \"bounded_memory\"]\n    },\n    {\n      \"statement\": \"A virtual\u2011context paging system (e.g., MemGPT) can replicate the bounded\u2011memory variant\u2019s accuracy preservation by offloading older facts to external storage, thereby keeping the in\u2011context token budget low while avoiding the accuracy degradation seen in naive append baselines, which is especially valuable given limited GPU\u2011hour allocations.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"a962f389\", \"333b655e\", \"c2f16d09\"],\n      \"tags\": [\"memory_paging\", \"resource_efficiency\", \"bounded_memory\", \"GPU_allocation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 643,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

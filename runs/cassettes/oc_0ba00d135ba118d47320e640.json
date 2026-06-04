@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Weekly lab meeting: recurring on Thursdays at 14:00 in room 311\",\"weight\":0.1,\"tags\":[\"calendar\",\"meeting\"],\"provenance\":[\"n05-cal-1\"]}]}",
+  "usage": {
+    "input_tokens": 1218,
+    "output_tokens": 434,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

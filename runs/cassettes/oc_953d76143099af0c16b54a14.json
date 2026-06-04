@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The sharp QA accuracy decline observed when the stored memory exceeds ~40 items is likely due to exceeding the model's token budget, a problem also seen in the naive append baseline where token usage spirals out by day 20; adopting the rewrite strategy or a paging system (e.g., MemGPT) should prevent this overflow and restore accuracy.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"562412ff\", \"ad2ef3b4\", \"a962f389\"],\n      \"tags\": [\"accuracy_drop\", \"token_budget\", \"append_vs_rewrite\", \"memory_management\"]\n    },\n    {\n      \"statement\": \"Applying periodic summarization/compression of stored facts\u2014as described in the consolidation paper\u2014within the rewrite\u2011based memory system will mitigate cross\u2011fact interference and token\u2011budget pressure, thereby improving QA performance for large memory sizes (>40 items).\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"72ccf918\", \"ad2ef3b4\", \"562412ff\"],\n      \"tags\": [\"compression\", \"interference\", \"memory_rewrite\", \"scalability\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 756,
+    "output_tokens": 688,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

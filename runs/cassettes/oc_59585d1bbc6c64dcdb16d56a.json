@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"n16-notes-1\",\"ffda42fa\"],\"tier\":\"in_progress\",\"content\":\"Ablation results: Rewrite beats naive append by ~9 F1 points on needle survival; append blows token budget by day 20 of the sim. Clean result for the rebuttal.\",\"weight\":0.75,\"tags\":[\"arxiv\",\"consolidation\",\"rebuttal\",\"reviewer\",\"ablation\"],\"provenance\":[\"n16-notes-1\",\"ffda42fa\"]},{\"op\":\"drop\",\"id\":\"n16-noise-1\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-2\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-3\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-4\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-5\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-6\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-7\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-8\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-9\",\"reason\":\"Routine promotional content\"},{\"op\":\"drop\",\"id\":\"n16-noise-10\",\"reason\":\"Routine promotional content\"}]}",
+  "usage": {
+    "input_tokens": 1821,
+    "output_tokens": 775,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "They keep reading papers on memory systems for AI agents \u2013 especially consolidation, lifelong and episodic memory strategies.",
+  "usage": {
+    "input_tokens": 9848,
+    "output_tokens": 186,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

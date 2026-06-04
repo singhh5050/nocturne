@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"e1ed62a2\",\"797fe5f6\"],\"content\":\"Drop any promotional newsletter, recruiter mail, or low\u2011signal item unless it contains an explicit user request or action item.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"Drop any item identified as low\u2011signal content (e.g., generic status updates, scrolling feeds) unless it contains an explicit user request or action item.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 697,
+    "output_tokens": 922,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

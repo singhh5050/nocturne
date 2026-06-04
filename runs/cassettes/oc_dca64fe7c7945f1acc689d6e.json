@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n20-noise-1\",\"reason\":\"Promotional / low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-2\",\"reason\":\"Promotional / low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-3\",\"reason\":\"Promotional / low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-4\",\"reason\":\"Promotional / low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-5\",\"reason\":\"Promotional / low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-6\",\"reason\":\"Recruiter mail per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-7\",\"reason\":\"Promotional / low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"n20-noise-8\",\"reason\":\"Promotional / low-signal content per policy\"}]}",
+  "usage": {
+    "input_tokens": 1573,
+    "output_tokens": 318,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

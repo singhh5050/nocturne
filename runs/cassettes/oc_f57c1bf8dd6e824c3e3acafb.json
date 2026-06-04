@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"62ddc0e0\"],\"tier\":\"in_progress\",\"content\":\"ICLR submission: Reviews available for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) comments: 'The paper does not isolate whether gains come from rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.'\",\"weight\":0.90,\"tags\":[\"iclr\",\"review\",\"to-do\"],\"provenance\":[\"n03-gmail-1\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper with Maya on agent-memory benchmarks\",\"weight\":0.50,\"tags\":[\"workshop\",\"paper\",\"co-author\"],\"provenance\":[\"n03-gmail-2\"]},{\"op\":\"drop\",\"id\":\"n03-noise-1\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-2\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-3\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-4\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-5\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-6\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-7\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-8\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-9\",\"reason\":\"routine promotional chatter\"}]}",
+  "usage": {
+    "input_tokens": 1247,
+    "output_tokens": 1401,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

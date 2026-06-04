@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The agent-memory benchmark suite described in the workshop paper (b2cdc71f) can be repurposed as an ablation test to isolate the effect of structured memory rewrite versus simply adding any memory, directly addressing Reviewer 2's concern in the ICLR submission (b27ddc46).\",\n      \"confidence\": 0.73,\n      \"support_ids\": [\"b27ddc46\", \"b2cdc71f\"],\n      \"tags\": [\"ablation\", \"benchmark\", \"memory-rewrite\", \"sleep-time-agents\"]\n    },\n    {\n      \"statement\": \"The performance improvements observed in sleep-time agents using structured memory rewrite may be primarily explained by the virtual context management and paging mechanisms of MemGPT (8e3bb063), suggesting that a rewrite operation is not necessary if an equivalent paging strategy is employed.\",\n      \"confidence\": 0.62,\n      \"support_ids\": [\"b27ddc46\", \"8e3bb063\"],\n      \"tags\": [\"MemGPT\", \"virtual-memory\", \"memory-rewrite\", \"sleep-time-agents\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 468,
+    "output_tokens": 551,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

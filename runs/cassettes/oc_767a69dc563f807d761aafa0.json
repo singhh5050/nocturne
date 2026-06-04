@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Rebuttal plan: prioritize rewrite\u2011vs\u2011append ablation as requested by advisor. Rebuttal deadline: day 19; results needed well before deadline.\",\"weight\":1.5,\"tags\":[\"rebuttal\",\"ablation\",\"ICLR\"],\"provenance\":[\"n04-slack-1\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper follow\u2011up: received rough outline from co\u2011author via email. Awaiting review and next steps.\",\"weight\":0.8,\"tags\":[\"coauthor\",\"workshop\",\"outline\"],\"provenance\":[\"n04-gmail-2\"]},{\"op\":\"merge\",\"source_ids\":[\"a1b2c3d4\",\"3e285f4a\"],\"tier\":\"episodic\",\"content\":\"ICLR submission: 'Structured Memory Rewrite for Sleep-Time Agents'. Reviews: 6, 6, 4. Reviewer 2 requests ablation comparing rewrite vs naive append; advisor prioritizes this ablation for rebuttal before day 19.\",\"weight\":1.5,\"tags\":[\"ICLR\",\"review\",\"reviewer2-remarks\",\"sleep-agent\",\"structured-memory\",\"submission\",\"ablation\"]},{\"op\":\"merge\",\"source_ids\":[\"e5f6g7h8\",\"8203cedd\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper on agent-memory benchmarks. Awaiting confirmation. Email follow\u2011up includes a rough outline of the paper. Next steps: review outline and confirm next actions.\",\"weight\":0.8,\"tags\":[\"coauthor\",\"workshop\",\"memory-benchmarks\"]}]}",
+  "usage": {
+    "input_tokens": 1374,
+    "output_tokens": 1314,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

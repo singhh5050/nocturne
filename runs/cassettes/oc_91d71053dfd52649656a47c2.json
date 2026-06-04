@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"1d798fb7\",\"n16-notes-1\"],\"tier\":\"episodic\",\"content\":\"Rewrite beats naive append by ~9 F1 points in needle survival; append runs exceed token budget by day\u202f20 of the simulation.\",\"weight\":1.0,\"tags\":[\"experiment\",\"rewrite\",\"append\",\"ablation\"],\"provenance\":[\"1d798fb7\",\"n16-notes-1\"]},{\"op\":\"drop\",\"id\":\"1d798fb7\",\"reason\":\"replaced by consolidated ablation result\"}]}",
+  "usage": {
+    "input_tokens": 1483,
+    "output_tokens": 1576,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

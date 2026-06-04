@@ -1,0 +1,9 @@
+{
+  "text": "It was due on day\u00a019.",
+  "usage": {
+    "input_tokens": 7975,
+    "output_tokens": 124,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

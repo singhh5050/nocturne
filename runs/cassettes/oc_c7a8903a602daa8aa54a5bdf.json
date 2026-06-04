@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating MemGPT\u2019s virtual paging mechanism with the existing consolidation (compression) pipeline will further suppress cross\u2011fact interference, keeping QA accuracy stable even when the working set expands beyond 100 items, whereas consolidation alone begins to degrade after ~40 items.\",\"confidence\":0.68,\"support_ids\":[\"719df227\",\"cbddd6cc\",\"35803c9a\"],\"tags\":[\"consolidation\",\"MemGPT\",\"interference\",\"scaling\"]},{\"statement\":\"The observed drop in QA accuracy after ~40 stored items is chiefly caused by the lack of rewrite\u2011based memory updates rather than sheer memory volume; consequently, an ablation that directly compares rewrite operations to a naive append baseline (with equal memory usage) will demonstrate a ~5\u202f% accuracy advantage for rewrite, satisfying Reviewer\u202f2\u2019s demand for isolation of the rewrite effect.\",\"confidence\":0.75,\"support_ids\":[\"719df227\",\"333a33b9\",\"221fe923\"],\"tags\":[\"ablation\",\"rewrite\",\"append\",\"accuracy\",\"review\"]}]}",
+  "usage": {
+    "input_tokens": 795,
+    "output_tokens": 777,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The memory\u2011rewrite operation proposed for the ICLR paper likely improves downstream recall by internally performing a consolidation step similar to that described in the arXiv paper on \\\"Consolidation reduces cross-fact interference,\\\" suggesting that the rewrite\u2011vs\u2011append ablation will show that rewrite reduces interference between unrelated facts.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"52bebe86\", \"13b3b6fa\"],\n      \"tags\": [\"memory-rewrite\", \"consolidation\", \"interference\", \"ablation\"]\n    },\n    {\n      \"statement\": \"MemGPT\u2019s virtual context management and paging mechanism can be adapted to implement efficient memory\u2011rewrite operations, providing a scalable alternative to naive appending by offloading rewritten segments to external memory and retrieving compacted summaries when needed.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"f1fbdbac\", \"52bebe86\"],\n      \"tags\": [\"MemGPT\", \"rewrite\", \"virtual-memory\", \"scalability\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 634,
+    "output_tokens": 402,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

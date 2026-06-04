@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Incorporating periodic consolidation (as described in the arXiv paper) into the naive\u2011append baseline will curb the token\u2011budget blow\u2011up observed in the ablation study and narrow the performance gap with the rewrite operation, potentially achieving comparable F1 scores while using fewer tokens.\",\"confidence\":0.71,\"support_ids\":[\"db8849d5\",\"13b3b6fa\",\"623631bc\"],\"tags\":[\"consolidation\",\"token\u2011budget\",\"ablation\",\"rewrite\"]},{\"statement\":\"Augmenting the bounded\u2011memory variant with an episodic\u2011memory replay mechanism (inspired by the surveyed episodic memory techniques) will further reduce cross\u2011fact interference and improve recall stability over long streams beyond what aggressive consolidation alone achieves.\",\"confidence\":0.66,\"support_ids\":[\"623631bc\",\"13b3b6fa\",\"efa31e4d\"],\"tags\":[\"episodic\u2011memory\",\"bounded\u2011memory\",\"consolidation\",\"recall\"]}]}",
+  "usage": {
+    "input_tokens": 666,
+    "output_tokens": 647,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

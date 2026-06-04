@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n19-noise-1\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-2\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-3\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-4\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-5\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-6\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-7\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-8\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-9\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-10\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"n19-noise-11\",\"reason\":\"promotional or low-signal content\"},{\"op\":\"drop\",\"id\":\"c6ecdb10\",\"reason\":\"merged with new information\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Ablation results: rewrite beats naive append by ~9 F1 points on needle survival; append blows token budget by day 20 in the sim. Clean result for the rebuttal. Rebuttal received \u2014 your author response for submission 4127 has been received (deadline day 19).\",\"weight\":0.25,\"tags\":[\"rebuttal\",\"deadline\",\"submission\",\"4127\",\"mail\"],\"provenance\":[\"n19-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1799,
+    "output_tokens": 2465,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

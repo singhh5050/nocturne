@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying the periodic consolidation technique described in the arXiv paper (13b3b6fa) to the naive\u2011append baseline used in the ablation study (db8849d5) will cut the token\u2011budget blow\u2011up and narrow the ~9\u202fF1\u2011point performance gap with the rewrite operation.\",\"confidence\":0.78,\"support_ids\":[\"db8849d5\",\"13b3b6fa\"],\"tags\":[\"consolidation\",\"ablation\",\"efficiency\",\"memory\"]},{\"statement\":\"The aggressive consolidation step that rescued recall in the bounded\u2011memory variant (623631bc) is effectively an implementation of the cross\u2011fact\u2011interference\u2011reducing consolidation method (13b3b6fa); therefore, adding the same consolidation schedule to the rewrite\u2011based memory\u2011rewrite system should further improve its scalability and recall stability over longer streams.\",\"confidence\":0.65,\"support_ids\":[\"623631bc\",\"13b3b6fa\"],\"tags\":[\"consolidation\",\"bounded\u2011memory\",\"scalability\",\"recall\"]}]}",
+  "usage": {
+    "input_tokens": 666,
+    "output_tokens": 747,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

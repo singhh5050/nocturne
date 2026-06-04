@@ -1,0 +1,9 @@
+{
+  "text": "The user consistently saves papers on memory systems for LLM agents\u2014consolidation, lifelong and episodic memory, and related memory\u2011rewrite techniques.",
+  "usage": {
+    "input_tokens": 10450,
+    "output_tokens": 319,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

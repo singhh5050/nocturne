@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Adding a periodic consolidation step that compresses the accumulated context into a compact summary after every ~30\u201140 appended items will eliminate the QA accuracy drop observed in the append\u2011only experiment (e8af7ee8).\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8af7ee8\", \"45562236\", \"085f93d4\"],\n      \"tags\": [\"consolidation\", \"interference\", \"capacity\", \"compression\"]\n    },\n    {\n      \"statement\": \"The rewrite\u2011vs\u2011append ablation study (d421fc37) will demonstrate that rewrite operations provide a statistically significant accuracy advantage over naive appending, thereby addressing reviewer 2's concern that observed gains may simply stem from having any memory (853b30eb).\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"d421fc37\", \"853b30eb\", \"e8af7ee8\"],\n      \"tags\": [\"ablation\", \"rewrite\", \"evaluation\", \"review\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 772,
+    "output_tokens": 627,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"abab3e52\"],\"tier\":\"in_progress\",\"content\":\"[Updated] Your ICLR submission: reviews available \u2014 scores: 6, 6, 4. Reviewer\u202f2: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.' Advisor: Let's prioritize the rewrite\u2011vs\u2011append ablation for the rebuttal. Rebuttal deadline is day 19 \u2014 we need results well before then. Additional evidence: issue #214 opened on GitHub to kickoff rewrite\u2011vs\u2011append ablation runs, tracking the sweep on rewrite, append, and window. This shows active progress on the required ablation.\",\"weight\":0.01,\"tags\":[\"ablation\",\"rebuttal\",\"review\",\"reviewer2\",\"submission\",\"github\"],\"provenance\":[\"n10-github-1\"]}]}",
+  "usage": {
+    "input_tokens": 1327,
+    "output_tokens": 1031,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

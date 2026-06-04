@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"5e0b524f\",\"reason\":\"informational; no actionable item or deadline per policy 252ee31f\"},{\"op\":\"drop\",\"id\":\"d361c7aa\",\"reason\":\"informational; no actionable item or deadline per policy 252ee31f\"},{\"op\":\"drop\",\"id\":\"n14-noise-1\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-2\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-3\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-4\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-5\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-6\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-7\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-8\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-9\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-10\",\"reason\":\"low\u2011signal promotional content\"},{\"op\":\"drop\",\"id\":\"n14-noise-11\",\"reason\":\"low\u2011signal promotional content\"}]}",
+  "usage": {
+    "input_tokens": 1348,
+    "output_tokens": 992,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

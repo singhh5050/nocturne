@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a new resource allocation datum is reported and no existing record exists for that type, create a new entry; otherwise, update and consolidate the existing record.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 607,
+    "output_tokens": 755,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

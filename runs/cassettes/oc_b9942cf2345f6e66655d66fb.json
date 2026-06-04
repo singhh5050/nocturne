@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Rebuttal received \u2014 Author response for submission 4127 has been received (deadline day 19).\",\"weight\":0.5,\"tags\":[\"gmail\",\"review\",\"submission\"],\"provenance\":[\"n19-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1836,
+    "output_tokens": 509,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

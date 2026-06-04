@@ -1,0 +1,9 @@
+{
+  "text": "2400 GPU\u2011hours.",
+  "usage": {
+    "input_tokens": 1201,
+    "output_tokens": 74,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

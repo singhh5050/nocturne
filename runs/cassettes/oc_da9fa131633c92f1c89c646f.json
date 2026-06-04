@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Issue #214: kickoff rewrite-vs-append ablation runs \u2013 tracking ablation sweep (rewrite vs append vs window).\",\"weight\":0.5,\"tags\":[\"ablation\",\"issue\",\"tracking\"],\"provenance\":[\"n10-github-1\"]},{\"op\":\"drop\",\"id\":\"n10-noise-1\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-2\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-3\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-4\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-5\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-6\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-7\",\"reason\":\"policy: promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n10-noise-8\",\"reason\":\"policy: promotional/low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1349,
+    "output_tokens": 707,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

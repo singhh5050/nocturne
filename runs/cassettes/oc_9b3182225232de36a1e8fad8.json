@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The accuracy decline observed after ~40 items in the append\u2011only baseline (e8af7ee8) is caused by exceeding the working\u2011set capacity, and inserting periodic consolidation/compression of accumulated context (as demonstrated in 085f93d4 and 45562236) will reduce cross\u2011fact interference and restore or improve accuracy beyond that point.\",\"confidence\":0.78,\"support_ids\":[\"e8af7ee8\",\"085f93d4\",\"45562236\"],\"tags\":[\"capacity\",\"consolidation\",\"interference\"]},{\"statement\":\"Employing MemGPT\u2019s virtual context\u2011management/paging mechanism (800e430c) as the pure\u2011append control in the rewrite\u2011vs\u2011append ablation (d421fc37) will isolate the effect of structured rewrite operations, allowing a clean test of reviewer 2\u2019s concern (853b30eb) that gains may stem only from having any memory rather than the rewrite itself.\",\"confidence\":0.63,\"support_ids\":[\"d421fc37\",\"800e430c\",\"853b30eb\"],\"tags\":[\"ablation\",\"memory\u2011paging\",\"rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 738,
+    "output_tokens": 544,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Allocating at least 200 H100 GPU-hours from the newly approved 2400\u2011hour quota to the ablation study (rewrite\u2011vs\u2011append vs naive append) will yield a statistically significant (p\u202f<\u202f0.05) performance gap favoring the rewrite operation, thereby confirming that gains are not merely due to increased memory.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"974a123c\", \"d361c7aa\"],\n      \"tags\": [\"ablation\", \"GPU-allocation\", \"ICLR-paper\", \"statistical-significance\"]\n    },\n    {\n      \"statement\": \"Running the ablation experiments in a dedicated compute window immediately after each Wednesday 11:00 lab meeting (the new weekly meeting time) will reduce the total experiment turnaround time by at least 20% compared to a non\u2011aligned schedule, because the meeting provides a natural checkpoint for data sharing and troubleshooting.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"5e0b524f\", \"d361c7aa\", \"974a123c\"],\n      \"tags\": [\"scheduling\", \"experiment-turnaround\", \"lab-meeting\", \"resource-utilization\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 487,
+    "output_tokens": 766,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

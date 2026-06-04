@@ -1,0 +1,9 @@
+{
+  "text": "An ablation comparing rewrite versus a naive append\u2011only strategy to isolate the effect of rewrite.",
+  "usage": {
+    "input_tokens": 544,
+    "output_tokens": 123,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

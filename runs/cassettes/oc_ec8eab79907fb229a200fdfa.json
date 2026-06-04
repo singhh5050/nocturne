@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating an external memory paging mechanism (as in MemGPT) into the QA system will prevent the accuracy drop seen when storing more than 40 items, because relevant facts can be retrieved on demand without overloading the in\u2011context window\",\"confidence\":0.68,\"support_ids\":[\"562412ff\",\"a962f389\",\"72ccf918\"],\"tags\":[\"memory_management\",\"accuracy_drop\",\"external_memory\"]},{\"statement\":\"Using the compression\u2011based consolidation approach (compression > accumulation) to pre\u2011process stored facts will lower the compute load of the rewrite\u2011vs\u2011append ablation, allowing the full experimental sweep to be completed within the 2400 H100 GPU\u2011hour monthly quota\",\"confidence\":0.55,\"support_ids\":[\"c2f16d09\",\"72ccf918\",\"3b78000a\"],\"tags\":[\"gpu_budget\",\"ablation\",\"compression\"]}]}",
+  "usage": {
+    "input_tokens": 723,
+    "output_tokens": 713,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

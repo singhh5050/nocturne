@@ -1,0 +1,9 @@
+{
+  "text": "Wednesdays at\u202f11:00.",
+  "usage": {
+    "input_tokens": 501,
+    "output_tokens": 49,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

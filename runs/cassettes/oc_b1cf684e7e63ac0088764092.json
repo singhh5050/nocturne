@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New lifelong memory paper: 'lifelong memory for agents' (arxiv). Saved to reading list.\",\"weight\":0.8,\"tags\":[\"arxiv\",\"memory\",\"lifelong\",\"agents\"],\"provenance\":[\"n18-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1676,
+    "output_tokens": 696,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"982dc5ce\",\"n13-notes-1\"],\"tier\":\"in_progress\",\"content\":\"consolidated regarding issue #214 rewrite\u2011vs\u2011append ablation and append baseline accuracy drop upon storage growth\",\"weight\":0.15,\"tags\":[\"github\",\"ablation\",\"issue\",\"experiment\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Saved another memory paper arguing compression beats accumulation for working sets.\",\"weight\":0.2,\"tags\":[\"paper\",\"memory\",\"consolidation\"],\"provenance\":[\"n13-notes-2\"]},{\"op\":\"reweight\",\"id\":\"bb8a12dc\",\"weight\":0.02}]}",
+  "usage": {
+    "input_tokens": 2162,
+    "output_tokens": 1639,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

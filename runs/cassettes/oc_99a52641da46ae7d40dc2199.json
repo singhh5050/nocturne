@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Retain items that are resource allocations required for future use, even if they lack explicit deadlines.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"When a scheduled event is rescheduled or time\u2011changed, replace the previous entry with the updated one rather than creating a duplicate.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 666,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

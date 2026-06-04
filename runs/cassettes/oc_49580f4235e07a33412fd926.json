@@ -1,0 +1,9 @@
+{
+  "text": "The ICLR rebuttal was due on day\u202f19.",
+  "usage": {
+    "input_tokens": 708,
+    "output_tokens": 156,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

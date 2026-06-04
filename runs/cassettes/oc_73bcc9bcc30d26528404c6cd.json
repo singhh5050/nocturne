@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating MemGPT's virtual context paging mechanism as the rewrite operation in the bounded\u2011memory agent will allow a clean ablation between rewrite\u2011based memory updates and simple append\u2011only updates, directly addressing Reviewer\u202f2's request to isolate the source of performance gains.\",\n      \"confidence\": 0.73,\n      \"support_ids\": [\"ec4e5110\", \"ea8b2804\", \"cbddd6cc\"],\n      \"tags\": [\"ablation\", \"rewrite-vs-append\", \"MemGPT\", \"bounded-memory\"]\n    },\n    {\n      \"statement\": \"The aggressive consolidation technique that stabilised accuracy in the bounded\u2011memory variant can be formally evaluated using the episodic\u2011memory survey taxonomy, enabling a standardized benchmark for memory\u2011stability across continual\u2011learning streams.\",\n      \"confidence\": 0.68,\n      \"support_ids\": [\"ea8b2804\", \"0b7d09e2\", \"60fe2d70\"],\n      \"tags\": [\"consolidation\", \"episodic memory\", \"benchmark\", \"evaluation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

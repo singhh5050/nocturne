@@ -1,0 +1,9 @@
+{
+  "text": "Reviewer\u202f2 wants an ablation comparing rewrite vs. naive append to isolate whether the gains come from the rewrite operations or merely from having any memory.",
+  "usage": {
+    "input_tokens": 407,
+    "output_tokens": 148,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

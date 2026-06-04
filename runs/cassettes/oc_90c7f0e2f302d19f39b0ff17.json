@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The accuracy degradation observed when storing more than 40 items (562412ff) is likely caused by cross\u2011fact interference, which can be mitigated by introducing periodic consolidation/compression of the memory store as described in 72ccf918, thereby preserving QA performance even at larger store sizes.\",\"confidence\":0.73,\"support_ids\":[\"562412ff\",\"72ccf918\"],\"tags\":[\"accuracy_drop\",\"interference\",\"compression\",\"consolidation\"]},{\"statement\":\"The 2400 H100 GPU\u2011hour allocation for May (c2f16d09) provides sufficient compute budget to complete the rewrite\u2011vs\u2011append ablation sweep required for the ICLR rebuttal (3b78000a), especially if the sweep incorporates MemGPT\u2011style virtual context paging (a962f389) to minimise per\u2011run GPU consumption, ensuring the results can be delivered before the day\u201119 deadline.\",\"confidence\":0.68,\"support_ids\":[\"c2f16d09\",\"3b78000a\",\"a962f389\"],\"tags\":[\"gpu_allocation\",\"ablation\",\"memory_management\",\"rebuttal\"]}]}",
+  "usage": {
+    "input_tokens": 723,
+    "output_tokens": 764,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

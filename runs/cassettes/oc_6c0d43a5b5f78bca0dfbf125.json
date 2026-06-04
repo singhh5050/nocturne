@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"reason\":\"promotional content\"}]}",
+  "usage": {
+    "input_tokens": 1721,
+    "output_tokens": 424,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

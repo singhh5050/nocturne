@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"5bf6612f\",\"reason\":\"This low\u2011weight uncertainty rule generates items that remain without clear value, unnecessarily bloating memory.\"},{\"op\":\"add\",\"content\":\"Remove any item older than 3 days that has no deadline and no scheduled follow\u2011up action to keep memory focused and up\u2011to\u2011date.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 533,
+    "output_tokens": 445,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

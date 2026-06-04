@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"b27ddc46\",\"n04-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews for \u2018Structured Memory Rewrite for Sleep-Time Agents\u2019 are available. Scores: 6, 6, 4. Reviewer 2 detailed comments: \u2018The paper does not isolate whether gains come from rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.\u2019 Rebuttal plan: prioritize the rewrite\u2011vs\u2011append ablation, with results ready well before the day\u201119 deadline.\",\"weight\":1.0,\"tags\":[\"ICLR\",\"memory-rewrite\",\"review\",\"reviewer2\",\"sleep-time-agents\",\"rebuttal\"]},{\"op\":\"merge\",\"source_ids\":[\"b2cdc71f\",\"n04-gmail-2\"],\"tier\":\"in_progress\",\"content\":\"Co-author a quick workshop paper on agent\u2011memory benchmarks with Maya; low effort. Follow\u2011up: rough outline sketched, review when ready.\",\"weight\":1.0,\"tags\":[\"workshop\",\"agent-memory\"]}]}",
+  "usage": {
+    "input_tokens": 1355,
+    "output_tokens": 677,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n30-noise-1\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-2\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-3\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-4\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-5\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-6\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-7\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"},{\"op\":\"drop\",\"id\":\"n30-noise-8\",\"reason\":\"promotional or low-signal chatter, safe to ignore\"}]}",
+  "usage": {
+    "input_tokens": 1858,
+    "output_tokens": 516,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

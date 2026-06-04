@@ -1,0 +1,9 @@
+{
+  "text": "The user repeatedly saves papers on memory management for AI agents, especially virtual context and lifelong memory techniques.",
+  "usage": {
+    "input_tokens": 9848,
+    "output_tokens": 159,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

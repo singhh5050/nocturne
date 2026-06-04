@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n27-noise-1\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-2\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-3\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-4\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-5\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-6\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-7\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-8\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-9\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-10\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-11\",\"reason\":\"promotional or low-signal\"},{\"op\":\"drop\",\"id\":\"n27-noise-12\",\"reason\":\"promotional or low-signal\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Paper 4127 accepted. Reviewer 2 score increased to 6 after rebuttal. Camera\u2011ready due in two weeks.\",\"weight\":1.0,\"tags\":[\"submission\",\"acceptance\",\"deadline\"],\"provenance\":[\"n27-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1983,
+    "output_tokens": 972,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

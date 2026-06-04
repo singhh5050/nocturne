@@ -1,0 +1,9 @@
+{
+  "text": "Reviewer\u00a02 wants an ablation that isolates the gains from rewrite versus naive append.",
+  "usage": {
+    "input_tokens": 520,
+    "output_tokens": 240,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

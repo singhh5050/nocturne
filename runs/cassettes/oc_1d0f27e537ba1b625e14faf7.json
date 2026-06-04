@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"76652786\",\"n13-notes-1\",\"n13-notes-2\"],\"tier\":\"in_progress\",\"content\":\"Consolidation reduces cross\u2011fact interference by periodically compressing accumulated context into a compact summary. New experimental evidence shows that in an append baseline, QA accuracy drops once the store grows beyond ~40 items, indicating interference with target facts even when they remain present. This supports the view that compression (consolidation) outperforms simple accumulation for maintaining working\u2011set integrity.\",\"weight\":0.5,\"tags\":[\"memory\",\"interference\",\"consolidation\",\"experiment\"]},{\"op\":\"drop\",\"id\":\"76652786\",\"reason\":\"merged into new consolidated memory\"}]}",
+  "usage": {
+    "input_tokens": 1565,
+    "output_tokens": 1077,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

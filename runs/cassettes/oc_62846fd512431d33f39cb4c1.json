@@ -1,0 +1,9 @@
+{
+  "text": "2400 GPU hours.",
+  "usage": {
+    "input_tokens": 596,
+    "output_tokens": 94,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Introducing a virtual\u2011memory paging mechanism like MemGPT\u2019s external\u2011memory/context manager will let the bounded\u2011memory variant maintain flat recall as the stream grows, because paging can offload older facts while preserving a compact, consolidated memory buffer, thus preventing the accuracy drop seen with na\u00efve append schemes.\",\"confidence\":0.78,\"support_ids\":[\"a962f389\",\"333b655e\",\"562412ff\",\"ad2ef3b4\"],\"tags\":[\"memory_management\",\"virtual_paging\",\"bounded_memory\",\"accuracy\"]},{\"statement\":\"The abrupt QA accuracy decline after storing more than ~40 items is likely due to token\u2011budget overflow from na\u00efve appending, which can be mitigated by periodic compression\u2011based consolidation; such consolidation reduces cross\u2011fact interference and keeps the active working set within budget, explaining why bounded\u2011memory approaches avoid the drop.\",\"confidence\":0.65,\"support_ids\":[\"562412ff\",\"ad2ef3b4\",\"72ccf918\",\"333b655e\"],\"tags\":[\"token_budget\",\"append_overload\",\"consolidation\",\"accuracy_drop\"]}]}",
+  "usage": {
+    "input_tokens": 937,
+    "output_tokens": 612,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

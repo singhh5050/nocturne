@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"ea830d86\",\"n06-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper with Maya \u2013 reminder: still keen, no rush.\",\"weight\":0.15,\"tags\":[\"coauthor\",\"workshop\"],\"provenance\":[\"ea830d86\",\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Consolidation reduces cross-fact interference \u2013 new technique paper shows periodic consolidation into a compact summary reduces interference between unrelated facts, improving downstream recall.\",\"weight\":0.2,\"tags\":[\"consolidation\",\"interference\",\"technique\"],\"provenance\":[\"n06-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"n06-noise-1\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-2\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-3\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-4\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-5\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-6\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-7\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-8\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-9\",\"reason\":\"routine promotional or low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n06-noise-10\",\"reason\":\"routine promotional or low-signal chatter.\"}]}",
+  "usage": {
+    "input_tokens": 1420,
+    "output_tokens": 1047,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When a message mentions a GPU model followed by a numeric value and a unit of time (e.g., GPU\u2011hours, GPU\u2011days), tag and store it as a resource\u2011allocation entry regardless of surrounding text.\",\"weight\":2.0}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 929,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

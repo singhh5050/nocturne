@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"f106576b\",\"98e98ebc\",\"n17-noise-1\",\"n17-noise-9\"],\"tier\":\"episodic\",\"content\":\"Staff ML Engineer opportunity announcement\",\"weight\":0.05,\"tags\":[\"arxiv\",\"promo\",\"gmail\"]},{\"op\":\"merge\",\"source_ids\":[\"3b90c610\",\"n17-noise-3\",\"n17-noise-11\"],\"tier\":\"episodic\",\"content\":\"Connection requests notification\",\"weight\":0.05,\"tags\":[\"calendar\",\"promo\"]},{\"op\":\"merge\",\"source_ids\":[\"144cd818\",\"n17-noise-4\",\"n17-noise-12\"],\"tier\":\"episodic\",\"content\":\"Campus parking permit renewal reminder\",\"weight\":0.05,\"tags\":[\"calendar\",\"promo\"]},{\"op\":\"merge\",\"source_ids\":[\"f38b0f6c\",\"n17-noise-2\",\"n17-noise-10\"],\"tier\":\"episodic\",\"content\":\"50% off cloud GPU discount offer\",\"weight\":0.05,\"tags\":[\"github\",\"promo\",\"slack\"]}]}",
+  "usage": {
+    "input_tokens": 2010,
+    "output_tokens": 2551,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

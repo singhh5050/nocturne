@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Keep important resource allocations and schedule changes even if they lack explicit deadlines; merge updates into existing items to avoid duplication.\",\"weight\":1.2}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 465,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

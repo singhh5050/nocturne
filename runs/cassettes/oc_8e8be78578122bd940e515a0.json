@@ -1,0 +1,9 @@
+{
+  "text": "The approved H100 allocation is 2400 GPU\u2011hours.",
+  "usage": {
+    "input_tokens": 5280,
+    "output_tokens": 99,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying periodic consolidation\u2014compressing accumulated context into a compact summary\u2014should prevent the accuracy drop seen in the append\u2011baseline after ~40 items by reducing cross\u2011fact interference, making naive append as effective as rewrite operations.\",\"confidence\":0.78,\"support_ids\":[\"e8af7ee8\",\"45562236\",\"085f93d4\",\"93ae3681\"],\"tags\":[\"memory_consolidation\",\"interference\"]},{\"statement\":\"Incorporating MemGPT\u2019s virtual context\u2011management and paging strategy into the agent\u2019s memory architecture will enable the bounded\u2011memory variant to scale without loss of recall accuracy, because relevant pieces can be swapped in/out dynamically as the stream grows.\",\"confidence\":0.65,\"support_ids\":[\"800e430c\",\"93ae3681\"],\"tags\":[\"memgpt\",\"bounded_memory\"]}]}",
+  "usage": {
+    "input_tokens": 952,
+    "output_tokens": 589,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

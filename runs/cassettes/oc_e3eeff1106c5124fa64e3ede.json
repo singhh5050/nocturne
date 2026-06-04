@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"H100 allocation approved \u2013 2400 GPU\u2011hours per month for May (quota resets monthly).\",\"weight\":1.0,\"tags\":[\"resource\",\"allocation\",\"gpu\"],\"provenance\":[\"n09-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1483,
+    "output_tokens": 419,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

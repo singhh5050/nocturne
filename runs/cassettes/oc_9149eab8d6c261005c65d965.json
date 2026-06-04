@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n20-noise-1\",\"reason\":\"routine low-signal promotional reminder\"},{\"op\":\"drop\",\"id\":\"n20-noise-2\",\"reason\":\"routine low-signal promotional slack message\"},{\"op\":\"drop\",\"id\":\"n20-noise-3\",\"reason\":\"routine low-signal promotional arxiv note\"},{\"op\":\"drop\",\"id\":\"n20-noise-4\",\"reason\":\"routine low-signal promotional github message\"},{\"op\":\"drop\",\"id\":\"n20-noise-5\",\"reason\":\"routine low-signal promotional calendar post\"},{\"op\":\"drop\",\"id\":\"n20-noise-6\",\"reason\":\"routine low-signal promotional gmail email\"},{\"op\":\"drop\",\"id\":\"n20-noise-7\",\"reason\":\"routine low-signal promotional slack offer\"},{\"op\":\"drop\",\"id\":\"n20-noise-8\",\"reason\":\"routine low-signal promotional arxiv notification\"}]}",
+  "usage": {
+    "input_tokens": 1576,
+    "output_tokens": 556,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

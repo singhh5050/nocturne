@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The observed QA accuracy drop after storing >40 items (562412ff) is caused by token\u2011budget overflow inherent to na\u00efve append strategies, and can be eliminated by adopting a rewrite/compression memory scheme similar to MemGPT\u2019s virtual context paging (a962f389), which the rewrite\u2011vs\u2011append ablation already shows improves F1 scores while staying within budget (ad2ef3b4).\",\"confidence\":0.78,\"support_ids\":[\"562412ff\",\"ad2ef3b4\",\"a962f389\"],\"tags\":[\"memory_overflow\",\"rewrite_vs_append\",\"MemGPT\"]},{\"statement\":\"Periodic consolidation (compression) of stored facts, as described in the consolidation paper (72ccf918), should further boost performance of lifelong\u2011memory agents (f7b5be16) by reducing cross\u2011fact interference and token usage, explaining why rewrite\u2011based memory outperforms na\u00efve append in the ablation study (ad2ef3b4).\",\"confidence\":0.65,\"support_ids\":[\"72ccf918\",\"f7b5be16\",\"ad2ef3b4\"],\"tags\":[\"consolidation\",\"lifelong_memory\",\"interference_reduction\"]}]}",
+  "usage": {
+    "input_tokens": 848,
+    "output_tokens": 491,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

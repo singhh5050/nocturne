@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"7a683feb\",\"n03-gmail-1\"],\"tier\":\"episodic\",\"content\":\"Your ICLR submission: reviews available \u2014 Reviewer 2: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.' Scores: 6, 6, 4. Reviewer 2 (score 4) needs addressing.\",\"weight\":0.9,\"tags\":[\"ICLR\",\"review\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper on agent-memory benchmarks with Maya. Potential low effort and quick turnaround.\",\"weight\":0.5,\"tags\":[\"workshop\",\"collaboration\"],\"provenance\":[\"n03-gmail-2\"]},{\"op\":\"drop\",\"id\":\"n03-noise-1\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-2\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-3\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-4\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-5\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-6\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-7\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-8\",\"reason\":\"duplicate content with existing memory\"},{\"op\":\"drop\",\"id\":\"n03-noise-9\",\"reason\":\"duplicate content with existing memory\"}]}",
+  "usage": {
+    "input_tokens": 1736,
+    "output_tokens": 1132,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

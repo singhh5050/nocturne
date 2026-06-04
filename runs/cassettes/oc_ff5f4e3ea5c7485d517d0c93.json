@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"de149ca3\",\"reason\":\"Passive/encircular reading list \u2013 not actionable or deadline-bound\",\"provenance\":[\"de149ca3\"]},{\"op\":\"drop\",\"id\":\"n24-notes-1\",\"reason\":\"Passive archival note \u2013 no action or deadline\",\"provenance\":[\"n24-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1458,
+    "output_tokens": 793,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The QA accuracy drop observed after storing more than 40 items is likely due to cross\u2011fact interference, which can be alleviated by periodically consolidating the accumulated context into a compact summary\u2014as demonstrated in both the \\\"compression beats accumulation\\\" paper and the recent arXiv work on consolidation reducing interference.\",\"confidence\":0.78,\"support_ids\":[\"60cee832\",\"f126b3ef\",\"13b3b6fa\"],\"tags\":[\"interference\",\"consolidation\",\"accuracy\",\"memory\"]},{\"statement\":\"The rewrite operations planned for the memory\u2011rewrite system act as an implicit virtual\u2011context paging mechanism similar to MemGPT\u2019s approach, thereby providing on\u2011the\u2011fly consolidation that should yield measurable gains over naive append in the ablation study requested by Reviewer\u202f2.\",\"confidence\":0.65,\"support_ids\":[\"9186bc5a\",\"f1fbdbac\",\"f126b3ef\"],\"tags\":[\"rewrite\",\"paging\",\"ablation\",\"memory-rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 716,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

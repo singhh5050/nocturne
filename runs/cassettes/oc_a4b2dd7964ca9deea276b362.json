@@ -1,0 +1,9 @@
+{
+  "text": "# Priorities\n\n### 1. Rebuttal Finalization  \n**Deadline:** Day\u202f19 (camera\u2011ready due in 2\u202fweeks).  \n- Results for rewrite\u202fvs. naive\u2011append ablation are clean (~9\u202fF1 point gain, no token\u2011budget blow\u2011out).  \n- Draft: add a paragraph citing the arXiv consolidation paper (13b3b6fa) to argue that periodic summarization underpins the rewrite advantage.  \n- Submit rebuttal text (\u2248300\u202fwords) by **today**; schedule 1\u202fh for final edits.\n\n### 2. Compute & Experiment Schedule  \n- **2400 H100\u2011hour quota** approved.  \n  - Allocate 1400\u202fhrs to current rewrite/append ablation (\u224810\u202fruns with 4 seeds).  \n  - Allocate 600\u202fhrs to a *third* arm: rewrite\u202f+\u202fperiodic consolidation (to hit the missing open item).  \n  - Reserve 500\u202fhrs for future experiments or overflow.  \n- **50\u202f% GPU discount** (29d7df1d): trigger extra runs or higher\u2011capacity models if required.  \n- Run consolidation baseline *now*; 2\u202f\u00d7 faster GPU usage will give >10% statistical power boost.\n\n### 3. Conference Logistics  \n- **ICLR camera\u2011ready**: Rigour check tomorrow.  \n- Lab meeting: **Wed\u202f11:00, room\u202f311** (automatic reminder).\n\n---\n\n# Immediate Actions\n- **Today**: Draft rebuttal paragraph on consolidation benefits.  \n- **Tonight**: Spin up consolidation baseline on 1\u202fH100; log progress in issue\u202f#214.  \n- **Tomorrow**: Verify 2400\u2011hour allocation ledger; confirm GPU availability.\n\n---\n\n# Overnight Insight\n> **Consolidation in the rewrite pipeline should curb token\u2011budget overflow and tighten the F1 gap with naive append, mirroring the bounded\u2011memory success (623631bc).**  (\ud83d\udc46\u202fConfirmed, conf=0.85)",
+  "usage": {
+    "input_tokens": 3009,
+    "output_tokens": 1322,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

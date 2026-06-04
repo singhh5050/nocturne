@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"preferences\",\"content\":\"You are new here and have not yet learned what matters to this researcher; when unsure, keep the item.\",\"weight\":0.5,\"tags\":[],\"provenance\":[]},{\"op\":\"drop\",\"id\":\"n12-noise-1\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-2\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-3\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-4\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-5\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-6\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-7\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-8\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-9\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-10\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-11\",\"reason\":\"routine low-signal\"},{\"op\":\"drop\",\"id\":\"n12-noise-12\",\"reason\":\"routine low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1615,
+    "output_tokens": 563,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

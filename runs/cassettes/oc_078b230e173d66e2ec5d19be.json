@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The bounded\u2011memory (windowed) variant eliminates the accuracy drop observed with na\u00efve append because it implicitly performs a form of periodic consolidation that compresses stored facts, thereby reducing cross\u2011fact interference\u2014a mechanism directly supported by the consolidation\u2011vs\u2011accumulation and consolidation\u2011reduces\u2011interference papers.\",\"confidence\":0.78,\"support_ids\":[\"93ae3681\",\"e8af7ee8\",\"085f93d4\",\"45562236\",\"d421fc37\"],\"tags\":[\"consolidation\",\"capacity\",\"interference\",\"ablation\"]},{\"statement\":\"The reviewer\u2019s request for a rewrite\u2011vs\u2011append ablation could be satisfied by using the bounded\u2011memory/windowed baseline as the \u201cappend\u201d condition, since its performance matches the rewrite model; this suggests that apparent gains from memory\u2011rewrite may stem from the consolidation effect of windowing rather than the rewrite operation itself.\",\"confidence\":0.65,\"support_ids\":[\"93ae3681\",\"d421fc37\",\"853b30eb\",\"e8af7ee8\"],\"tags\":[\"ablation\",\"review\",\"interpretation\",\"memory\u2011rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 897,
+    "output_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

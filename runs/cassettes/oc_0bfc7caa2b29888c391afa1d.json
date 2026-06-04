@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When an event\u2019s schedule (date or time) changes, replace the existing record with the updated details rather than adding a duplicate item to memory.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"Automatically drop or flag items that are promotional newsletters, recruiter mail, or other low\u2011signal content unless a user explicitly marks them as important.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"Preserve any item with a pending deadline or scheduled follow\u2011up action even if it is older than three days; only remove items older than three days that have no deadline and no scheduled action.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 594,
+    "output_tokens": 727,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

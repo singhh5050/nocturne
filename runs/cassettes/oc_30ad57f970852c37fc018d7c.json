@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Prioritize retaining schedule and resource allocation items even if not directly actionable, especially those that include dates, times, or numeric quotas.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"When a scheduled or resource item is updated, replace the old entry with the new one rather than retaining both.\",\"weight\":1.2}]}",
+  "usage": {
+    "input_tokens": 563,
+    "output_tokens": 512,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

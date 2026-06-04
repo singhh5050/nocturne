@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Rebuttal: prioritize rewrite\u2011vs\u2011append ablation; deadline day 19\",\"weight\":1.0,\"tags\":[\"iclr\",\"rebuttal\",\"deadline\",\"ablation\"],\"provenance\":[\"n04-slack-1\",\"d346e268\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co\u2011author workshop: Maya\u2019s rough outline ready; need to review\",\"weight\":1.0,\"tags\":[\"workshop\",\"co-author\",\"outline\"],\"provenance\":[\"n04-gmail-2\",\"a3d2836d\"]},{\"op\":\"drop\",\"id\":\"n04-noise-1\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-2\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-3\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-4\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-5\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-6\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-7\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-8\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-9\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-10\",\"reason\":\"routine promotional low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n04-noise-11\",\"reason\":\"routine promotional low-signal chatter\"}]}",
+  "usage": {
+    "input_tokens": 1386,
+    "output_tokens": 1369,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

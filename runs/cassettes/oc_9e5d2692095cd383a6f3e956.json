@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"768d67b6\",\"n10-github-1\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: rebuttal deadline day\u202f19. Reviews 6,6,4. Reviewer 2 requires an ablation comparing rewrite vs naive append to address concerns; tracking issue #214 is open to kick off the rewrite\u2011vs\u2011append ablation sweep (including window). Results are needed before the rebuttal deadline.\",\"weight\":0.5,\"tags\":[\"ablation\",\"deadline\",\"email\",\"iclr\",\"review\",\"submission\",\"github\",\"issue\",\"tracking\"]}]}",
+  "usage": {
+    "input_tokens": 1367,
+    "output_tokens": 1086,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

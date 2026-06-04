@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating a dynamic consolidation and paging system (as in MemGPT) that periodically compresses and moves older facts to external storage will eliminate the sharp QA accuracy drop seen after ~40 items in the naive append baseline, keeping performance flat even as the stream grows beyond token limits.\",\"confidence\":0.78,\"support_ids\":[\"656e9540\",\"a575e46b\",\"dd46edef\",\"6b6bffed\"],\"tags\":[\"interference\",\"consolidation\",\"paging\",\"scaling\"]},{\"statement\":\"The episodic memory survey saved (bbb4b94b) can be leveraged to create benchmark tasks for the co\u2011authored workshop paper on agent\u2011memory benchmarks (56cc7f88), specifically probing how bounded\u2011memory and compression strategies affect recall of recent versus remote episodic events.\",\"confidence\":0.65,\"support_ids\":[\"bbb4b94b\",\"56cc7f88\",\"656e9540\",\"a575e46b\"],\"tags\":[\"benchmark\",\"episodic\",\"evaluation\",\"agent_memory\"]}]}",
+  "usage": {
+    "input_tokens": 848,
+    "output_tokens": 743,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

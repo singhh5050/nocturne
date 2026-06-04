@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Introducing a periodic consolidation step that compresses the accumulated QA items before the store reaches ~40 entries will eliminate the observed accuracy drop in the append baseline, implying that the performance degradation is driven by uncompressed context size causing cross\u2011fact interference rather than sheer quantity.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8af7ee8\", \"085f93d4\", \"45562236\"],\n      \"tags\": [\"consolidation\", \"interference\", \"capacity\", \"append\"]\n    },\n    {\n      \"statement\": \"Applying MemGPT\u2019s virtual context management (paging between in\u2011context and external memory) to the rewrite\u2011vs\u2011append ablation will close the performance gap between rewrite and naive append, indicating that the rewrite gains stem primarily from effective memory paging/management rather than the rewrite operation itself.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"800e430c\", \"d421fc37\", \"853b30eb\"],\n      \"tags\": [\"memory\u2011paging\", \"ablation\", \"rewrite\", \"append\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 738,
+    "output_tokens": 639,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

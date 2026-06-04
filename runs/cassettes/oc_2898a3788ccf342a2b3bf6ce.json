@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"If the memory store is periodically compressed into compact summaries (e.g., via MemGPT-style context paging) before exceeding ~40 items, the QA accuracy drop observed after 40 items will be mitigated or eliminated.\",\"confidence\":0.78,\"support_ids\":[\"d2609f66\",\"a575e46b\",\"dd46edef\"],\"tags\":[\"interference\",\"compression\",\"accuracy\"]},{\"statement\":\"In the rewrite\u2011vs\u2011append ablation sweep, the rewrite (i.e., memory\u2011rewrite/compression) condition will retain higher QA accuracy than the pure\u2011append condition, confirming that consolidation through compression reduces interference among stored facts.\",\"confidence\":0.65,\"support_ids\":[\"1d798fb7\",\"a575e46b\"],\"tags\":[\"ablation\",\"rewrite\",\"append\",\"interference\"]}]}",
+  "usage": {
+    "input_tokens": 648,
+    "output_tokens": 586,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

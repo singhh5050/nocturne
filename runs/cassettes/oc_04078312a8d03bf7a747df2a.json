@@ -1,0 +1,9 @@
+{
+  "text": "The lab meeting is now on Wednesdays at\u00a011:00\u00a0am.",
+  "usage": {
+    "input_tokens": 548,
+    "output_tokens": 107,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

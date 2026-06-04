@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"63ba5b26\",\"n04-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper? \u2014 Hi Maya, there is a plan to prioritize the rewrite\u2011vs\u2011append ablation for our ICLR rebuttal. Reviewer 2 needs a clear comparison between rewrite and naive append. We should deliver the ablation results before the rebuttal deadline on day\u00a019.\",\"weight\":0.90,\"tags\":[\"review\",\"rebuttal\",\"ablation\"],\"provenance\":[\"63ba5b26\",\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"9ff000b7\",\"n04-gmail-2\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper? \u2014 Following up: I sketched a rough outline for the paper. Please review when you have a moment and let me know if we should proceed.\",\"weight\":0.95,\"tags\":[\"workshop\",\"coauthor\"],\"provenance\":[\"9ff000b7\",\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1411,
+    "output_tokens": 747,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

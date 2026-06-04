@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"d2609f66\"],\"tier\":\"episodic\",\"content\":\"Append baseline QA accuracy drops once the store grows past ~40 items, despite the target fact still being present; this suggests that extra material interferes with recall even when retrieval is possible. However, a bounded\u2011memory variant eliminates this accuracy drop: accuracy remains flat as the stream grows, and aggressive consolidation fixes the issue.\",\"weight\":0.01,\"tags\":[\"append\",\"accuracy\",\"consolidation\",\"bounded\",\"experiment\"],\"provenance\":[\"n22-notes-1\"]},{\"op\":\"drop\",\"id\":\"n22-noise-1\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-2\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-3\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-4\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-5\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-6\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-7\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-8\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-9\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-10\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-11\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n22-noise-12\",\"reason\":\"routine promotional chatter\"}]}",
+  "usage": {
+    "input_tokens": 1667,
+    "output_tokens": 1648,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

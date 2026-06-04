@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved to read: MemGPT \u2014 Saved MemGPT (virtual context management, paging between in-context and external memory). Relevant to my memory-rewrite idea.\",\"weight\":0.5,\"tags\":[\"notes\"],\"provenance\":[\"n01-notes-1\"]},{\"op\":\"drop\",\"id\":\"n01-noise-1\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-2\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-3\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-4\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-5\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-6\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-7\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-8\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-9\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n01-noise-10\",\"reason\":\"promotional, low-signal chatter; safe to ignore\"}]}",
+  "usage": {
+    "input_tokens": 1116,
+    "output_tokens": 710,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"79c61963\",\"n03-gmail-1\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews for \u2018Structured Memory Rewrite for Sleep-Time Agents\u2019 are available. Scores: 6, 6, 4. Reviewer 2 detailed comments: \u2018The paper does not isolate whether gains come from rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.\u2019\",\"weight\":0.9,\"tags\":[\"review\",\"ICLR\",\"memory-rewrite\",\"sleep-time-agents\",\"reviewer2\"],\"provenance\":[\"n03-gmail-1\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author a quick workshop paper on agent-memory benchmarks with Maya; low effort.\", \"weight\":0.6,\"tags\":[\"workshop\",\"agent-memory\"],\"provenance\":[\"n03-gmail-2\"]},{\"op\":\"drop\",\"id\":\"n03-noise-1\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-2\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-3\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-4\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-5\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-6\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-7\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-8\",\"reason\":\"ignored routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n03-noise-9\",\"reason\":\"ignored routine promotional chatter\"}]}",
+  "usage": {
+    "input_tokens": 1214,
+    "output_tokens": 1586,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

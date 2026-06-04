@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"b171aca1\"],\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper on agent\u2011memory benchmarks with Maya, draft outline received; also note that D.\u202fOkafor remains interested in participation and has no rush timeline\",\"weight\":0.6,\"tags\":[\"coauthor\",\"outline\",\"workshop\"],\"provenance\":[\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Arxiv: Consolidation reduces cross\u2011fact interference \u2014 technique paper; periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall. Potentially relevant to memory\u2011rewrite work.\",\"weight\":0.5,\"tags\":[\"paper\",\"memory\",\"consolidation\"],\"provenance\":[\"n06-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"n06-noise-1\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-2\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-3\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-4\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-5\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-6\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-7\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-8\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-9\",\"reason\":\"low\u2011signal promotional\"} ,{\"op\":\"drop\",\"id\":\"n06-noise-10\",\"reason\":\"low\u2011signal promotional\"}]}",
+  "usage": {
+    "input_tokens": 1517,
+    "output_tokens": 1543,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "## Open Items  \n- **ICLR Submission \u2013 Structured Memory Rewrite for Sleep\u2011Time Agents**  \n  - Review scores: 6,\u202f6,\u202f4.  \n  - **Reviewer\u202f2** (score\u202f4) requires a substantive revision.  \n  - **Deadline:** respond by **Mon\u202f08\u202fJun\u202f2026** (submissions deadline\u202f+\u202f7\u202fdays).  \n\n## Next Actions  \n- **Draft reply to Reviewer\u202f2**:  \n  ```text\n  Thank you for the constructive feedback.  \n  We have addressed the reviewer\u2019s main concerns by:  \n  1. Augmenting the experimental section with two additional ablation studies on memory retention metrics.  \n  2. Adding a formal analysis of the trade\u2011off between contextual rewriting depth and agent latency, referenced in \u00a74.3.  \n  3. Clarifying the role of the external memory during offline training in Fig.\u202f2 caption.  \n  We believe these changes remediate the issues raised and strengthen the empirical grounding of our contributions.  \n  ```\n- Prepare updated figures and code snippets for the supplementary material.  \n- Send a brief status email to the EC team confirmation of resubmission schedule.\n\n## Aging Cognitive Load  \n- Current token budget: **80\u202f/\u202f1200**.  \n- No immediate change; maintain low verbosity.",
+  "usage": {
+    "input_tokens": 342,
+    "output_tokens": 535,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved to read: MemGPT \u2014 Saved MemGPT (virtual context management, paging between in-context and external memory). Relevant to my memory-rewrite idea.\",\"weight\":1.0,\"tags\":[\"note\",\"MemGPT\"],\"provenance\":[\"n01-notes-1\"]},{\"op\":\"drop\",\"id\":\"n01-noise-1\",\"reason\":\"low-signal chatter\"},\"drop\",\"id\":\"n01-noise-2\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-3\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-4\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-5\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-6\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-7\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-8\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-9\",\"reason\":\"low-signal chatter\",\"drop\",\"id\":\"n01-noise-10\",\"reason\":\"low-signal chatter\"}",
+  "usage": {
+    "input_tokens": 1115,
+    "output_tokens": 506,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

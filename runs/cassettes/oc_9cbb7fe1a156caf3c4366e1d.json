@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"87b760d6\",\"reason\":\"Outdated meeting schedule; updated by n11-gmail-1\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Weekly lab meeting: recurring Wednesday 11:00, room 311.\",\"weight\":0.5,\"tags\":[\"schedule\",\"calendar\",\"lab\",\"meeting\"],\"provenance\":[\"n11-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1492,
+    "output_tokens": 766,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

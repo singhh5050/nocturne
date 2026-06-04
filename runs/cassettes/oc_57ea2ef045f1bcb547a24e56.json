@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Periodically consolidating appended knowledge into a compressed summary (as described in the consolidation vs accumulation and consolidation reduces interference papers) will alleviate the capacity\u2011interference drop observed after ~40 items in the append\u2011only QA experiment, restoring or improving accuracy beyond that point.\",\"confidence\":0.78,\"support_ids\":[\"e8af7ee8\",\"085f93d4\",\"45562236\",\"d421fc37\"],\"tags\":[\"capacity\",\"consolidation\",\"interference\"]},{\"statement\":\"Integrating a virtual\u2011context paging system similar to MemGPT into the memory architecture can provide a middle ground between naive append and full rewrite, allowing older items to be paged out and rewritten on demand; this hybrid approach should achieve the performance gains attributed to rewrite operations while satisfying the reviewer\u2019s demand for an ablation that isolates the effect of rewrite versus mere memory presence.\",\"confidence\":0.66,\"support_ids\":[\"800e430c\",\"d421fc37\",\"853b30eb\"],\"tags\":[\"paging\",\"ablation\",\"rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 815,
+    "output_tokens": 624,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

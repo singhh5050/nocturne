@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"0f9e4699\",\"n28-noise-7\"],\"tier\":\"in_progress\",\"content\":\"50% off cloud GPUs (limited time offer)\",\"weight\":1.06,\"tags\":[\"discount\",\"gpu\",\"promotion\"],\"provenance\":[\"0f9e4699\",\"n28-noise-7\"]}]}",
+  "usage": {
+    "input_tokens": 1628,
+    "output_tokens": 1119,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

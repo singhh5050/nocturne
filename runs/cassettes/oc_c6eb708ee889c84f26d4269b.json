@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n12-noise-1\",\"reason\":\"Duplicate low-signal calendar reminder\"},{\"op\":\"drop\",\"id\":\"n12-noise-2\",\"reason\":\"Duplicate low-signal GitHub notification\"},{\"op\":\"drop\",\"id\":\"n12-noise-3\",\"reason\":\"Duplicate low-signal calendar RAG alert\"},{\"op\":\"drop\",\"id\":\"n12-noise-4\",\"reason\":\"Duplicate low-signal Gmail course recommendation\"},{\"op\":\"drop\",\"id\":\"n12-noise-5\",\"reason\":\"Duplicate low-signal Slack The Batch alert\"},{\"op\":\"drop\",\"id\":\"n12-noise-6\",\"reason\":\"Duplicate low-signal arXiv job posting\"},{\"op\":\"drop\",\"id\":\"n12-noise-7\",\"reason\":\"Duplicate low-signal GitHub GPU offer\"},{\"op\":\"drop\",\"id\":\"n12-noise-8\",\"reason\":\"Duplicate low-signal Slack connection requests\"},{\"op\":\"drop\",\"id\":\"n12-noise-9\",\"reason\":\"Duplicate low-signal calendar reminder\"},{\"op\":\"drop\",\"id\":\"n12-noise-10\",\"reason\":\"Duplicate low-signal Slack AI policy roundup\"},{\"op\":\"drop\",\"id\":\"n12-noise-11\",\"reason\":\"Duplicate low-signal arXiv RAG alert\"},{\"op\":\"drop\",\"id\":\"n12-noise-12\",\"reason\":\"Duplicate low-signal GitHub course recommendation\"}]}",
+  "usage": {
+    "input_tokens": 2212,
+    "output_tokens": 616,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

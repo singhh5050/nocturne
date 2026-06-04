@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"220463bc\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"3b5f2e74\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"b54c7b63\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"441c6f2e\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"4c69d3f0\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"4fce54a7\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"42b4f87d\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"8fc4fe87\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"33b14db0\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"39d96924\",\"reason\":\"Promotional or low-signal content per policy\"},{\"op\":\"drop\",\"id\":\"efe7b71d\",\"reason\":\"Promotional or low-signal content per policy\"}]}",
+  "usage": {
+    "input_tokens": 2109,
+    "output_tokens": 1028,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

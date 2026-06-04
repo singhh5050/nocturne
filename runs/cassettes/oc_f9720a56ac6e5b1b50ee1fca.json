@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"8eb16535\",\"reason\":\"Policy not needed; no missed items or noise, so keeping entries when unsure adds redundancy.\"}]}",
+  "usage": {
+    "input_tokens": 494,
+    "output_tokens": 252,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

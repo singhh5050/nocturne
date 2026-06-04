@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop promotional or low-signal items: e.g., advertisements, newsletters, or irrelevant emails that provide little actionable value; never store them.\",\"weight\":1.0},{\"op\":\"reweight\",\"id\":\"3d20c1c1\",\"weight\":0.2}]}",
+  "usage": {
+    "input_tokens": 514,
+    "output_tokens": 680,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

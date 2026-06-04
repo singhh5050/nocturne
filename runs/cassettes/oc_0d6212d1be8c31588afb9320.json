@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n13-noise-1\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-2\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-3\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-4\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-5\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-6\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-7\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-8\",\"reason\":\"routine/noisy\"},{\"op\":\"drop\",\"id\":\"n13-noise-9\",\"reason\":\"routine/noisy\"},{\"op\":\"merge\",\"source_ids\":[\"0cab017c\",\"n13-notes-2\"],\"tier\":\"episodic\",\"content\":\"New papers indicate that consolidating context into compact summaries reduces interference among unrelated facts, and that compression outperforms accumulation for maintaining working sets.\",\"weight\":0.20,\"tags\":[\"arxiv\",\"memgpt\",\"consolidation\",\"compression\"],\"provenance\":[\"0cab017c\",\"n13-notes-2\"]},{\"op\":\"drop\",\"id\":\"0cab017c\",\"reason\":\"merged into consolidated memory\"},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Append baseline QA accuracy drops once the store grows past ~40 items, despite the target fact still being present; this suggests that extra material interferes with recall even when retrieval is possible.\",\"weight\":0.40,\"tags\":[\"experiment\",\"accuracy\",\"consolidation\",\"append\"],\"provenance\":[\"n13-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1425,
+    "output_tokens": 2303,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

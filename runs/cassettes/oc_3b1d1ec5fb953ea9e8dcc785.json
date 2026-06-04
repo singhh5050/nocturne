@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"db6005a1\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews available\u2014Reviews are in for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address. Reviewer 2 detailed comments: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.' Advisor: Let's prioritize the rewrite\u2011vs\u2011append ablation for the rebuttal. Rebuttal deadline is day 19 \u2013 we need results well before then. \\n\\nTracking issue opened for the rebuttal ablation sweep (rewrite vs append vs window).\",\"weight\":0.02,\"tags\":[\"ICLR\",\"email\",\"gmail\",\"memory_rewrite\",\"review\",\"github\",\"issue\",\"ablation\"],\"provenance\":[\"n10-github-1\"]},{\"op\":\"drop\",\"id\":\"n10-noise-1\",\"reason\":\"Routine promotional email, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-2\",\"reason\":\"Routine promotional Slack message, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-3\",\"reason\":\"Routine calendar reminder, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-4\",\"reason\":\"Routine GitHub post, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-5\",\"reason\":\"Routine calendar reminder, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-6\",\"reason\":\"Routine email, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-7\",\"reason\":\"Routine Slack channel message, not relevant\"},{\"op\":\"drop\",\"id\":\"n10-noise-8\",\"reason\":\"Routine arXiv posting, not relevant\"}]}",
+  "usage": {
+    "input_tokens": 1383,
+    "output_tokens": 1352,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

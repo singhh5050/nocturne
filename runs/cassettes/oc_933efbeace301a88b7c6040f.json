@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"42622522\",\"n16-notes-1\"],\"tier\":\"in_progress\",\"content\":\"Ablation results: rewrite beats naive append by ~9 F1 points on needle survival; append overruns token budget by day 20. These findings inform the ICLR rebuttal and the rewrite\u2011vs\u2011append ablation study (#214).\",\"weight\":1.2,\"tags\":[\"ablation\",\"github\",\"gmail\",\"iclr\",\"lab\",\"slack\",\"submission\",\"notes\"]}]}",
+  "usage": {
+    "input_tokens": 1622,
+    "output_tokens": 1879,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When an email or message contains a numeric resource allocation (e.g., GPU\u2011hours, CPU\u2011cores, budget) with a unit, tag the extracted figures as a resource\u2011allocation entry and store them\u2014even if the surrounding content is not explicitly labeled as a resource allocation source.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 652,
+    "output_tokens": 573,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

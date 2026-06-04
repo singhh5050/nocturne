@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"603615a7\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When a message includes a known GPU model (e.g., H100, A100) followed by a numeric value, treat it as a resource\u2011allocation entry and store it even without explicit unit; this ensures critical allocations are captured.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 721,
+    "output_tokens": 777,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

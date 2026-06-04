@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Applying periodic consolidation (compression) to the appended knowledge base will reduce the cross\u2011fact interference that causes QA accuracy to drop after ~40 items, bringing append performance up to the level of the rewrite method.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8af7ee8\", \"085f93d4\", \"45562236\"],\n      \"tags\": [\"consolidation\", \"append\", \"interference\", \"ablation\"]\n    },\n    {\n      \"statement\": \"The observed accuracy decline after ~40 stored items reflects an intrinsic working\u2011set capacity limit (~30\u201150 items) reported in the 'Lifelong Memory for Agents' literature, implying that any memory scheme without explicit windowing or pruning will suffer similar degradation.\",\n      \"confidence\": 0.62,\n      \"support_ids\": [\"ef3d9adb\", \"e8af7ee8\", \"d421fc37\"],\n      \"tags\": [\"capacity\", \"working_set\", \"window\", \"memory_limits\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 815,
+    "output_tokens": 819,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"The Batch: this week in AI (8.1)\",\"weight\":0.1,\"tags\":[\"github\"],\"provenance\":[\"n08-noise-1\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Exciting Staff ML Engineer opportunity! (8.2)\",\"weight\":0.1,\"tags\":[\"calendar\"],\"provenance\":[\"n08-noise-2\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"50% off your favorite cloud GPUs (limited time) (8.3)\",\"weight\":0.1,\"tags\":[\"gmail\"],\"provenance\":[\"n08-noise-3\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"You have 7 new connection requests (8.4)\",\"weight\":0.1,\"tags\":[\"slack\"],\"provenance\":[\"n08-noise-4\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Reminder: campus parking permit renewal (8.5)\",\"weight\":0.1,\"tags\":[\"calendar\"],\"provenance\":[\"n08-noise-5\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Import AI: policy roundup (8.6)\",\"weight\":0.1,\"tags\":[\"github\"],\"provenance\":[\"n08-noise-6\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Is your RAG stack slow? Try our managed vector DB (8.7)\",\"weight\":0.1,\"tags\":[\"calendar\"],\"provenance\":[\"n08-noise-7\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"New course recommendations for you (8.8)\",\"weight\":0.1,\"tags\":[\"gmail\"],\"provenance\":[\"n08-noise-8\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"The Batch: this week in AI (8.9)\",\"weight\":0.1,\"tags\":[\"slack\"],\"provenance\":[\"n08-noise-9\"]}]}",
+  "usage": {
+    "input_tokens": 1354,
+    "output_tokens": 993,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

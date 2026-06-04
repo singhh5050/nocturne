@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"945b09a0\",\"n06-slack-1\"],\"tier\":\"preferences\",\"content\":\"Co-author a quick workshop paper on agent-memory benchmarks? Potential low\u2011effort opportunity. Following up on the sketch of a rough outline from the co\u2011author email, please review when ready. d.okafor: still keen on that workshop paper? no rush at all.\",\"weight\":0.3,\"tags\":[\"coauthor\",\"opportunity\",\"workshop\"],\"provenance\":[\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"New: Consolidation reduces cross-fact interference \u2014 Technique paper: periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall. (Saved \u2014 relevant to my memory work.)\",\"weight\":0.1,\"tags\":[\"arxiv\",\"research\",\"consolidation\"],\"provenance\":[\"n06-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1476,
+    "output_tokens": 1329,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

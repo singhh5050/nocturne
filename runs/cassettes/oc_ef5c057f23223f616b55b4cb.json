@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The QA accuracy drop observed when the store exceeds ~40 items is caused by retrieval interference that can be mitigated by periodically compressing the memory store into concise summaries, as proposed in recent consolidation/compression research, thereby preserving recall of target facts despite larger stores.\",\"confidence\":0.78,\"support_ids\":[\"d2609f66\",\"a575e46b\",\"dd46edef\"],\"tags\":[\"interference\",\"compression\",\"consolidation\",\"memory\"]},{\"statement\":\"A rewrite\u2011vs\u2011append ablation framework can be used to test memory\u2011compression strategies, with the 'rewrite' condition (updating existing entries) expected to maintain higher accuracy than plain appends under the new H100 GPU allocation, because rewrites effectively implement on\u2011the\u2011fly compression of the knowledge base.\",\"confidence\":0.65,\"support_ids\":[\"1d798fb7\",\"ca4aab4c\",\"d2609f66\"],\"tags\":[\"ablation\",\"rewrite\",\"append\",\"gpu\",\"memory\"]}]}",
+  "usage": {
+    "input_tokens": 648,
+    "output_tokens": 588,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

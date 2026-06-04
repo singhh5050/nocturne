@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"ea3e773b\",\"reason\":\"Keeps too many uncertain items that drifted into noise\"},{\"op\":\"add\",\"content\":\"Drop promotional newsletters, spam emails, recruiter messages, and other clearly promotional content; never store them.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 550,
+    "output_tokens": 444,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

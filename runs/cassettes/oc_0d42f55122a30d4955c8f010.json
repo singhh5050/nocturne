@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"0b066c12\",\"weight\":0.3},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Experiment log: QA accuracy drops when store grows past ~40 items due to interference. Recent memory paper \\\"Consolidation vs Accumulation\\\" (arXiv) supports compression over accumulation. Indicates that adding items beyond 40 leads to retrieval interference, underscoring the benefit of consolidation for large context sizes.\",\"weight\":0.6,\"tags\":[\"experiment\",\"accuracy\",\"interference\",\"memory\",\"consolidation\",\"accumulation\"],\"provenance\":[\"n13-notes-1\",\"n13-notes-2\"]},{\"op\":\"drop\",\"id\":\"n13-noise-1\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-2\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-3\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-4\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-5\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-6\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-7\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-8\",\"reason\":\"low-signal chatter\"},{\"op\":\"drop\",\"id\":\"n13-noise-9\",\"reason\":\"low-signal chatter\"}]}",
+  "usage": {
+    "input_tokens": 1464,
+    "output_tokens": 1863,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"e0556ca5\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"20e6972d\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"fb7b8722\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"b6413f50\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"683c83b4\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"7aef847f\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"f0614c05\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"aac524b2\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"4d6dcb12\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"a34a4bf4\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"019e74c8\",\"reason\":\"policy: promotional content not worth keeping\"},{\"op\":\"drop\",\"id\":\"3c38eaca\",\"reason\":\"policy: promotional content not worth keeping\"}]}",
+  "usage": {
+    "input_tokens": 2103,
+    "output_tokens": 1270,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

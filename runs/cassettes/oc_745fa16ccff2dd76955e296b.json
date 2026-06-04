@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Periodic consolidation of accumulated context into a compact summary (as described in the 'Consolidation vs Accumulation' and 'Consolidation reduces cross\u2011fact interference' papers) is the underlying mechanism that enables the bounded\u2011memory variant to keep QA accuracy flat as the stream grows, and applying the same consolidation schedule to the naive append baseline should eliminate the accuracy drop observed after ~40 items.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"93ae3681\", \"e8af7ee8\", \"085f93d4\", \"45562236\"],\n      \"tags\": [\"consolidation\", \"bounded_memory\", \"interference\", \"accuracy\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT's virtual context\u2011management (paging between in\u2011context and external memory) can serve as an implicit rewrite operation, thereby mitigating the cross\u2011fact interference seen in the append baseline and reducing the need for a separate rewrite\u2011vs\u2011append ablation, as suggested by the reviewer\u2019s request for an ablation study.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"d421fc37\", \"800e430c\", \"e8af7ee8\", \"853b30eb\"],\n      \"tags\": [\"memgpt\", \"rewrite_ablation\", \"paging\", \"interference\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 863,
+    "output_tokens": 731,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

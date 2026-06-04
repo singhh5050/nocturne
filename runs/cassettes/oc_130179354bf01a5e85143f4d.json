@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Periodically rewriting or compressing the stored context (using techniques from the rewrite benchmark and compression papers) will prevent the QA accuracy drop seen after ~40 items in append baselines by reducing token\u2011budget overflow and interference among facts.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"6b6bffed\", \"d2609f66\", \"a575e46b\"],\n      \"tags\": [\"rewrite\", \"compression\", \"interference\", \"token_budget\"]\n    },\n    {\n      \"statement\": \"The newly allocated H100 GPU hours enable training or fine\u2011tuning a MemGPT\u2011style virtual memory manager that performs continuous context rewriting, allowing lifelong\u2011memory agents (as described in the recent arXiv paper) to maintain high performance in long simulations without exceeding token limits.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"ca4aab4c\", \"d4f8d2ed\", \"dd46edef\", \"6b6bffed\"],\n      \"tags\": [\"gpu_allocation\", \"memgpt\", \"lifelong_memory\", \"rewrite\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 744,
+    "output_tokens": 607,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"93bf9188\",\"n04-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission receives reviews: scores 6, 6, 4 with Reviewer 2 raising a concern about whether performance gains come from memory rewrite versus naive append. The lab has prioritized an ablation study comparing rewrite vs. append for the rebuttal. The study should be completed and results ready well before the rebuttal deadline on day 19.\",\"weight\":0.8,\"tags\":[\"gmail\",\"iclr\",\"submission\",\"slack\",\"lab\",\"ablation\"],\"provenance\":[\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"e576f0f2\",\"n04-gmail-2\"],\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper opportunity with Maya: a quick, low-effort paper on agent\u2011memory benchmarks. The email follows up with a rough outline sketch, which should be reviewed before proceeding.\",\"weight\":0.5,\"tags\":[\"gmail\",\"collab\",\"workshop\"],\"provenance\":[\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1396,
+    "output_tokens": 804,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

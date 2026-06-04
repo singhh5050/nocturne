@@ -1,0 +1,9 @@
+{
+  "text": "The user consistently saves papers about memory systems for AI agents.",
+  "usage": {
+    "input_tokens": 1400,
+    "output_tokens": 260,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating periodic consolidation (as described in the arXiv paper \\\"Consolidation reduces cross-fact interference\\\") into the rewrite\u2011based model will curb the token\u2011budget overflow observed in the naive\u2011append baseline, yielding higher F1 scores and directly addressing Reviewer\u202f2's request for an ablation study.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"db8849d5\", \"13b3b6fa\"],\n      \"tags\": [\"consolidation\", \"rewrite\", \"token-budget\", \"ablation\"]\n    },\n    {\n      \"statement\": \"Applying aggressive consolidation techniques, similar to those that made the bounded\u2011memory variant retain flat recall, will prevent accuracy drops as the data stream grows and reduce cross\u2011fact interference in the rewrite operation.\",\n      \"confidence\": 0.66,\n      \"support_ids\": [\"623631bc\", \"13b3b6fa\", \"db8849d5\"],\n      \"tags\": [\"bounded-memory\", \"consolidation\", \"recall\", \"interference\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 713,
+    "output_tokens": 720,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

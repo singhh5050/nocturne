@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying the consolidation technique (periodic summarization of accumulated context) described in the arXiv paper to the naive\u2011append baseline will reduce cross\u2011fact interference, shrink token growth, and narrow the ~9\u202fF1 point performance gap with the rewrite operation observed in the ablation study.\",\"confidence\":0.78,\"support_ids\":[\"f9710547\",\"13b3b6fa\"],\"tags\":[\"consolidation\",\"token_budget\",\"ablation\",\"rewrite\",\"naive_append\"]},{\"statement\":\"The day\u201120 token\u2011budget overflow seen with naive\u2011append corresponds to the predicted onset of cross\u2011fact interference described in the consolidation paper, suggesting that the 20\u2011day horizon is a measurable marker of interference accumulation in long\u2011running simulations.\",\"confidence\":0.62,\"support_ids\":[\"f9710547\",\"13b3b6fa\"],\"tags\":[\"interference\",\"temporal_dynamics\",\"token_budget\",\"simulation\"]}]}",
+  "usage": {
+    "input_tokens": 540,
+    "output_tokens": 497,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

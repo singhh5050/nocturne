@@ -1,0 +1,9 @@
+{
+  "text": "# Morning Briefing \u2013 Night\u202f1\n\n## Open Items\n- **(8e3bb063)** *MemGPT \u2013 Saved MemGPT*  \n  *Weight*: 1.00  \n  *Deadline*: **2026\u201106\u201105\u202f09:00\u202fUTC**  \n  *Draft*: Summarize the virtual context paging mechanism for quick reference.\n\n## Next Actions\n- *Draft*: \u201cI\u2019ll review the MemGPT article and provide a concise summary by 09:00\u202fUTC tomorrow.\u201d  \n\n## State\n- Tokens in use: **37/1200**.",
+  "usage": {
+    "input_tokens": 264,
+    "output_tokens": 435,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

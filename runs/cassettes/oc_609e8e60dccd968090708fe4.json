@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying context\u2011compression (summarization) techniques to the growing append store will eliminate the sharp drop in QA accuracy observed after ~40 items, because compression reduces interference among stored facts.\",\"confidence\":0.78,\"support_ids\":[\"d2609f66\",\"a575e46b\"],\"tags\":[\"compression\",\"interference\",\"scalability\",\"recall\"]},{\"statement\":\"Integrating MemGPT\u2019s virtual context\u2011management/paging layer with the current append\u2011based architecture will keep token usage below the budget past day\u202f20, enabling the system to retain the rewrite method\u2019s F1 gains without overflow.\",\"confidence\":0.65,\"support_ids\":[\"6b6bffed\",\"dd46edef\"],\"tags\":[\"paging\",\"token_budget\",\"memory_management\",\"rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 656,
+    "output_tokens": 522,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

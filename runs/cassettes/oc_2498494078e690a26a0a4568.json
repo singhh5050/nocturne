@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"15bbca3c\",\"weight\":0.3},{\"op\":\"add\",\"content\":\"Drop promotional newsletters, recruiter emails, and low\u2011signal items; never store them.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 512,
+    "output_tokens": 516,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

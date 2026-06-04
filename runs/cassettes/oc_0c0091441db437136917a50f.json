@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Paper accepted; reviewer 2 score increased to 6 after rebuttal and camera\u2011ready due in two weeks.\",\"weight\":0.8,\"tags\":[\"email\",\"decision\",\"acceptance\",\"ICLR\"],\"provenance\":[\"n27-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n27-noise-1\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-2\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-3\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-4\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-5\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-6\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-7\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-8\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-9\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-10\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-11\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"},{\"op\":\"drop\",\"id\":\"n27-noise-12\",\"reason\":\"Promotional or low\u2011signal chatter, safe to ignore.\"}]}",
+  "usage": {
+    "input_tokens": 2030,
+    "output_tokens": 1001,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

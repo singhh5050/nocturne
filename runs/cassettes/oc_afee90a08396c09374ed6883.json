@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Introducing periodic compression of the in\u2011context store (e.g., via MemGPT\u2011style paging or summarization) should prevent the QA accuracy drop observed after ~40 items in the naive append baseline, because compression reduces interference among unrelated facts as shown in recent consolidation papers.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"656e9540\", \"a575e46b\", \"dd46edef\", \"ca4aab4c\"],\n      \"tags\": [\"memory_consolidation\", \"interference\", \"compression\", \"accuracy\"]\n    },\n    {\n      \"statement\": \"Human episodic memory relies on cue\u2011based retrieval; adding explicit cue generation to the agent\u2019s rewrite/retrieval mechanism (as in the rewrite approach that outperforms naive append) could further raise needle\u2011survival F1 beyond the reported ~9\u2011point gain.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"bbb4b94b\", \"6b6bffed\"],\n      \"tags\": [\"episodic_memory\", \"cue_retrieval\", \"rewrite\", \"performance\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 848,
+    "output_tokens": 545,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

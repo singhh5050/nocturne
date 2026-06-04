@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop any item that is identified as a promotional newsletter or contains a large number of links, promo codes, or subscription prompts unless it includes an explicit user request or action item.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"If an item's weight falls below 0.25 after reweighting and it is not linked to a scheduled follow\u2011up or deadline, automatically drop it to prevent low\u2011signal noise.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 595,
+    "output_tokens": 469,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

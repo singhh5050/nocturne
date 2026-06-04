@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"2ab901dd\",\"n15-noise-3\"],\"tier\":\"episodic\",\"content\":\"Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.\",\"weight\":0.0,\"tags\":[\"noisy\",\"promotional\"],\"provenance\":[\"2ab901dd\",\"n15-noise-3\"]},{\"op\":\"reweight\",\"id\":\"cfa93a44\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 1490,
+    "output_tokens": 1466,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

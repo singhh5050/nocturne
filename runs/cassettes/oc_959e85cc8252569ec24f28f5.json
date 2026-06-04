@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0},{\"op\":\"reweight\",\"id\":\"603615a7\",\"weight\":1.8},{\"op\":\"add\",\"content\":\"When a known GPU model is followed by a numeric value with or without a unit, treat it as a resource\u2011allocation entry and infer the unit as GPU\u2011hours if not specified.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 928,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

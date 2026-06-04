@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Ablation results: Rewrite beats naive append by ~9 F1 points on needle survival; append blows the token budget by day 20 of the sim. Clean result for the rebuttal.\",\"weight\":0.5,\"tags\":[\"ablation\",\"results\",\"rewrite\",\"append\",\"experiment\"],\"provenance\":[\"n16-notes-1\"]},{\"op\":\"drop\",\"id\":\"n16-noise-1\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-2\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-3\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-4\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-5\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-6\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-7\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-8\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-9\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n16-noise-10\",\"reason\":\"promotional low-signal\"]}",
+  "usage": {
+    "input_tokens": 1774,
+    "output_tokens": 757,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

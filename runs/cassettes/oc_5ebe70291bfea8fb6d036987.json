@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Incorporating periodic consolidation (compact summarization of accumulated context) into the memory rewrite system will reduce cross\u2011fact interference and improve downstream recall, meaning that any observed performance gains in the current rewrite\u2011vs\u2011append experiments may be attributable to consolidation rather than the rewrite operation itself.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"45562236\", \"d421fc37\", \"853b30eb\"],\n      \"tags\": [\"ablation\", \"consolidation\", \"interference\", \"memory-rewrite\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT's virtual context management (paging between in\u2011context and external memory) as a baseline in the rewrite\u2011vs\u2011append ablation will isolate the contribution of rewrite operations, with the hypothesis that effective paging can make simple append perform nearly as well as rewrite by alleviating memory capacity limits.\",\n      \"confidence\": 0.63,\n      \"support_ids\": [\"800e430c\", \"d421fc37\", \"853b30eb\"],\n      \"tags\": [\"ablation\", \"memory-management\", \"paging\", \"rewrite\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 628,
+    "output_tokens": 551,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

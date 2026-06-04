@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n29-noise-1\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 31d7fb31\"},{\"op\":\"drop\",\"id\":\"n29-noise-2\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 88ffea03\"},{\"op\":\"drop\",\"id\":\"n29-noise-3\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 179d7ac0\"},{\"op\":\"drop\",\"id\":\"n29-noise-4\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 3f7eb642\"},{\"op\":\"drop\",\"id\":\"n29-noise-5\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory fe092500\"},{\"op\":\"drop\",\"id\":\"n29-noise-6\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 79140150\"},{\"op\":\"drop\",\"id\":\"n29-noise-7\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory dd88355e\"},{\"op\":\"drop\",\"id\":\"n29-noise-8\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 0b3956fc\"},{\"op\":\"drop\",\"id\":\"n29-noise-9\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 31d7fb31\"},{\"op\":\"drop\",\"id\":\"n29-noise-10\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 88ffea03\"},{\"op\":\"drop\",\"id\":\"n29-noise-11\",\"reason\":\"duplicate low-signal content \u2013 identical to existing memory 179d7ac0\"}]}",
+  "usage": {
+    "input_tokens": 2295,
+    "output_tokens": 1899,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

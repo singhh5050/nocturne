@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"H100 allocation approved \u2014 Your May allocation is approved: 2400 H100 GPU-hours. Quota resets monthly.\",\"weight\":0.1,\"tags\":[\"gmail\",\"allocation\",\"H100\"],\"provenance\":[\"n09-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n09-noise-1\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-2\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-3\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-4\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-5\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-6\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-7\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-8\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-9\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-10\",\"reason\":\"duplicate low-signal promotional item\"},{\"op\":\"drop\",\"id\":\"n09-noise-11\",\"reason\":\"duplicate low-signal promotional item\"]}",
+  "usage": {
+    "input_tokens": 1749,
+    "output_tokens": 799,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

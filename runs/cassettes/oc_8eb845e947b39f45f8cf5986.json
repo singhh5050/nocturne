@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a meeting or event is rescheduled, update the existing entry with the new details instead of creating a duplicate; replace or merge the old instance.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Drop any promotional newsletters, marketing emails, or recruiter mail; never store those items in memory.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 594,
+    "output_tokens": 675,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

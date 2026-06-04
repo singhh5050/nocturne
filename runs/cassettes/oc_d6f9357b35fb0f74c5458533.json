@@ -1,0 +1,9 @@
+{
+  "text": "It\u2019s now held on Wednesdays at\u202f11:00\u202fam.",
+  "usage": {
+    "input_tokens": 4999,
+    "output_tokens": 179,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

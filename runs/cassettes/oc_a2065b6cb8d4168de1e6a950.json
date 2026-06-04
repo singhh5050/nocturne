@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0},{\"op\":\"add\",\"content\":\"When a numeric value appears immediately before a known GPU model (e.g., 2400 H100), infer a GPU\u2011hours allocation entry even if no unit is present.\",\"weight\":1.5},{\"op\":\"reweight\",\"id\":\"912c44b3\",\"weight\":1.75}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 1143,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

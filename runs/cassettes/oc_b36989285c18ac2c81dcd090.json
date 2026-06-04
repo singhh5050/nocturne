@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Using MemGPT's virtual context management as a naive \\\"append\u2011only\\\" memory baseline can provide the required rewrite\u2011vs\u2011append ablation for the ICLR rebuttal, because MemGPT's paging mechanism naturally stores new information without modifying existing context, isolating the effect of rewrite operations.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"03dbf21b\", \"a962f389\"],\n      \"tags\": [\"ablation\", \"memory-rewrite\", \"baseline\"]\n    },\n    {\n      \"statement\": \"The agent\u2011memory benchmark workshop being prepared with Maya can be employed to generate standardized evaluation tasks that reveal performance differences between rewrite\u2011based and append\u2011only memory architectures, thereby giving concrete evidence for the reviewer\u2019s concern.\",\n      \"confidence\": 0.64,\n      \"support_ids\": [\"03dbf21b\", \"ea830d86\"],\n      \"tags\": [\"benchmark\", \"evaluation\", \"reviewer-feedback\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 514,
+    "output_tokens": 448,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

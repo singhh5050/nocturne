@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop promotional newsletters, recruiter mail, or marketing emails; never store them.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Merge duplicate or similar items (e.g., meeting reminders with identical subject) into a single consolidated entry to reduce memory bloat.\",\"weight\":1.0},{\"op\":\"drop\",\"id\":\"ea3e773b\",\"reason\":\"Uncertainty rule keeps noise; should drop to enforce stricter forgetting.\"}]}",
+  "usage": {
+    "input_tokens": 566,
+    "output_tokens": 922,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

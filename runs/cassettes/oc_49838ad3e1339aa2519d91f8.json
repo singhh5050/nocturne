@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"4ab088a0\",\"n30-noise-1\"],\"tier\":\"episodic\",\"content\":\"Is your RAG stack slow? Try our managed vector DB\",\"weight\":0.0,\"tags\":[\"arxiv\",\"calendar\",\"gmail\"],\"provenance\":[\"n30-noise-1\"]},{\"op\":\"merge\",\"source_ids\":[\"455883e6\",\"n30-noise-2\"],\"tier\":\"episodic\",\"content\":\"New course recommendations for you\",\"weight\":0.0,\"tags\":[\"gmail\",\"slack\"],\"provenance\":[\"n30-noise-2\"]},{\"op\":\"merge\",\"source_ids\":[\"b7f512aa\",\"n30-noise-3\"],\"tier\":\"episodic\",\"content\":\"The Batch: this week in AI\",\"weight\":0.0,\"tags\":[\"github\",\"slack\"],\"provenance\":[\"n30-noise-3\"]},{\"op\":\"merge\",\"source_ids\":[\"cf27c2b8\",\"n30-noise-4\"],\"tier\":\"episodic\",\"content\":\"Exciting Staff ML Engineer opportunity!\",\"weight\":0.0,\"tags\":[\"calendar\",\"slack\"],\"provenance\":[\"n30-noise-4\"]},{\"op\":\"merge\",\"source_ids\":[\"4213c333\",\"n30-noise-5\"],\"tier\":\"episodic\",\"content\":\"50% off your favorite cloud GPUs (limited time)\",\"weight\":0.0,\"tags\":[\"gmail\",\"calendar\"],\"provenance\":[\"n30-noise-5\"]},{\"op\":\"merge\",\"source_ids\":[\"dcebc376\",\"n30-noise-6\"],\"tier\":\"episodic\",\"content\":\"You have 7 new connection requests\",\"weight\":0.0,\"tags\":[\"slack\",\"gmail\"],\"provenance\":[\"n30-noise-6\"]},{\"op\":\"merge\",\"source_ids\":[\"59aabab0\",\"n30-noise-7\"],\"tier\":\"episodic\",\"content\":\"Reminder: campus parking permit renewal\",\"weight\":0.0,\"tags\":[\"calendar\"],\"provenance\":[\"n30-noise-7\"]},{\"op\":\"merge\",\"source_ids\":[\"f8eed355\",\"n30-noise-8\"],\"tier\":\"episodic\",\"content\":\"Import AI: policy roundup\",\"weight\":0.0,\"tags\":[\"github\",\"arxiv\"],\"provenance\":[\"n30-noise-8\"]}]}",
+  "usage": {
+    "input_tokens": 1743,
+    "output_tokens": 2282,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

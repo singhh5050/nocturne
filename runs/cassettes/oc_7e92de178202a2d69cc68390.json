@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"c82aeb41\",\"n04-gmail-2\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper on agent-memory benchmarks with Maya. Potential low effort and quick turnaround.\\nRe: Co-author a workshop paper? \u2014 Following up \u2014 sketched a rough outline, take a look when you have a sec.\",\"weight\":0.42,\"tags\":[\"workshop\",\"collaboration\"]},{\"op\":\"merge\",\"source_ids\":[\"34b8a278\",\"n04-slack-1\"],\"tier\":\"episodic\",\"content\":\"Your ICLR submission: reviews available \u2014 Reviewer 2: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.' Scores: 6, 6, 4. Reviewer 2 (score 4) needs addressing.\\n#lab: rebuttal plan \u2014 advisor: Let's prioritize the rewrite-vs-append ablation for the rebuttal. Rebuttal deadline is day 19 \u2014 we need results well before then.\",\"weight\":0.76,\"tags\":[\"ICLR\",\"review\"]},{\"op\":\"drop\",\"id\":\"n04-noise-1\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-2\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-3\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-4\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-5\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-6\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-7\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-8\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-9\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-10\",\"reason\":\"duplicate\"},{\"op\":\"drop\",\"id\":\"n04-noise-11\",\"reason\":\"duplicate\"}]}",
+  "usage": {
+    "input_tokens": 1884,
+    "output_tokens": 4528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

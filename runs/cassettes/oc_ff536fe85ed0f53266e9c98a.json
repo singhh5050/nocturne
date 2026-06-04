@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating MemGPT\u2011style virtual context paging (external memory with compression) into the bounded\u2011memory variant will preserve QA accuracy beyond the 40\u2011item threshold while keeping token usage under the simulation budget, effectively scaling the system to 100+ items without the accuracy drop seen in naive append.\",\"confidence\":0.78,\"support_ids\":[\"656e9540\",\"a575e46b\",\"dd46edef\",\"6b6bffed\"],\"tags\":[\"scalability\",\"memory_consolidation\",\"external_memory\",\"token_budget\"]},{\"statement\":\"The accuracy degradation after ~40 items in the naive append baseline stems from representational interference, which can be alleviated by periodically compressing older facts into summary embeddings\u2014as demonstrated by recent compression/consolidation papers and MemGPT\u2014yielding flat accuracy across longer streams.\",\"confidence\":0.65,\"support_ids\":[\"656e9540\",\"a575e46b\",\"dd46edef\"],\"tags\":[\"interference\",\"compression\",\"consolidation\",\"accuracy_stability\"]}]}",
+  "usage": {
+    "input_tokens": 772,
+    "output_tokens": 545,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Adding a periodic summarization/paging step (as in MemGPT) to a naive append memory architecture will prevent the sharp QA accuracy drop observed once the store exceeds ~40 items, yielding flat accuracy comparable to the bounded\u2011memory variant and approaching the performance of the rewrite method.\",\"confidence\":0.78,\"support_ids\":[\"656e9540\",\"a575e46b\",\"dd46edef\",\"6b6bffed\"],\"tags\":[\"interference\",\"compression\",\"memory\u2011management\"]},{\"statement\":\"The episodic\u2011memory survey for LLM agents can be used to construct benchmark tasks that specifically probe memory\u2011interference effects seen in large stores, providing a targeted evaluation metric for the agent\u2011memory benchmarks being developed in the upcoming workshop paper.\",\"confidence\":0.62,\"support_ids\":[\"bbb4b94b\",\"56cc7f88\",\"656e9540\"],\"tags\":[\"benchmark\",\"episodic\",\"interference\"]}]}",
+  "usage": {
+    "input_tokens": 814,
+    "output_tokens": 797,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

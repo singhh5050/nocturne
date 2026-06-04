@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"cfa93a44\",\"n16-notes-1\"],\"tier\":\"in_progress\",\"content\":\"Rebuttal ablation plan: issue #214 opened to track rewrite vs append vs window runs; results must be ready before day\u202f19 deadline. Ablation results in \u2014 Rewrite beats naive append by ~9 F1 points on needle survival; append blows the token budget by day 20 of the sim. Clean result for the rebuttal.\",\"weight\":1.0,\"tags\":[\"ablation\",\"issue\",\"rebuttal\"],\"provenance\":[\"n16-notes-1\"]},{\"op\":\"drop\",\"id\":\"n16-noise-1\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-2\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-3\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-4\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-5\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-6\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-7\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-8\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-9\",\"reason\":\"promotional\"},{\"op\":\"drop\",\"id\":\"n16-noise-10\",\"reason\":\"promotional\"}]}",
+  "usage": {
+    "input_tokens": 1676,
+    "output_tokens": 1255,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

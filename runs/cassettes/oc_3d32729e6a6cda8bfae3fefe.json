@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"3699839b\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"dd78438b\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"c0d7593c\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"428cb81b\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"15ee36db\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"d2b77972\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"cc0ed6b0\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"3e1e9ea7\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"53a71c8c\",\"reason\":\"promo/low-impact per policy\"},{\"op\":\"drop\",\"id\":\"61808124\",\"reason\":\"promo/low-impact per policy\"}]}",
+  "usage": {
+    "input_tokens": 2222,
+    "output_tokens": 1494,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

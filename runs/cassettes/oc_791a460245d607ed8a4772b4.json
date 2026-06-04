@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"b9be5bd5\",\"reason\":\"No missed items or noise; directive not needed\"}]}",
+  "usage": {
+    "input_tokens": 496,
+    "output_tokens": 160,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

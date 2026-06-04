@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Review 2 detailed comments: paper does not isolate gains from rewrite vs naive append\u2014needs ablation; reviewer leans reject.\",\"weight\":1.0,\"tags\":[\"review\",\"ICLR\",\"revising\"],\"provenance\":[\"n03-gmail-1\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Co-author quick workshop paper on agent-memory benchmarks\u2014low effort opportunity with Maya.\",\"weight\":1.0,\"tags\":[\"workshop\",\"coauthor\",\"benchmarks\"],\"provenance\":[\"n03-gmail-2\"]},{\"op\":\"drop\",\"id\":\"n03-noise-1\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-2\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-3\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-4\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-5\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-6\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-7\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-8\",\"reason\":\"routine, low signal\"} , {\"op\":\"drop\",\"id\":\"n03-noise-9\",\"reason\":\"routine, low signal\"}]}",
+  "usage": {
+    "input_tokens": 1248,
+    "output_tokens": 697,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

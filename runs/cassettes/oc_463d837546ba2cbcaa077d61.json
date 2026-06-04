@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a message contains the word \\\"allocation\\\" followed by an equals sign and a number, treat it as a resource\u2011allocation entry and store it even if the unit is missing.\",\"weight\":1.5},{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.0}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 973,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"12690cc6\"],\"tier\":\"episodic\",\"content\":\"Weekly lab meeting moved: Wednesday 11:00 starting next week. Old Thursday 14:00 slot dropped.\",\"weight\":0.02,\"tags\":[\"calendar\",\"lab\",\"meeting\",\"gmail\"],\"provenance\":[\"12690cc6\",\"n11-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 2160,
+    "output_tokens": 2257,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

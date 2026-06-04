@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The drop in QA accuracy after the store reaches ~40 items is caused by cross\u2011fact interference, and the bounded\u2011memory variant restores flat recall because its periodic consolidation (compression) reduces this interference, matching the mechanisms described in the consolidation papers.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8af7ee8\", \"93ae3681\", \"45562236\", \"085f93d4\"],\n      \"tags\": [\"interference\", \"consolidation\", \"bounded_memory\"]\n    },\n    {\n      \"statement\": \"Combining a virtual\u2011context paging system (as in MemGPT) with a bounded\u2011memory window will let agents keep recent items in fast in\u2011context memory while storing compressed summaries of older items externally, enabling sustained high recall over arbitrarily long streams without the accuracy loss seen in pure append approaches.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"800e430c\", \"93ae3681\", \"e8af7ee8\"],\n      \"tags\": [\"paging\", \"bounded_memory\", \"scalability\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 897,
+    "output_tokens": 671,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[]}",
+  "usage": {
+    "input_tokens": 1718,
+    "output_tokens": 199,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n25-noise-1\",\"reason\":\"duplicate promotional item already stored as e385042d\"},{\"op\":\"drop\",\"id\":\"n25-noise-2\",\"reason\":\"duplicate promotional item already stored as 75c6a16f\"},{\"op\":\"drop\",\"id\":\"n25-noise-3\",\"reason\":\"duplicate promotional item already stored as 8936789d\"},{\"op\":\"drop\",\"id\":\"n25-noise-4\",\"reason\":\"duplicate promotional item already stored as e2a2afd0\"},{\"op\":\"drop\",\"id\":\"n25-noise-5\",\"reason\":\"duplicate promotional item already stored as 3ff5d732\"},{\"op\":\"drop\",\"id\":\"n25-noise-6\",\"reason\":\"duplicate promotional item already stored as 11f25276\"},{\"op\":\"drop\",\"id\":\"n25-noise-7\",\"reason\":\"duplicate promotional item already stored as a8d83efd\"},{\"op\":\"drop\",\"id\":\"n25-noise-8\",\"reason\":\"duplicate promotional item already stored as 5db763ef\"}]}",
+  "usage": {
+    "input_tokens": 2238,
+    "output_tokens": 821,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

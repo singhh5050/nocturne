@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"4eed4e82\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews available \u2014 Reviews: 6,6,4. Reviewer 2\u2019s detailed comments: need ablation comparing rewrite versus naive append to address concerns; otherwise risk rejection. Rebuttal deadline is day\u202f19; need results well before then.\",\"weight\":1.0,\"tags\":[\"ablation\",\"email\",\"iclr\",\"review\",\"submission\",\"deadline\"],\"provenance\":[\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"e8e14a8d\"],\"tier\":\"in_progress\",\"content\":\"Co\u2011author a quick workshop paper on agent\u2011memory benchmarks with Maya \u2013 proposal to draft a low\u2011effort paper soon. Follow\u2011up: sketched a rough outline, take a look when you have a sec.\",\"weight\":0.84,\"tags\":[\"coauthor\",\"workshop\",\"paper\",\"outline\"],\"provenance\":[\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1351,
+    "output_tokens": 1553,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

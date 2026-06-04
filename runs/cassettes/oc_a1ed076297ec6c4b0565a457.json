@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"ed11f621\",\"reason\":\"Merged into new quantitative data rule\"},{\"op\":\"drop\",\"id\":\"d98df1e9\",\"reason\":\"Merged into new quantitative data rule\"},{\"op\":\"drop\",\"id\":\"433373c0\",\"reason\":\"Merged into new quantitative data rule\"},{\"op\":\"drop\",\"id\":\"cd02b43b\",\"reason\":\"Merged into new quantitative data rule\"},{\"op\":\"drop\",\"id\":\"e0fe18d5\",\"reason\":\"Merged into new quantitative data rule\"},{\"op\":\"add\",\"content\":\"Keep items that contain quantitative data or explicit deadlines; replace or merge older duplicates for the same resource, keeping the most recent information as the primary fact.\",\"weight\":1.80}]}",
+  "usage": {
+    "input_tokens": 709,
+    "output_tokens": 1485,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

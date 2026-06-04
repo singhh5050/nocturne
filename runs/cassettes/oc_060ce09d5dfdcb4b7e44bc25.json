@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"719df227\",\"n16-notes-1\"],\"tier\":\"in_progress\",\"content\":\"[arxiv,consolidation,ablation,technique,notes] Consolidation reduces cross\u2011fact interference; rewrite beats naive append by ~9 F1 points on needle survival, and append blows the token budget by day\u202f20. Consolidated evidence supports robust memory\u2011rewrite benefits.\",\"weight\":0.8,\"tags\":[\"arxiv\",\"consolidation\",\"ablation\",\"technique\",\"notes\"]},{\"op\":\"drop\",\"id\":\"f70efdfc\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"cecece53\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"49e26e58\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"5b018b9b\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"1ce19ee3\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"d41f4f75\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"540e8b62\",\"reason\":\"policy: drop promotional content\"},{\"op\":\"drop\",\"id\":\"51fbb33f\",\"reason\":\"policy: drop promotional content\"}]}",
+  "usage": {
+    "input_tokens": 2155,
+    "output_tokens": 1848,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

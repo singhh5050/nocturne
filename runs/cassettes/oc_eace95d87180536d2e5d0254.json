@@ -1,0 +1,9 @@
+{
+  "text": "# ICLR Submission  \n- **Priority:** Reviewer\u202f2\u2019s ablation request (w\u202f=\u202f0.67).  \n- **Deadline:** Reply by **Sat\u202f2026\u201106\u201110** (ICLR comment turn\u2011around).  \n- **Action:**  \n  - Design and run ablation comparing **Structured Rewrite** vs. **naive-append** using MemGPT as the baseline (conf=0.78).  \n  - Produce metrics, plots, and a short narrative.  \n  - **Draft reply:** \u201cWe evaluated the rewrite operation with a MemGPT\u2011based naive\u2011append baseline. Results (see Appendix\u202fA) show that rewrite consistently outperforms the baseline across tasks X, Y, Z\u2026\u201d.\n\n- **Overnight idea:** MemGPT\u2019s virtual context management provides a clean, well\u2011understood baseline that clearly isolates the rewrite contribution; this can be highlighted as a key insight in the rebuttal.\n\n# Workshop Paper with Maya  \n- **Priority:** Low\u2011effort co\u2011author opportunity (w\u202f=\u202f0.30).  \n- **Deadline:** Workshop submission **Mon\u202f2026\u201106\u201119**.  \n- **Action:**  \n  - Draft a 2\u2011page outline tomorrow.  \n  - Schedule a quick sync with Maya to define benchmark tasks and evaluation metrics.  \n  - **Draft outline:** Title, abstract, 3\u2011sec contribution statement, preliminary results from simple memory\u2011benchmarks, and a plan to integrate the new benchmark from Hypothesis\u202f2.\n\n---",
+  "usage": {
+    "input_tokens": 529,
+    "output_tokens": 666,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

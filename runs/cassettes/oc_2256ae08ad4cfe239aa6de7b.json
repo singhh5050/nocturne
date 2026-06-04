@@ -1,0 +1,9 @@
+{
+  "text": "## 1. Immediate Open Items (Weight\u202f\u2265\u202f0.66)\n\n| Item | Goal | Deadline | Action |\n|------|------|----------|--------|\n| **Virtual\u2011context paging \u2b06\ufe0f vs. naive append** | Narrow rewrite vs. append performance gap by replacing the baseline with MemGPT paging. | 25\u202fJul\u202f2026 | Draft: `Clone issue #214, swap add\u2011append baseline \u2192 MemGPT paging routine, run 5 repeats (\u2264\u202f120\u202fH100\u2011hrs).` |\n| **50\u202f% GPU promotion** | Double experiment throughput within the 2400\u202fH100\u2011hr quota. | 05\u202fAug\u202f2026 | Nudge: \u201cActivate promotion today; budget will double immediately.\" |\n| **Consolidation on naive append** | Verify token\u2011budget mitigation and close F1 gap (~9\u2011point). | 31\u202fJul\u202f2026 | Draft: `Implement periodic consolidation in naive\u2011append baseline, log token\u2011budget & F1 over 10\u2011day cycles.` |\n\n## 2. ICLR Rebuttal Ready\n\n*Rewrite beats naive append by ~9\u202fF1 points; token\u2011budget blowout at day\u202f20 for append.*  \n- Prepare rebuttal text (include clean results).  \n- Deadline: **03\u202fAug\u202f2026** (ML submission window). |  \n\n## 3. Overnight Idea  \n\n> **Integrate consolidation into the rewrite operation itself (hybrid rewrite\u2011+\u2011consolidation)**: prior hypotheses (conf\u202f=\u202f0.78) predict >\u202f5\u202f% gain over plain rewrite while reducing token growth, giving a stronger case for both ICLR & workshop paper.  \n\n---",
+  "usage": {
+    "input_tokens": 2258,
+    "output_tokens": 1585,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Saved: episodic memory survey \u2014 Saved a survey on episodic memory for LLM agents.\",\"weight\":0.8,\"tags\":[\"notes\",\"survey\",\"episodic_memory\"],\"provenance\":[\"n24-notes-1\"]} ,{\"op\":\"drop\",\"id\":\"n24-noise-1\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-2\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-3\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-4\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-5\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-6\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-7\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-8\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-9\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-10\",\"reason\":\"promotional/low-signal\"} ,{\"op\":\"drop\",\"id\":\"n24-noise-11\",\"reason\":\"promotional/low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1771,
+    "output_tokens": 996,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"9186bc5a\",\"n16-notes-1\"],\"tier\":\"in_progress\",\"content\":\"Updated ICLR submission review summary: Scores (R1:6, R3:6, R2:4). Reviewer\u202f2 requests an ablation study comparing rewrite operations vs. naive append to isolate gains. Action now: start ablation runs tracked in issue #214. Deadline: day\u202f19 \u2013 results needed well before deadline. \\nResult: Ablation shows Rewrite beats naive append by ~9 F1 points on needle survival; append blows the token budget by day\u202f20 of the simulation. Clean result ready for the rebuttal.\",\"weight\":1.0,\"tags\":[\"deadline\",\"research\",\"review\",\"ablation\",\"experiment\",\"notes\"],\"provenance\":[\"9186bc5a\",\"n16-notes-1\"]},{\"op\":\"drop\",\"id\":\"9186bc5a\",\"reason\":\"Replaced by consolidated ablation result.\"},{\"op\":\"drop\",\"id\":\"60cee832\",\"reason\":\"Not actionable and no explicit deadline.\"},{\"op\":\"drop\",\"id\":\"f126b3ef\",\"reason\":\"Not actionable and no explicit deadline.\"},{\"op\":\"drop\",\"id\":\"512ae861\",\"reason\":\"Not actionable and no explicit deadline.\"},{\"op\":\"drop\",\"id\":\"f1fbdbac\",\"reason\":\"Not actionable and no explicit deadline.\"},{\"op\":\"drop\",\"id\":\"559abff0\",\"reason\":\"Not actionable and no explicit deadline.\"}]}",
+  "usage": {
+    "input_tokens": 1609,
+    "output_tokens": 1627,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

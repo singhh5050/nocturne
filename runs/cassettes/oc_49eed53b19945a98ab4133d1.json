@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The bounded\u2011memory variant remains accurate because limiting the stored item count prevents cross\u2011fact interference; this mechanism mirrors the effect of periodic consolidation that compresses context, implying that adding a consolidation step to an unbounded append system should recover flat recall without explicitly truncating memory\",\"confidence\":0.78,\"support_ids\":[\"93ae3681\",\"e8af7ee8\",\"45562236\",\"800e430c\"],\"tags\":[\"consolidation\",\"interference\",\"memory\u2011management\",\"accuracy\"]},{\"statement\":\"A sliding\u2011window memory of size \u224840 items will match the bounded\u2011memory variant\u2019s stable recall, suggesting that the effective capacity limit causing the accuracy drop can be addressed either by a hard window or by rewrite\u2011based consolidation; this can be validated by the rewrite\u2011vs\u2011append ablation sweeps\",\"confidence\":0.71,\"support_ids\":[\"e8af7ee8\",\"d421fc37\",\"93ae3681\",\"853b30eb\"],\"tags\":[\"ablation\",\"windowed\u2011memory\",\"interference\",\"recall\"]}]}",
+  "usage": {
+    "input_tokens": 863,
+    "output_tokens": 741,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "## Highest\u2011Priority Open Item  \n**Maya Agent\u2011Memory Benchmark (303fb425)**  \n*Goal*: Run a rewrite\u2011vs\u2011append vs naive\u2011append ablation that directly answers Reviewer\u202f2.  \n*Deadline*: **Day\u202f19** \u2013 results must be ready before the camera\u2011ready due date.  \n*Compute*: Allocate **200\u202fH100 GPU\u2011hours** (within the 2400\u2011hour quota).  \n*Schedule*: Execute immediately after Wednesday\u202f11:00 lab meeting to maximize turnaround.  \n\n**Next Actions**  \n- Draft: `init_ablations.yml` \u2013 configuration for ablation test.  \n- Draft: `README_Ablation_Maya.md` \u2013 usage instructions and metrics table.\n\n---\n\n## Additional High\u2011Confidence Items (conf\u202f=\u202f0.65)\n\n| Item | Action | Deadline |\n|------|--------|----------|\n| MemGPT Virtual Context Paging Baseline (8e3bb063) | Draft experiment script `paging_vs_append.py`. Use as naive\u2011append control. | Day\u202f19 |\n| Thursday Lab Slot (14:00) | Reserve 30\u202fmin to monitor ablation progress. | Now |\n| Camera\u2011Ready Submission | Draft final PDF checklist and final edits. | Two weeks from today |\n\n---\n\n## Overnight Idea (conf\u202f=\u202f0.78)  \n*Confirmed insight*: Use MemGPT\u2019s virtual context\u2011paging strategy as the true \u201cna\u00efve append\u201d baseline to isolate the effect of structured memory rewrite. This will produce a clean rewrite\u2011vs\u2011append comparison without extra engineering overhead.\n\n---",
+  "usage": {
+    "input_tokens": 1538,
+    "output_tokens": 1556,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

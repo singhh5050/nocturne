@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"a9a37442\",\"reason\":\"replaced by updated meeting schedule\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Weekly lab meeting now Wednesday 11:00 starting next week. Former Thursday 14:00 slot dropped.\",\"weight\":0.3,\"tags\":[\"schedule\",\"lab-meeting\"],\"provenance\":[\"n11-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1596,
+    "output_tokens": 610,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

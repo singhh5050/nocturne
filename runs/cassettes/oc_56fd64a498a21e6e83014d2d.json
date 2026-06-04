@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved to read: MemGPT \u2013 Saved MemGPT (virtual context management, paging between in\u2011context and external memory). Relevant to my memory\u2011rewrite idea.\",\"weight\":0.5,\"tags\":[\"research\",\"memory\",\"notes\"],\"provenance\":[\"n01-notes-1\"]},{\"op\":\"drop\",\"id\":\"n01-noise-1\",\"reason\":\"Routine promotional Slack message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-2\",\"reason\":\"Routine promotional arXiv message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-3\",\"reason\":\"Routine promotional GitHub message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-4\",\"reason\":\"Routine promotional calendar reminder, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-5\",\"reason\":\"Routine promotional Gmail message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-6\",\"reason\":\"Routine promotional Slack message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-7\",\"reason\":\"Routine promotional arXiv message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-8\",\"reason\":\"Routine promotional GitHub message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-9\",\"reason\":\"Duplicate of previous promotional message, low signal.\"},{\"op\":\"drop\",\"id\":\"n01-noise-10\",\"reason\":\"Duplicate of previous promotional message, low signal.\"}]}",
+  "usage": {
+    "input_tokens": 1115,
+    "output_tokens": 748,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n06-noise-1\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-2\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-3\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-4\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-5\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-6\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-7\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-8\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-9\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"drop\",\"id\":\"n06-noise-10\",\"reason\":\"promotional,lowsignal\"},{\"op\":\"merge\",\"source_ids\":[\"94696014\",\"n06-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Co-author opportunity: workshop paper on agent-memory benchmarks. Reach out to Maya for quick paper. Still keen on it.\",\"weight\":0.6,\"tags\":[\"proposal\",\"workshop\",\"coauthor\"],\"provenance\":[\"94696014\",\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New paper: Consolidation reduces cross-fact interference. Technique paper demonstrating that periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall.\",\"weight\":1.0,\"tags\":[\"paper\",\"consolidation\",\"interference\"],\"provenance\":[\"n06-arxiv-1\"]}]}",
+  "usage": {
+    "input_tokens": 1389,
+    "output_tokens": 1081,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "They keep pulling papers on memory\u2011management for agents, especially consolidation, compression, and virtual context techniques.",
+  "usage": {
+    "input_tokens": 9848,
+    "output_tokens": 142,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

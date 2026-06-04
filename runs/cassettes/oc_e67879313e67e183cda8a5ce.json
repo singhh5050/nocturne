@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Rebuttal received for submission 4127; deadline day 19\",\"weight\":1.0,\"tags\":[\"gmail\",\"submission\",\"rebuttal\",\"4127\",\"day19\"],\"provenance\":[\"n19-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n19-noise-1\",\"reason\":\"Low-signal promotional email\"},{\"op\":\"drop\",\"id\":\"n19-noise-2\",\"reason\":\"Low-signal calendar reminder\"},{\"op\":\"drop\",\"id\":\"n19-noise-3\",\"reason\":\"Low-signal slack message\"},{\"op\":\"drop\",\"id\":\"n19-noise-4\",\"reason\":\"Low-signal promotional email\"},{\"op\":\"drop\",\"id\":\"n19-noise-5\",\"reason\":\"Low-signal GitHub email\"},{\"op\":\"drop\",\"id\":\"n19-noise-6\",\"reason\":\"Low-signal promotional email\"},{\"op\":\"drop\",\"id\":\"n19-noise-7\",\"reason\":\"Low-signal promotional email\"},{\"op\":\"drop\",\"id\":\"n19-noise-8\",\"reason\":\"Low-signal promotional Slack message\"},{\"op\":\"drop\",\"id\":\"n19-noise-9\",\"reason\":\"Low-signal promotional email\"},{\"op\":\"drop\",\"id\":\"n19-noise-10\",\"reason\":\"Low-signal calendar reminder\"},{\"op\":\"drop\",\"id\":\"n19-noise-11\",\"reason\":\"Low-signal calendar reminder\"}]}",
+  "usage": {
+    "input_tokens": 1658,
+    "output_tokens": 897,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

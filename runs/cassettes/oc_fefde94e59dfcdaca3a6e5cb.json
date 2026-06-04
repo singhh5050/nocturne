@@ -1,0 +1,9 @@
+{
+  "text": "The user consistently saves papers on lifelong/episodic memory for agents.",
+  "usage": {
+    "input_tokens": 798,
+    "output_tokens": 290,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

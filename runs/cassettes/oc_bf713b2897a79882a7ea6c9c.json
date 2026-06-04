@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"e0fe18d5\",\"reason\":\"Redundant with existing replace rule (433373c0); simplifies policy\"}]}",
+  "usage": {
+    "input_tokens": 709,
+    "output_tokens": 641,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

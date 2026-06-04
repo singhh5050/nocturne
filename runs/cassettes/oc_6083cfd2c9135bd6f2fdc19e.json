@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"1285717c\"],\"tier\":\"in_progress\",\"content\":\"Bounded-memory variant works \u2013 accuracy drop eliminated and recall remained flat as stream grew; aggressive consolidation fixed the issue, supporting the benefit of bounded-memory variant and consolidation over naive append.\",\"weight\":0.02,\"tags\":[\"bounded-memory\",\"consolidation\",\"notes\"],\"provenance\":[\"n22-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1797,
+    "output_tokens": 1105,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

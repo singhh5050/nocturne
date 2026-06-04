@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The QA accuracy drop observed when storing more than 40 items is caused by token\u2011budget overflow that increases cross\u2011fact interference, and introducing periodic consolidation (summary compression) of the memory will mitigate this drop, explaining why the rewrite\u2011vs\u2011append ablation shows a large gain for rewrite (which implicitly compresses) over naive append.\",\"confidence\":0.78,\"support_ids\":[\"562412ff\",\"72ccf918\",\"ad2ef3b4\"],\"tags\":[\"accuracy\",\"token_budget\",\"interference\",\"consolidation\",\"ablation\"]},{\"statement\":\"Applying MemGPT's virtual context paging mechanism to the lifelong memory architecture will allow the system to evict or offload less\u2011relevant facts before the token budget is exceeded, preventing the accuracy degradation seen with large append\u2011only stores and reducing reliance on aggressive rewrite operations.\",\"confidence\":0.65,\"support_ids\":[\"a962f389\",\"f7b5be16\",\"562412ff\"],\"tags\":[\"memory_management\",\"paging\",\"token_budget\",\"accuracy\",\"lifelong_memory\"]}]}",
+  "usage": {
+    "input_tokens": 803,
+    "output_tokens": 555,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

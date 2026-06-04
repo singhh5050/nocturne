@@ -1,0 +1,9 @@
+{
+  "text": "### Urgent: Rewrite\u2011vs\u2011Append Ablation (Reviewer\u202f2)\n\n- **Priority**: Complete the ablation comparing structured memory rewrite vs a naive append baseline using the **agent\u2011memory benchmark framework** (Maya, 303fb425).  \n- **Deadline**: *Day\u201119* (deliver results and figures by 23:59).  \n- **Action**  \n  - *Draft:* `Request Maya benchmark sync; mark test set, metrics, and cut\u2011off.`\n  - Run baseline experiments on 200\u202fH100\u202fGPU\u2011hours (see \u00a7Compute).  \n  - Generate repl\u2011time plots, F1 statistics (needle survival), and token\u2011budget analysis.\n\n### Compute & Scheduling\n\n- **Resource**: 2400\u202fH100 GPU\u2011hours approved.  \n- **Allocation**: 200\u202fH100\u202fGPU\u2011hours for rewrite\u2011vs\u2011append study.  \n- **Schedule**: Run experiments immediately after the **Wednesday\u202f11:00 lab meeting** to reduce turnaround by ~20\u202f%.  \n- **Action**  \n  - *Draft:* `Queue job block 200\u202fH100; dependency: Wednesday 11:00 +1h.`\n  - Monitor GPU utilization; flag any runtime >4\u202fhrs for optimization.\n\n### Consolidation Integration (Future)\n\n- **Insight**: Periodic consolidation (arXiv\u00a00a553296) + rewrite \u2192 reduced cross\u2011fact interference.  \n- **Plan**: Afterwards, run a secondary ablation adding a consolidation step for comparative performance.  \n\n---\n\n**Overnight idea**: Use MemGPT\u2019s virtual context\u2011paging as the *na\u00efve* append control; this represents a functionally equivalent memory\u2011addition baseline while preserving virtual context benefits, enhancing the rewrite\u2011vs\u2011append contrast.",
+  "usage": {
+    "input_tokens": 1509,
+    "output_tokens": 1003,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

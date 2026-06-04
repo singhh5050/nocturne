@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a message contains a known GPU model (e.g., H100, A100, H800) and a numeric value anywhere in the same sentence, treat it as a resource\u2011allocation entry even if the unit is absent or the numeric value is not directly next to the model; this ensures critical allocations are captured.\",\"weight\":1.5}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 622,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

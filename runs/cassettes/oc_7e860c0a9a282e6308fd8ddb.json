@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Saved a survey on episodic memory for LLM agents.\",\"weight\":0.0,\"tags\":[\"notes\",\"episodic\",\"memory\",\"survey\"],\"provenance\":[\"n24-notes-1\"]},{\"op\":\"drop\",\"id\":\"n24-noise-1\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-2\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-3\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-4\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-5\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-6\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-7\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-8\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-9\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-10\",\"reason\":\"Duplicate noise; routine promotional chatter.\"},{\"op\":\"drop\",\"id\":\"n24-noise-11\",\"reason\":\"Duplicate noise; routine promotional chatter.\"}]}",
+  "usage": {
+    "input_tokens": 2372,
+    "output_tokens": 1121,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

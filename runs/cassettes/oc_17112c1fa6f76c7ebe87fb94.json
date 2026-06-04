@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"974a123c\"],\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews for \u2019Structured Memory Rewrite for Sleep\u2011Time Agents\u2019 are available. Scores: 6,\u202f6,\u202f4. Reviewer\u202f2 noted that the paper does not isolate whether gains come from rewrite operations or merely from having any memory. An ablation comparing rewrite\u2011vs\u2011append versus naive append (issue\u202f#214) is needed; results now show rewrite beats naive append by ~9 F1 points on needle survival, and append blows the token budget by day\u202f20. Results should be ready before the day\u201119 deadline.\",\"weight\":1.0,\"tags\":[\"ICLR\",\"ablation\",\"rewrite\"],\"provenance\":[\"n16-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1336,
+    "output_tokens": 971,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

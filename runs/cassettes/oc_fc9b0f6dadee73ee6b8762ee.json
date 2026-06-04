@@ -1,0 +1,9 @@
+{
+  "text": "Reviewer\u202f2 wants the rewrite\u2011vs\u2011append ablation addressed in the rebuttal.",
+  "usage": {
+    "input_tokens": 1660,
+    "output_tokens": 448,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

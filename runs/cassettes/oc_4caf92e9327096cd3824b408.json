@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"When a GPU model is followed by a numeric value and a unit indicating hours (e.g., \\\"H100 2400 GPU\u2011hours\\\" or \\\"H100 2400 GPU-hours\\\"), tag it as a resource\u2011allocation entry even if the unit appears after a hyphen or without a space. This ensures GPU\u2011hour allocations are always captured.\",\"weight\":1.50},{\"op\":\"reweight\",\"id\":\"5e69a7af\",\"weight\":2.00}]}",
+  "usage": {
+    "input_tokens": 783,
+    "output_tokens": 1269,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

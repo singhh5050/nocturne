@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"e434f301\",\"weight\":1.0},{\"op\":\"drop\",\"id\":\"256140ea\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"467cca71\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"e2abc8ff\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"4cbdca92\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"cd4e7df4\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"12b6db98\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"8c2996ec\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"647aa2fd\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"40947581\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"04b3d962\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"ec5fe76b\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"a39fd426\",\"reason\":\"promotional content\"},{\"op\":\"drop\",\"id\":\"6e27a267\",\"reason\":\"recruiter mail\"}]}",
+  "usage": {
+    "input_tokens": 2529,
+    "output_tokens": 1954,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}
