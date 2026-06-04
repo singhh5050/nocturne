@@ -93,7 +93,7 @@ _TEMPLATE = r"""<!doctype html>
 <style>
 __FONTS__
 :root{
-  --bg:#070810; --panel:rgba(16,18,38,.72); --line:rgba(217,178,90,.22);
+  --bg:#070810; --panel:rgba(14,16,34,.6); --line:rgba(217,178,90,.22);
   --fg:#efe9d8; --muted:#a9a487; --faint:#76728f;
   --gold:#d9b25a; --amber:#f4b860; --cyan:#79e0d6; --rose:#e88aa8; --violet:#b59cf2; --blue:#7fa8ff;
   --serif:'Fraunces','Iowan Old Style',Georgia,serif;
@@ -101,14 +101,15 @@ __FONTS__
   --sans:'PlexSans',ui-sans-serif,system-ui,sans-serif;
 }
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:14px;line-height:1.55}
+html{background:#05060d}
+body{margin:0;background:transparent;color:var(--fg);font-family:var(--sans);font-size:14px;line-height:1.55}
 /* art = atmosphere only: a full-bleed generated nebula, dark-overlaid for legibility */
-#bg{position:fixed;inset:0;z-index:-3;background:url(__NEBULA__) center/cover no-repeat;
-  animation:drift 90s ease-in-out infinite alternate}
+#bg{position:fixed;inset:0;z-index:-3;background:#05060d url(__NEBULA__) center/cover no-repeat;
+  filter:saturate(1.12) brightness(1.08);animation:drift 90s ease-in-out infinite alternate}
 @keyframes drift{from{transform:scale(1.04) translate(-1%,-1%)}to{transform:scale(1.12) translate(2%,1.5%)}}
 body::before{content:"";position:fixed;inset:0;z-index:-2;background:
-  radial-gradient(1100px 640px at 50% -8%, rgba(217,178,90,.16), transparent 62%),
-  linear-gradient(180deg, rgba(6,7,15,.40), rgba(5,6,12,.66) 52%, rgba(4,5,11,.82));}
+  radial-gradient(1100px 640px at 50% -8%, rgba(217,178,90,.18), transparent 62%),
+  linear-gradient(180deg, rgba(6,7,15,.20), rgba(5,6,12,.42) 55%, rgba(4,5,11,.62));}
 #stars{position:fixed;inset:0;z-index:-1;pointer-events:none}
 /* smoothness: SVG geometry + opacity transitions */
 #cl-nodes circle{transition:cx .9s cubic-bezier(.3,.75,.2,1), cy .9s cubic-bezier(.3,.75,.2,1), r .5s ease, fill-opacity .6s ease}
@@ -120,7 +121,7 @@ body::before{content:"";position:fixed;inset:0;z-index:-2;background:
 .star{position:absolute;border-radius:50%;background:#fff;animation:tw var(--d) ease-in-out infinite alternate}
 @keyframes tw{from{opacity:.12}to{opacity:.85}}
 
-header{padding:46px 48px 8px;position:relative}
+header{padding:46px 48px 8px;position:relative;text-shadow:0 1px 16px rgba(2,3,8,.75)}
 .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
 h1{font-family:var(--serif);font-weight:600;font-size:58px;line-height:1;letter-spacing:-.5px;margin:8px 0 0}
 h1 .moon{color:var(--amber);text-shadow:0 0 28px rgba(244,184,96,.5)}
