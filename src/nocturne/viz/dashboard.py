@@ -15,7 +15,6 @@ import json
 from pathlib import Path
 
 ASSETS = Path(__file__).parent / "assets"
-ART = Path("artifacts/art")
 
 
 def _compact(bundle: dict) -> dict:
@@ -65,13 +64,6 @@ def _font_face_css() -> str:
             faces.append(f"@font-face{{font-family:'{fam}';font-weight:{weight};font-display:swap;"
                          f"src:url(data:font/woff2;base64,{b}) format('woff2');}}")
     return "\n".join(faces)
-
-
-def _art_uri(name: str) -> str:
-    p = ART / f"{name}.jpg"
-    if not p.exists():
-        return ""
-    return "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
 
 
 def build(bundle: dict, out_path: Path) -> Path:

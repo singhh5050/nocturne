@@ -1,6 +1,6 @@
 # Nocturne — results
 
-_Simulated 30-night environment (see README → Data). Inputs are simulated; all nightly cognition is real model work via the Anthropic API._
+_Simulated 30-night environment (see README → Data). Inputs are simulated; all nightly cognition is real model work on DigitalOcean serverless inference (tiered gpt-oss-20b + gpt-oss-120b)._
 
 ## Brains comparison (consolidation vs accumulation)
 

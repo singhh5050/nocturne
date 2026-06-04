@@ -65,7 +65,8 @@ def write_results_md(bundle: dict, path: Path, chart_rel: str = "../artifacts") 
             ("noise_leak", "noise in mem"), ("qa_acc", "QA accuracy")]
     md = ["# Nocturne — results", "",
           "_Simulated 30-night environment (see README → Data). Inputs are simulated; all nightly "
-          "cognition is real model work via the Anthropic API._", "",
+          "cognition is real model work on DigitalOcean serverless inference "
+          "(tiered gpt-oss-20b + gpt-oss-120b)._", "",
           "## Brains comparison (consolidation vs accumulation)", "",
           _table(rows, cols), "",
           f"![memory size]({chart_rel}/memory_size.png)", "",
