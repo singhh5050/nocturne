@@ -35,6 +35,16 @@ These aren't "a worse GBrain" — they're a different organ (working memory + ex
 
 ---
 
+## The motif — a constellation is meaning drawn from chaos
+
+<img src="artifacts/art/hero.jpg" width="320" align="right" alt="celestial atlas plate"/>
+
+The whole project is grounded in **baroque celestial cartography** — Andreas Cellarius's *Harmonia Macrocosmica* (1660) and the era's star atlases — because that *is* the thesis, not decoration. The night sky is an overwhelming field of stars (the raw signal stream). The astronomer working *through the night* doesn't catalog every star; they draw a few **constellations**: bounded, meaningful figures you steer by, remembered and passed down.
+
+That is the difference nocturne draws out: **GBrain is the star *catalog*** — every point of light kept (146k pages), retrievable. **nocturne is the *constellation*** — the small figure you actually navigate by, charted overnight, with faint unmentioned stars allowed to fade. The dashboard's "two brains" panel makes it literal: a connected gold constellation beside an ever-denser blue catalog.
+
+The art is **diffusion-generated** (`stable-diffusion-3.5-large` via DigitalOcean; see `viz/generate_art.py`) but used *only as atmosphere* — full-bleed nebula + parchment textures that cover-scale at any size. Every **structural and interactive element is procedural SVG** (the constellation, the two-brains star fields, the charts), so the UI never depends on an image fitting a layout.
+
 ## How it works
 
 ### The primitive, at two levels
@@ -179,7 +189,7 @@ Two experiments, both on the fixed labeled trace:
 
 ## AI usage disclosure
 
-This project was built with heavy AI assistance (Anthropic's Claude, via Claude Code), used for: scaffolding the package, writing the consolidation/REM/self-improvement prompts and the harness, building the dashboard, and drafting this README. All design decisions, the experiment design, and the integrity framing were directed by the author. The runtime system itself calls a model (DigitalOcean `openai-gpt-oss-120b`) for all nightly cognition. The simulated dataset is disclosed in **Data** above. Sources are cited below.
+This project was built with heavy AI assistance (Anthropic's Claude, via Claude Code), used for: scaffolding the package, writing the consolidation/REM/self-improvement prompts and the harness, building the dashboard, and drafting this README. All design decisions, the experiment design, and the integrity framing were directed by the author. The runtime system calls real models on **DigitalOcean serverless inference** for all nightly cognition (tiered `gpt-oss-20b` + `gpt-oss-120b`). The dashboard's atmospheric textures are **diffusion-generated** (`stable-diffusion-3.5-large`, see `viz/generate_art.py`); all structural/interactive UI is hand-written procedural SVG. The simulated dataset is disclosed in **Data** above. Sources are cited below.
 
 ## Citations & acknowledgements
 
