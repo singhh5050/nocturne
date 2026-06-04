@@ -10,7 +10,9 @@
 
 While you sleep, nocturne pulls your day's signals (papers, mail, calendar, Slack, GitHub, notes), and instead of *appending* everything to an ever-growing store, it **consolidates** a small, bounded working memory: merging evidence, reconciling contradictions, forgetting what's resolved, and surfacing latent cross-thread insights. Each morning it grades its own briefing against what actually mattered and **rewrites its own policy** so tomorrow's consolidation is sharper.
 
-The central question: **does aggressive forgetting beat accumulation for a bounded working set?** We test it head-to-head against the philosophy of 2026's most prominent agent-memory system (GBrain) and find that consolidation wins on compactness, precision, and answer-cost — while retaining the facts that matter.
+nocturne is not a competitor to a knowledge base like **GBrain** — it's the missing **working-memory / executive layer** that sits *on top* of one. GBrain-style systems are long-term memory: never forget, retrieve-and-synthesize on demand, and (by their own design) *surface* conflicting facts for you to resolve. nocturne is the bounded layer that holds only what matters for *tomorrow*, **reconciles** contradictions to a single current truth, acts **proactively** (a morning briefing, with no query), and **rewrites its own policy** from feedback.
+
+The central question we test: **for a daily working set, does bounded consolidation + reconciliation beat accumulation?** We compare against a faithful, retrieval-based GBrain analog and find a clean, *fair* result: ours keeps a tiny store, **reconciles** a mid-stream contradiction that the never-forget arm retrieves *stale*, and **self-improves** over the month — while accumulation wins long-tail recall (the trade we deliberately make).
 
 This is a CS 153 final project ("The One-Person Frontier Lab").
 
@@ -18,11 +20,18 @@ This is a CS 153 final project ("The One-Person Frontier Lab").
 
 ## Why (problem & insight)
 
-Most agent "memory" appends. The more it runs, the bigger it gets — a library you retrieve from. **GBrain** (Garry Tan / YC, open-sourced Apr 2026; a markdown-first, self-wiring knowledge graph enriched "while you sleep") is the flagship of that bet: its production instance holds 146k+ pages. That's a great answer to *"how do I never forget anything?"*
+Most agent "memory" appends. **GBrain** (Garry Tan / YC, open-sourced Apr 2026) is the flagship of that bet: a never-forget, markdown-first, self-wiring knowledge graph; its production instance holds 146k+ pages, and it answers by **retrieving the top ~20–40 relevant pages and synthesizing** a cited answer. We read its source to be fair to it — it is a genuinely strong long-term-memory system, and we do **not** claim to beat it at what it's for.
 
-nocturne asks the inverted question: **"what is the *smallest* memory that still makes me effective tomorrow?"** — bounded working memory under a hard token budget, with active forgetting (`drop` + Ebbinghaus decay) and LLM-driven consolidation. Library vs. working memory. Accumulation vs. compression. Those are real, opposite architectural bets, and nocturne is a small, legible instrument for studying the trade-off.
+nocturne asks a different question and occupies a different layer: **"what is the *smallest* memory that still makes me effective tomorrow?"** Working memory, not a library. Four things follow that GBrain by design does *not* do — confirmed from its code:
 
-It builds on two ideas: **sleep-time compute** (spend idle compute pre-digesting context to make next-day queries cheaper/better — Lin et al., arXiv:2504.13171) and **verbal self-correction** (Reflexion, arXiv:2303.11366). The novel move is applying the *same rewrite primitive at two levels* and showing a clean result.
+| | GBrain (long-term memory) | nocturne (working memory) |
+|---|---|---|
+| Footprint | never forget (146k+ pages) | bounded under a hard token budget; active forgetting (`drop` + decay) |
+| Contradictions | *surfaces both* ("never silently pick one") | **reconciles** to the current truth (drops the stale one) |
+| Interaction | **pull** — you query it | **push** — proactive briefing, no query |
+| Adaptation | fixed pipeline | **rewrites its own operating policy** from graded feedback |
+
+These aren't "a worse GBrain" — they're a different organ (working memory + executive function vs. long-term store). They're **complementary**: nocturne is exactly the kind of bounded layer that could sit on top of a GBrain library (Q4 / roadmap). We build on **sleep-time compute** (Lin et al., arXiv:2504.13171) and **Reflexion** (arXiv:2303.11366); the novel move is one rewrite primitive at *two levels* (memory + policy) plus reconciliation and proactivity.
 
 ---
 
@@ -73,15 +82,25 @@ The trace encodes deliberate shapes: a rebuttal spine (stays hot), a collaborati
 
 ## Results
 
-Run on **DigitalOcean serverless inference** (`openai-gpt-oss-120b`) over the 30-night trace. Full numbers + charts regenerate into [`results.md`](results.md) and [`artifacts/`](artifacts/). Headline comparison (final night):
+Run on **DigitalOcean serverless inference** — tiered **gpt-oss-20b** (bulk cycles) + **gpt-oss-120b** (REM synthesis) — over the 30-night trace, **5 seeds** (mean±std). Full numbers + charts: [`results.md`](results.md), [`artifacts/`](artifacts/), and `runs/batch/summary.json`.
 
-> _Note: the artifacts committed on `main` are regenerated with the reproducible `--offline` engine so the repo renders out of the box. The real DigitalOcean multi-seed results (with variance bands + ablations) are produced by an unattended overnight batch and land on the `overnight-results` branch (`runs/batch/summary.json`)._
+**A fair comparison.** We separate two costs so we don't strawman the library: **store** (everything an arm holds) vs **query** (the context actually used to answer). The GBrain arm keeps everything *and* answers by **retrieving the top-K relevant pages** — so its query cost is bounded, exactly like the real system. We do not claim a query-token win.
 
-> See [`results.md`](results.md) for the exact committed table from the live run. The shape of the result:
->
-> - **rewrite (ours)** — tiny memory (hundreds of tokens), high needle-survival **recall**, far higher **precision**, ~zero noise, strong morning-QA accuracy.
-> - **gbrain-style accumulate** / **naive append** — memory bloats ~20–25× larger, hundreds of noise items retained, precision collapses.
-> - **sliding window** — compact but *forgets* old needles (low recall on early facts).
+| arm | store | avg query | needle F1 | lab-meeting contradiction |
+|---|---|---|---|---|
+| **rewrite (ours)** | **~325 tok** | bounded (whole memory) | **0.64 ± 0.10** | ✅ **reconciled to current truth** |
+| gbrain_accumulate (retrieval) | ~12k tok, grows | bounded (top-K) | 0.03 | ❌ retrieves the **stale** fact |
+| naive append | ~12k tok | full dump | 0.03 | ❌ |
+| sliding window | ~1.5k tok | bounded | 0.09 | ✅ but forgets old facts (recall 0.50) |
+
+**What actually differs (the fair wins):**
+1. **Contradiction reconciliation.** When the lab meeting moves (night 11), ours drops the stale time and holds the current one; the never-forget arm retrieves the *old* one. This is by design on both sides — GBrain's synthesis prompt says "surface BOTH… never silently pick one."
+2. **Self-improvement.** Best-so-far composite score **0.67 ± 0.07** vs a static policy **0.29 ± 0.16** — the agent teaches itself directives (e.g. drop promotional mail, retain deadlines) that GBrain has no mechanism for.
+3. **Compact, self-curating store** with zero retained noise, vs an unbounded library that needs a retrieval+rerank layer (GBrain's own benchmark: P@5 ≈ 0.49).
+4. **Proactivity** — a morning briefing with no query.
+**Where accumulation wins (the trade we make):** long-tail recall of arbitrary facts. nocturne deliberately forgets to stay sharp; that's the bet.
+
+> _Reproducibility note: artifacts on `main` are rendered with the deterministic `--offline` engine so the repo runs out of the box. The real tiered-DO multi-seed numbers + ablations live on the `overnight-results` branch._
 
 Charts (committed to `artifacts/`):
 
@@ -146,16 +165,17 @@ docs/VIDEO_SCRIPT.md
 ## Evaluation methodology
 
 Two experiments, both on the fixed labeled trace:
-1. **Brains comparison** — rewrite (ours) vs gbrain-style accumulate vs naive append vs sliding window. Metrics: needle-survival precision/recall/F1, memory tokens, noise leakage, morning-QA accuracy. Baselines are *mechanical* (no LLM) so the contrast is precisely "LLM consolidation vs. mechanical accumulation"; every arm answers the same questions with the same model from its own memory.
+1. **Brains comparison** — rewrite (ours) vs gbrain_accumulate (never-forget + top-K retrieval, the fair GBrain analog) vs naive append vs sliding window. We track **store tokens** and **query tokens** separately so the retrieval arm isn't strawmanned. Metrics: needle-survival precision/recall/F1, noise leakage, morning-QA accuracy, and per-question correctness (incl. the night-11 contradiction). Baselines are mechanical; ours uses LLM consolidation; every arm answers the same questions with the same model from its own memory (full bounded memory for ours, retrieved top-K for the library arm).
 2. **Self-improvement** — self-improving policy vs static policy; composite score over nights, with a validation-gated hill-climb (best-so-far is monotonic by construction; we also report raw score and the static control).
 
 ## Limitations & failure analysis
 
-- **Single seed / one trace.** Results are on one labeled scenario; we do not yet report variance across seeds. (Roadmap.)
-- **Best-so-far framing.** The self-improvement headline curve is monotonic by design (validation-gating). We disclose this and also plot the noisy raw score and a static-policy control.
+- **The GBrain arm is an *analog*, not GBrain.** We read GBrain's source and modeled its core posture — never-forget storage + top-K retrieval + synthesize. Our retrieval is lexical top-K, not GBrain's hybrid vector+keyword+typed-graph stack with reranking, and we don't reimplement its entity graph, gap analysis, or multi-user scoping. So we compare against the *philosophy* (accumulate + retrieve), not the product, and we don't claim to beat GBrain at long-term memory — only that bounded reconciliation behaves differently (and better) for a daily working set.
+- **Accumulation wins long-tail recall.** Our bounded store forgets by design; a never-forget library will answer arbitrary old questions ours can't. That's the explicit trade.
+- **Best-so-far framing.** The self-improvement headline curve is monotonic by design (validation-gating). We disclose it and also plot the raw score + a static-policy control.
 - **Simulated inputs.** The stream is synthetic (disclosed above); the cognition is real, but real inboxes are messier than a story-shaped trace.
-- **Offline engine ≠ model.** `--offline` is a transparent heuristic stand-in for zero-setup reproducibility and deterministic tests; the reported results come from `--do` (a real model). The bundle records which engine produced it.
-- **Decay can drop a premise early.** A premise of the planted insight can fade from memory before the payoff; the ledger handles this by confirming on the later evidence, but a more aggressive budget can lose needles (visible in the window arm).
+- **Offline engine ≠ model.** `--offline` is a transparent heuristic stand-in for zero-setup reproducibility and deterministic tests; reported numbers come from `--do` (a real model on DigitalOcean). The bundle records which engine produced it.
+- **Decay can drop a premise early.** A premise of the planted insight can fade before the payoff; the ledger handles this by confirming on the later evidence, but a more aggressive budget can lose needles (visible in the window arm).
 
 ## AI usage disclosure
 

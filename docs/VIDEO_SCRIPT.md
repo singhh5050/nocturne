@@ -39,10 +39,10 @@ Watch one night." (Let a night scroll: ops, top memory, a learned policy edit.)
 - Four arms on the *identical* 30-night stream: rewrite (ours) vs gbrain-style accumulate vs naive
   append vs sliding window. Baselines are mechanical; every arm answers the same morning questions
   with the same model from its own memory.
-- **[memory_size.png]** accumulation bloats ~20–25×; ours stays flat under a token budget.
+- **Fair comparison:** the GBrain arm keeps everything *and* retrieves top-K to answer (bounded query cost) — we don't strawman it. The real wins: ours **reconciles** the night-11 lab-meeting contradiction (the library retrieves the stale time), self-improves, and stays a tiny self-curating store.
+- **[memory_size.png]** storage footprint: accumulation grows unbounded; ours stays flat under a hard budget.
 - **[brains_quality.png / table]** ours: high needle recall, far higher precision, ~zero noise.
-- **[qa_accuracy.png]** ours answers next-day questions at a fraction of the token cost — the
-  sleep-time-compute payoff. Window forgets old facts.
+- **[qa_accuracy.png]** ours answers next-day questions from a tiny bounded memory (no retrieval step); window forgets old facts. Honest trade: accumulation wins long-tail recall.
 - Failure analysis: single seed, best-so-far is monotonic by design (disclosed), decay can drop a
   premise early.
 
