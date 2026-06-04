@@ -1,0 +1,3477 @@
+{
+  "persona": "Maya Chen, a 2nd-year CS PhD student at a research university, preparing an ICLR submission on agent memory. Works with an advisor and a small lab; reads heavily on memory systems and agents.",
+  "nights": [
+    {
+      "night": 1,
+      "items": [
+        {
+          "id": "n01-notes-1",
+          "night": 1,
+          "source": "notes",
+          "sender": "self",
+          "subject": "Saved to read: MemGPT",
+          "body": "Saved MemGPT (virtual context management, paging between in-context and external memory). Relevant to my memory-rewrite idea.",
+          "thread": "pref_memory",
+          "label": "needle"
+        },
+        {
+          "id": "n01-noise-1",
+          "night": 1,
+          "source": "slack",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (1.1)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-2",
+          "night": 1,
+          "source": "arxiv",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (1.2)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-3",
+          "night": 1,
+          "source": "github",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (1.3)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-4",
+          "night": 1,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (1.4)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-5",
+          "night": 1,
+          "source": "gmail",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (1.5)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-6",
+          "night": 1,
+          "source": "slack",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (1.6)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-7",
+          "night": 1,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (1.7)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-8",
+          "night": 1,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (1.8)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-9",
+          "night": 1,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (1.9)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n01-noise-10",
+          "night": 1,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (1.10)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 2,
+      "items": [
+        {
+          "id": "n02-gmail-1",
+          "night": 2,
+          "source": "gmail",
+          "sender": "iclr-pcs@iclr.cc",
+          "subject": "Your ICLR submission: reviews available",
+          "body": "Reviews are in for 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address.",
+          "thread": "iclr_rebuttal",
+          "label": "needle"
+        },
+        {
+          "id": "n02-noise-1",
+          "night": 2,
+          "source": "arxiv",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (2.1)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-2",
+          "night": 2,
+          "source": "github",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (2.2)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-3",
+          "night": 2,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (2.3)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-4",
+          "night": 2,
+          "source": "gmail",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (2.4)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-5",
+          "night": 2,
+          "source": "slack",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (2.5)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-6",
+          "night": 2,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (2.6)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-7",
+          "night": 2,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (2.7)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-8",
+          "night": 2,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (2.8)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-9",
+          "night": 2,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (2.9)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-10",
+          "night": 2,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (2.10)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-11",
+          "night": 2,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (2.11)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n02-noise-12",
+          "night": 2,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (2.12)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 3,
+      "items": [
+        {
+          "id": "n03-gmail-1",
+          "night": 3,
+          "source": "gmail",
+          "sender": "iclr-pcs@iclr.cc",
+          "subject": "Re: reviewer 2 detailed comments",
+          "body": "Reviewer 2: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.'",
+          "thread": "iclr_rebuttal",
+          "label": "needle"
+        },
+        {
+          "id": "n03-gmail-2",
+          "night": 3,
+          "source": "gmail",
+          "sender": "d.okafor@otherschool.edu",
+          "subject": "Co-author a workshop paper?",
+          "body": "Hey Maya \u2014 want to co-author a quick workshop paper on agent-memory benchmarks? Could be low effort. Let me know!",
+          "thread": "collab_fizzle",
+          "label": "context"
+        },
+        {
+          "id": "n03-noise-1",
+          "night": 3,
+          "source": "github",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (3.1)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-2",
+          "night": 3,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (3.2)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-3",
+          "night": 3,
+          "source": "gmail",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (3.3)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-4",
+          "night": 3,
+          "source": "slack",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (3.4)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-5",
+          "night": 3,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (3.5)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-6",
+          "night": 3,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (3.6)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-7",
+          "night": 3,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (3.7)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-8",
+          "night": 3,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (3.8)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n03-noise-9",
+          "night": 3,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (3.9)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 4,
+      "items": [
+        {
+          "id": "n04-slack-1",
+          "night": 4,
+          "source": "slack",
+          "sender": "advisor",
+          "subject": "#lab: rebuttal plan",
+          "body": "advisor: Let's prioritize the rewrite-vs-append ablation for the rebuttal. Rebuttal deadline is day 19 \u2014 we need results well before then.",
+          "thread": "iclr_rebuttal",
+          "label": "needle"
+        },
+        {
+          "id": "n04-gmail-2",
+          "night": 4,
+          "source": "gmail",
+          "sender": "d.okafor@otherschool.edu",
+          "subject": "Re: Co-author a workshop paper?",
+          "body": "Following up \u2014 sketched a rough outline, take a look when you have a sec.",
+          "thread": "collab_fizzle",
+          "label": "context"
+        },
+        {
+          "id": "n04-noise-1",
+          "night": 4,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (4.1)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-2",
+          "night": 4,
+          "source": "gmail",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (4.2)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-3",
+          "night": 4,
+          "source": "slack",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (4.3)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-4",
+          "night": 4,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (4.4)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-5",
+          "night": 4,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (4.5)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-6",
+          "night": 4,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (4.6)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-7",
+          "night": 4,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (4.7)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-8",
+          "night": 4,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (4.8)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-9",
+          "night": 4,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (4.9)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-10",
+          "night": 4,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (4.10)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n04-noise-11",
+          "night": 4,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (4.11)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 5,
+      "items": [
+        {
+          "id": "n05-cal-1",
+          "night": 5,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Weekly lab meeting scheduled",
+          "body": "Recurring: Lab meeting every Thursday 14:00, room 311.",
+          "thread": "labmeeting",
+          "label": "needle"
+        },
+        {
+          "id": "n05-noise-1",
+          "night": 5,
+          "source": "gmail",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (5.1)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-2",
+          "night": 5,
+          "source": "slack",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (5.2)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-3",
+          "night": 5,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (5.3)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-4",
+          "night": 5,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (5.4)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-5",
+          "night": 5,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (5.5)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-6",
+          "night": 5,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (5.6)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-7",
+          "night": 5,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (5.7)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n05-noise-8",
+          "night": 5,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (5.8)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 6,
+      "items": [
+        {
+          "id": "n06-slack-1",
+          "night": 6,
+          "source": "slack",
+          "sender": "d.okafor",
+          "subject": "dm: workshop paper",
+          "body": "d.okafor: still keen on that workshop paper? no rush at all.",
+          "thread": "collab_fizzle",
+          "label": "context"
+        },
+        {
+          "id": "n06-arxiv-1",
+          "night": 6,
+          "source": "arxiv",
+          "sender": "arxiv-cs-ai",
+          "subject": "New: Consolidation reduces cross-fact interference",
+          "body": "Technique paper: periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall. (Saved \u2014 relevant to my memory work.)",
+          "thread": "insight",
+          "label": "context"
+        },
+        {
+          "id": "n06-noise-1",
+          "night": 6,
+          "source": "slack",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (6.1)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-2",
+          "night": 6,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (6.2)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-3",
+          "night": 6,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (6.3)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-4",
+          "night": 6,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (6.4)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-5",
+          "night": 6,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (6.5)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-6",
+          "night": 6,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (6.6)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-7",
+          "night": 6,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (6.7)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-8",
+          "night": 6,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (6.8)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-9",
+          "night": 6,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (6.9)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n06-noise-10",
+          "night": 6,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (6.10)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 7,
+      "items": [
+        {
+          "id": "n07-noise-1",
+          "night": 7,
+          "source": "arxiv",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (7.1)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-2",
+          "night": 7,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (7.2)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-3",
+          "night": 7,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (7.3)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-4",
+          "night": 7,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (7.4)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-5",
+          "night": 7,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (7.5)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-6",
+          "night": 7,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (7.6)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-7",
+          "night": 7,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (7.7)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-8",
+          "night": 7,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (7.8)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-9",
+          "night": 7,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (7.9)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-10",
+          "night": 7,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (7.10)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-11",
+          "night": 7,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (7.11)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n07-noise-12",
+          "night": 7,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (7.12)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 8,
+      "items": [
+        {
+          "id": "n08-noise-1",
+          "night": 8,
+          "source": "github",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (8.1)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-2",
+          "night": 8,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (8.2)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-3",
+          "night": 8,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (8.3)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-4",
+          "night": 8,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (8.4)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-5",
+          "night": 8,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (8.5)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-6",
+          "night": 8,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (8.6)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-7",
+          "night": 8,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (8.7)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-8",
+          "night": 8,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (8.8)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n08-noise-9",
+          "night": 8,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (8.9)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 9,
+      "items": [
+        {
+          "id": "n09-gmail-1",
+          "night": 9,
+          "source": "gmail",
+          "sender": "cluster-admin@univ.edu",
+          "subject": "H100 allocation approved",
+          "body": "Your May allocation is approved: 2400 H100 GPU-hours. Quota resets monthly.",
+          "thread": "compute",
+          "label": "needle"
+        },
+        {
+          "id": "n09-noise-1",
+          "night": 9,
+          "source": "calendar",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (9.1)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-2",
+          "night": 9,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (9.2)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-3",
+          "night": 9,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (9.3)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-4",
+          "night": 9,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (9.4)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-5",
+          "night": 9,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (9.5)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-6",
+          "night": 9,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (9.6)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-7",
+          "night": 9,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (9.7)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-8",
+          "night": 9,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (9.8)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-9",
+          "night": 9,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (9.9)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-10",
+          "night": 9,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (9.10)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n09-noise-11",
+          "night": 9,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (9.11)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 10,
+      "items": [
+        {
+          "id": "n10-github-1",
+          "night": 10,
+          "source": "github",
+          "sender": "ci-bot",
+          "subject": "issue #214: kick off rewrite-vs-append ablation runs",
+          "body": "Tracking issue opened for the rebuttal ablation sweep (rewrite vs append vs window).",
+          "thread": "iclr_rebuttal",
+          "label": "context"
+        },
+        {
+          "id": "n10-noise-1",
+          "night": 10,
+          "source": "gmail",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (10.1)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-2",
+          "night": 10,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (10.2)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-3",
+          "night": 10,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (10.3)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-4",
+          "night": 10,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (10.4)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-5",
+          "night": 10,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (10.5)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-6",
+          "night": 10,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (10.6)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-7",
+          "night": 10,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (10.7)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n10-noise-8",
+          "night": 10,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (10.8)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 11,
+      "items": [
+        {
+          "id": "n11-gmail-1",
+          "night": 11,
+          "source": "gmail",
+          "sender": "advisor",
+          "subject": "Lab meeting moving",
+          "body": "Heads up: moving the weekly lab meeting to Wednesdays 11:00 starting next week. Please update your calendar \u2014 the old Thursday 14:00 slot is dropped.",
+          "thread": "labmeeting",
+          "label": "needle"
+        },
+        {
+          "id": "n11-noise-1",
+          "night": 11,
+          "source": "slack",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (11.1)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-2",
+          "night": 11,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (11.2)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-3",
+          "night": 11,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (11.3)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-4",
+          "night": 11,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (11.4)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-5",
+          "night": 11,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (11.5)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-6",
+          "night": 11,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (11.6)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-7",
+          "night": 11,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (11.7)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-8",
+          "night": 11,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (11.8)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-9",
+          "night": 11,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (11.9)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n11-noise-10",
+          "night": 11,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (11.10)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 12,
+      "items": [
+        {
+          "id": "n12-noise-1",
+          "night": 12,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (12.1)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-2",
+          "night": 12,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (12.2)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-3",
+          "night": 12,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (12.3)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-4",
+          "night": 12,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (12.4)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-5",
+          "night": 12,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (12.5)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-6",
+          "night": 12,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (12.6)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-7",
+          "night": 12,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (12.7)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-8",
+          "night": 12,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (12.8)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-9",
+          "night": 12,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (12.9)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-10",
+          "night": 12,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (12.10)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-11",
+          "night": 12,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (12.11)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n12-noise-12",
+          "night": 12,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (12.12)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 13,
+      "items": [
+        {
+          "id": "n13-notes-1",
+          "night": 13,
+          "source": "notes",
+          "sender": "self",
+          "subject": "Experiment log: weird accuracy drop",
+          "body": "Odd: in the append baseline, QA accuracy drops once the store grows past ~40 items even though the target fact is still in there. Not a retrieval miss \u2014 feels like the extra material is getting in the way.",
+          "thread": "insight",
+          "label": "context"
+        },
+        {
+          "id": "n13-notes-2",
+          "night": 13,
+          "source": "notes",
+          "sender": "self",
+          "subject": "Saved: consolidation vs accumulation",
+          "body": "Saved another memory paper arguing compression beats accumulation for working sets.",
+          "thread": "pref_memory",
+          "label": "needle"
+        },
+        {
+          "id": "n13-noise-1",
+          "night": 13,
+          "source": "github",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (13.1)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-2",
+          "night": 13,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (13.2)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-3",
+          "night": 13,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (13.3)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-4",
+          "night": 13,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (13.4)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-5",
+          "night": 13,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (13.5)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-6",
+          "night": 13,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (13.6)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-7",
+          "night": 13,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (13.7)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-8",
+          "night": 13,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (13.8)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n13-noise-9",
+          "night": 13,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (13.9)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 14,
+      "items": [
+        {
+          "id": "n14-noise-1",
+          "night": 14,
+          "source": "calendar",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (14.1)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-2",
+          "night": 14,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (14.2)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-3",
+          "night": 14,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (14.3)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-4",
+          "night": 14,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (14.4)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-5",
+          "night": 14,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (14.5)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-6",
+          "night": 14,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (14.6)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-7",
+          "night": 14,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (14.7)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-8",
+          "night": 14,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (14.8)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-9",
+          "night": 14,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (14.9)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-10",
+          "night": 14,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (14.10)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n14-noise-11",
+          "night": 14,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (14.11)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 15,
+      "items": [
+        {
+          "id": "n15-noise-1",
+          "night": 15,
+          "source": "gmail",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (15.1)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-2",
+          "night": 15,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (15.2)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-3",
+          "night": 15,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (15.3)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-4",
+          "night": 15,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (15.4)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-5",
+          "night": 15,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (15.5)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-6",
+          "night": 15,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (15.6)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-7",
+          "night": 15,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (15.7)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n15-noise-8",
+          "night": 15,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (15.8)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 16,
+      "items": [
+        {
+          "id": "n16-notes-1",
+          "night": 16,
+          "source": "notes",
+          "sender": "self",
+          "subject": "Ablation results in",
+          "body": "Rewrite beats naive append by ~9 F1 points on needle survival; append blows the token budget by day 20 of the sim. Clean result for the rebuttal.",
+          "thread": "iclr_rebuttal",
+          "label": "needle"
+        },
+        {
+          "id": "n16-noise-1",
+          "night": 16,
+          "source": "slack",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (16.1)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-2",
+          "night": 16,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (16.2)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-3",
+          "night": 16,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (16.3)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-4",
+          "night": 16,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (16.4)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-5",
+          "night": 16,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (16.5)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-6",
+          "night": 16,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (16.6)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-7",
+          "night": 16,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (16.7)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-8",
+          "night": 16,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (16.8)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-9",
+          "night": 16,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (16.9)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n16-noise-10",
+          "night": 16,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (16.10)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 17,
+      "items": [
+        {
+          "id": "n17-noise-1",
+          "night": 17,
+          "source": "arxiv",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (17.1)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-2",
+          "night": 17,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (17.2)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-3",
+          "night": 17,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (17.3)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-4",
+          "night": 17,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (17.4)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-5",
+          "night": 17,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (17.5)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-6",
+          "night": 17,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (17.6)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-7",
+          "night": 17,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (17.7)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-8",
+          "night": 17,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (17.8)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-9",
+          "night": 17,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (17.9)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-10",
+          "night": 17,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (17.10)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-11",
+          "night": 17,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (17.11)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n17-noise-12",
+          "night": 17,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (17.12)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 18,
+      "items": [
+        {
+          "id": "n18-arxiv-1",
+          "night": 18,
+          "source": "arxiv",
+          "sender": "arxiv-cs-ai",
+          "subject": "New: lifelong memory for agents",
+          "body": "Another agent-memory paper. Saved to the reading list.",
+          "thread": "pref_memory",
+          "label": "context"
+        },
+        {
+          "id": "n18-noise-1",
+          "night": 18,
+          "source": "github",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (18.1)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-2",
+          "night": 18,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (18.2)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-3",
+          "night": 18,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (18.3)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-4",
+          "night": 18,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (18.4)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-5",
+          "night": 18,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (18.5)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-6",
+          "night": 18,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (18.6)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-7",
+          "night": 18,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (18.7)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-8",
+          "night": 18,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (18.8)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n18-noise-9",
+          "night": 18,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (18.9)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 19,
+      "items": [
+        {
+          "id": "n19-gmail-1",
+          "night": 19,
+          "source": "gmail",
+          "sender": "iclr-pcs@iclr.cc",
+          "subject": "Rebuttal received",
+          "body": "Your author response for submission 4127 has been received (deadline day 19).",
+          "thread": "iclr_rebuttal",
+          "label": "needle"
+        },
+        {
+          "id": "n19-noise-1",
+          "night": 19,
+          "source": "calendar",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (19.1)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-2",
+          "night": 19,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (19.2)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-3",
+          "night": 19,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (19.3)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-4",
+          "night": 19,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (19.4)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-5",
+          "night": 19,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (19.5)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-6",
+          "night": 19,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (19.6)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-7",
+          "night": 19,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (19.7)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-8",
+          "night": 19,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (19.8)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-9",
+          "night": 19,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (19.9)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-10",
+          "night": 19,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (19.10)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n19-noise-11",
+          "night": 19,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (19.11)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 20,
+      "items": [
+        {
+          "id": "n20-noise-1",
+          "night": 20,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (20.1)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-2",
+          "night": 20,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (20.2)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-3",
+          "night": 20,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (20.3)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-4",
+          "night": 20,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (20.4)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-5",
+          "night": 20,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (20.5)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-6",
+          "night": 20,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (20.6)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-7",
+          "night": 20,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (20.7)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n20-noise-8",
+          "night": 20,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (20.8)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 21,
+      "items": [
+        {
+          "id": "n21-noise-1",
+          "night": 21,
+          "source": "slack",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (21.1)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-2",
+          "night": 21,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (21.2)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-3",
+          "night": 21,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (21.3)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-4",
+          "night": 21,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (21.4)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-5",
+          "night": 21,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (21.5)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-6",
+          "night": 21,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (21.6)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-7",
+          "night": 21,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (21.7)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-8",
+          "night": 21,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (21.8)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-9",
+          "night": 21,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (21.9)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n21-noise-10",
+          "night": 21,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (21.10)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 22,
+      "items": [
+        {
+          "id": "n22-notes-1",
+          "night": 22,
+          "source": "notes",
+          "sender": "self",
+          "subject": "Bounded-memory variant works",
+          "body": "Ran the bounded-memory variant: the accuracy drop is gone \u2014 recall held flat as the stream grew. Aggressive consolidation fixed it.",
+          "thread": "insight",
+          "label": "needle"
+        },
+        {
+          "id": "n22-noise-1",
+          "night": 22,
+          "source": "arxiv",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (22.1)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-2",
+          "night": 22,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (22.2)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-3",
+          "night": 22,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (22.3)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-4",
+          "night": 22,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (22.4)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-5",
+          "night": 22,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (22.5)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-6",
+          "night": 22,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (22.6)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-7",
+          "night": 22,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (22.7)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-8",
+          "night": 22,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (22.8)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-9",
+          "night": 22,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (22.9)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-10",
+          "night": 22,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (22.10)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-11",
+          "night": 22,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (22.11)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n22-noise-12",
+          "night": 22,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (22.12)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 23,
+      "items": [
+        {
+          "id": "n23-noise-1",
+          "night": 23,
+          "source": "github",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (23.1)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-2",
+          "night": 23,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (23.2)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-3",
+          "night": 23,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (23.3)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-4",
+          "night": 23,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (23.4)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-5",
+          "night": 23,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (23.5)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-6",
+          "night": 23,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (23.6)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-7",
+          "night": 23,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (23.7)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-8",
+          "night": 23,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (23.8)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n23-noise-9",
+          "night": 23,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (23.9)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 24,
+      "items": [
+        {
+          "id": "n24-notes-1",
+          "night": 24,
+          "source": "notes",
+          "sender": "self",
+          "subject": "Saved: episodic memory survey",
+          "body": "Saved a survey on episodic memory for LLM agents.",
+          "thread": "pref_memory",
+          "label": "context"
+        },
+        {
+          "id": "n24-noise-1",
+          "night": 24,
+          "source": "calendar",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (24.1)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-2",
+          "night": 24,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (24.2)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-3",
+          "night": 24,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (24.3)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-4",
+          "night": 24,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (24.4)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-5",
+          "night": 24,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (24.5)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-6",
+          "night": 24,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (24.6)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-7",
+          "night": 24,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (24.7)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-8",
+          "night": 24,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (24.8)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-9",
+          "night": 24,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (24.9)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-10",
+          "night": 24,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (24.10)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n24-noise-11",
+          "night": 24,
+          "source": "calendar",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (24.11)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 25,
+      "items": [
+        {
+          "id": "n25-noise-1",
+          "night": 25,
+          "source": "gmail",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (25.1)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-2",
+          "night": 25,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (25.2)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-3",
+          "night": 25,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (25.3)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-4",
+          "night": 25,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (25.4)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-5",
+          "night": 25,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (25.5)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-6",
+          "night": 25,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (25.6)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-7",
+          "night": 25,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (25.7)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n25-noise-8",
+          "night": 25,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (25.8)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 26,
+      "items": [
+        {
+          "id": "n26-noise-1",
+          "night": 26,
+          "source": "slack",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (26.1)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-2",
+          "night": 26,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (26.2)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-3",
+          "night": 26,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (26.3)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-4",
+          "night": 26,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (26.4)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-5",
+          "night": 26,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (26.5)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-6",
+          "night": 26,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (26.6)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-7",
+          "night": 26,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (26.7)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-8",
+          "night": 26,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (26.8)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-9",
+          "night": 26,
+          "source": "calendar",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (26.9)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n26-noise-10",
+          "night": 26,
+          "source": "gmail",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (26.10)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 27,
+      "items": [
+        {
+          "id": "n27-gmail-1",
+          "night": 27,
+          "source": "gmail",
+          "sender": "iclr-pcs@iclr.cc",
+          "subject": "Decision + camera-ready",
+          "body": "Good news: Reviewer 2 raised their score from 4 to 6 after the rebuttal. Paper accepted; camera-ready due in two weeks.",
+          "thread": "iclr_rebuttal",
+          "label": "needle"
+        },
+        {
+          "id": "n27-noise-1",
+          "night": 27,
+          "source": "arxiv",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (27.1)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-2",
+          "night": 27,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (27.2)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-3",
+          "night": 27,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (27.3)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-4",
+          "night": 27,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (27.4)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-5",
+          "night": 27,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (27.5)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-6",
+          "night": 27,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (27.6)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-7",
+          "night": 27,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (27.7)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-8",
+          "night": 27,
+          "source": "calendar",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (27.8)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-9",
+          "night": 27,
+          "source": "gmail",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (27.9)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-10",
+          "night": 27,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (27.10)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-11",
+          "night": 27,
+          "source": "arxiv",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (27.11)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n27-noise-12",
+          "night": 27,
+          "source": "github",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (27.12)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 28,
+      "items": [
+        {
+          "id": "n28-noise-1",
+          "night": 28,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (28.1)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-2",
+          "night": 28,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (28.2)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-3",
+          "night": 28,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (28.3)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-4",
+          "night": 28,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (28.4)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-5",
+          "night": 28,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (28.5)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-6",
+          "night": 28,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (28.6)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-7",
+          "night": 28,
+          "source": "calendar",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (28.7)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-8",
+          "night": 28,
+          "source": "gmail",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (28.8)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n28-noise-9",
+          "night": 28,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (28.9)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 29,
+      "items": [
+        {
+          "id": "n29-noise-1",
+          "night": 29,
+          "source": "calendar",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (29.1)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-2",
+          "night": 29,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (29.2)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-3",
+          "night": 29,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (29.3)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-4",
+          "night": 29,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (29.4)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-5",
+          "night": 29,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (29.5)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-6",
+          "night": 29,
+          "source": "calendar",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (29.6)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-7",
+          "night": 29,
+          "source": "gmail",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (29.7)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-8",
+          "night": 29,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (29.8)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-9",
+          "night": 29,
+          "source": "arxiv",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (29.9)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-10",
+          "night": 29,
+          "source": "github",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (29.10)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n29-noise-11",
+          "night": 29,
+          "source": "calendar",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (29.11)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    },
+    {
+      "night": 30,
+      "items": [
+        {
+          "id": "n30-noise-1",
+          "night": 30,
+          "source": "gmail",
+          "sender": "sales@vectordb.example",
+          "subject": "Is your RAG stack slow? Try our managed vector DB (30.1)",
+          "body": "Is your RAG stack slow? Try our managed vector DB \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-2",
+          "night": 30,
+          "source": "slack",
+          "sender": "noreply@coursera.example",
+          "subject": "New course recommendations for you (30.2)",
+          "body": "New course recommendations for you \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-3",
+          "night": 30,
+          "source": "arxiv",
+          "sender": "newsletter@thebatch.ai",
+          "subject": "The Batch: this week in AI (30.3)",
+          "body": "The Batch: this week in AI \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-4",
+          "night": 30,
+          "source": "github",
+          "sender": "recruiter@bigtechco.com",
+          "subject": "Exciting Staff ML Engineer opportunity! (30.4)",
+          "body": "Exciting Staff ML Engineer opportunity! \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-5",
+          "night": 30,
+          "source": "calendar",
+          "sender": "promos@deals.example",
+          "subject": "50% off your favorite cloud GPUs (limited time) (30.5)",
+          "body": "50% off your favorite cloud GPUs (limited time) \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-6",
+          "night": 30,
+          "source": "gmail",
+          "sender": "noreply@social.example",
+          "subject": "You have 7 new connection requests (30.6)",
+          "body": "You have 7 new connection requests \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-7",
+          "night": 30,
+          "source": "calendar",
+          "sender": "calendar",
+          "subject": "Reminder: campus parking permit renewal (30.7)",
+          "body": "Reminder: campus parking permit renewal \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        },
+        {
+          "id": "n30-noise-8",
+          "night": 30,
+          "source": "arxiv",
+          "sender": "newsletter@importai.net",
+          "subject": "Import AI: policy roundup (30.8)",
+          "body": "Import AI: policy roundup \u2014 routine, promotional, or low-signal chatter. Safe to ignore.",
+          "thread": "noise",
+          "label": "noise"
+        }
+      ]
+    }
+  ],
+  "qa": [
+    {
+      "id": "q-r2",
+      "ask_night": 6,
+      "question": "What does Reviewer 2 want addressed in the rebuttal?",
+      "answer": "An ablation isolating the rewrite operations from naive append.",
+      "keywords": [
+        "ablation",
+        "append"
+      ],
+      "thread": "iclr_rebuttal"
+    },
+    {
+      "id": "q-gpu",
+      "ask_night": 12,
+      "question": "How many GPU-hours is the approved H100 allocation?",
+      "answer": "2400 GPU-hours.",
+      "keywords": [
+        "2400"
+      ],
+      "thread": "compute"
+    },
+    {
+      "id": "q-meeting",
+      "ask_night": 12,
+      "question": "What day and time is the lab meeting now?",
+      "answer": "Wednesday 11:00.",
+      "keywords": [
+        "wednesday",
+        "11"
+      ],
+      "thread": "labmeeting"
+    },
+    {
+      "id": "q-deadline",
+      "ask_night": 20,
+      "question": "When was the ICLR rebuttal due?",
+      "answer": "Day 19.",
+      "keywords": [
+        "19"
+      ],
+      "thread": "iclr_rebuttal"
+    },
+    {
+      "id": "q-pref",
+      "ask_night": 25,
+      "question": "What research topic does the user consistently save papers about?",
+      "answer": "Agent memory systems.",
+      "keywords": [
+        "memory"
+      ],
+      "thread": "pref_memory"
+    },
+    {
+      "id": "q-r2-final",
+      "ask_night": 28,
+      "question": "Did Reviewer 2 change their score after the rebuttal?",
+      "answer": "Yes \u2014 raised from 4 to 6.",
+      "keywords": [
+        "6",
+        "raised"
+      ],
+      "thread": "iclr_rebuttal"
+    }
+  ],
+  "needles": [
+    {
+      "id": "need-iclr",
+      "thread": "iclr_rebuttal",
+      "description": "Reviewer 2 wants a rewrite-vs-append ablation (rebuttal due day 19).",
+      "present_from_night": 4,
+      "keywords": [
+        "reviewer 2",
+        "ablation",
+        "append"
+      ]
+    },
+    {
+      "id": "need-compute",
+      "thread": "compute",
+      "description": "H100 allocation = 2400 GPU-hours.",
+      "present_from_night": 9,
+      "keywords": [
+        "2400",
+        "gpu"
+      ]
+    },
+    {
+      "id": "need-labmeeting",
+      "thread": "labmeeting",
+      "description": "Lab meeting is now Wednesday 11:00 (moved from Thursday 14:00).",
+      "present_from_night": 11,
+      "keywords": [
+        "wednesday",
+        "11"
+      ]
+    },
+    {
+      "id": "need-pref",
+      "thread": "pref_memory",
+      "description": "User has a durable interest in agent-memory papers.",
+      "present_from_night": 13,
+      "keywords": [
+        "memory"
+      ]
+    }
+  ],
+  "insight": {
+    "premise_item_ids": [
+      "n06-arxiv-1",
+      "n13-notes-1"
+    ],
+    "statement": "The append baseline's accuracy drop at scale is interference from accumulation; consolidation / bounded memory (the paper's technique X) fixes the anomaly Y \u2014 so aggressive consolidation, not accumulation, is the right bet.",
+    "keywords": [
+      "consolidat",
+      "interfer",
+      "bounded",
+      "accumulat"
+    ],
+    "proposable_from_night": 13,
+    "confirmed_by_night": 22
+  }
+}

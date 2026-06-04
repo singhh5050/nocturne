@@ -11,3 +11,11 @@ build/
 memory.json
 *.log
 .DS_Store
+
+# Commit artifacts/, runs/run.json, and runs/cassettes/ (for --do-replay). Ignore scratch logs.
+runs/*.log
+
+
+# partial/local run data (the overnight Droplet commits complete results to its branch)
+runs/cassettes/
+runs/batch/
