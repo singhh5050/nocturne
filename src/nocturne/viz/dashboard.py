@@ -76,9 +76,18 @@ def _art_uri(name: str) -> str:
 
 def build(bundle: dict, out_path: Path) -> Path:
     # background + ornaments are now fully procedural (WebGL nebula + SVG); no embedded raster art
+    data = _compact(bundle)
+    # embed the raw input stream so the UI can show input -> memory (matched to memory via provenance)
+    try:
+        from ..sim.generator import load_world
+        w = load_world()
+        data["trace"] = [{"id": it.id, "n": it.night, "src": it.source, "s": it.subject, "l": it.label}
+                         for ni in w.nights for it in ni.items]
+    except Exception:
+        data["trace"] = []
     html = (_TEMPLATE
             .replace("__FONTS__", _font_face_css())
-            .replace("__DATA__", json.dumps(_compact(bundle))))
+            .replace("__DATA__", json.dumps(data)))
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(html)
@@ -107,7 +116,7 @@ body{margin:0;background:transparent;color:var(--fg);font-family:var(--sans);fon
 body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background:
   radial-gradient(1200px 720px at 50% -10%, rgba(217,178,90,.12), transparent 60%),
   radial-gradient(900px 820px at 85% 112%, rgba(121,90,200,.12), transparent 60%),
-  linear-gradient(180deg, rgba(6,7,16,.32), rgba(4,5,12,.52) 55%, rgba(3,4,10,.68));}
+  linear-gradient(180deg, rgba(6,7,16,.20), rgba(4,5,12,.38) 55%, rgba(3,4,10,.54));}
 #stars{position:fixed;inset:0;z-index:-1;pointer-events:none}
 /* smoothness: SVG geometry + opacity transitions */
 #cl-nodes circle{transition:cx .9s cubic-bezier(.3,.75,.2,1), cy .9s cubic-bezier(.3,.75,.2,1), r .5s ease, fill-opacity .6s ease}
@@ -116,6 +125,22 @@ body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;ba
 .fade{transition:opacity .35s ease}
 .gen-cur{display:inline-block;width:7px;height:1.02em;background:var(--amber);vertical-align:-2px;margin-left:1px;border-radius:1px;animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
+.needle{animation:npulse 2.2s ease-in-out infinite}
+@keyframes npulse{0%,100%{stroke-opacity:.75}50%{stroke-opacity:.06}}
+/* the night's intake (input -> memory) */
+.flowsum{font-family:var(--mono);font-size:13px;color:var(--muted);margin-bottom:10px}
+.flowsum b{color:var(--fg)}
+.intake{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:6px;max-height:220px;overflow:auto}
+.intake .it{display:flex;gap:8px;align-items:baseline;padding:5px 9px;border-radius:8px;background:rgba(255,255,255,.03);font-size:12.5px;border-left:3px solid transparent}
+.intake .it.kept{border-left-color:var(--amber)} .intake .it.dropped{opacity:.5}
+.intake .src{font-family:var(--mono);font-size:10px;color:var(--faint);min-width:50px}
+.intake .it span:nth-child(3){flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.intake .st{font-family:var(--mono);font-size:10px;white-space:nowrap}
+.intake .st.k{color:var(--amber)} .intake .st.d{color:var(--faint)}
+.lab{font-family:var(--mono);font-size:9px;padding:1px 6px;border-radius:5px}
+.lab.needle{background:rgba(244,184,96,.16);color:var(--amber)}
+.lab.noise{background:rgba(232,138,168,.14);color:var(--rose)}
+.lab.context{background:rgba(121,224,214,.12);color:var(--cyan)}
 .star{position:absolute;border-radius:50%;background:#fff;animation:tw var(--d) ease-in-out infinite alternate}
 @keyframes tw{from{opacity:.12}to{opacity:.85}}
 
@@ -219,6 +244,11 @@ svg{display:block;width:100%}
 <div class="chips" id="chips"></div>
 
 <div class="wrap">
+  <div class="card full">
+    <h2>the night's intake — stream → memory</h2>
+    <div class="flowsum" id="intake-sum"></div>
+    <div class="intake" id="intake"></div>
+  </div>
   <div class="card">
     <h2>memory constellation</h2>
     <svg id="constellation" viewBox="0 0 580 380" style="height:380px"></svg>
@@ -247,6 +277,7 @@ svg{display:block;width:100%}
       </div>
     </div>
     <div class="metaphor">GBrain keeps every star. nocturne draws the figure you steer by — and at night, lets the rest fade.</div>
+    <div class="inspector" id="brain-inspector">click a star — in either brain — to read what it holds.</div>
   </div>
 
   <div class="card">
@@ -308,16 +339,18 @@ let RECON=null; // night where lab meeting reconciled Thu->Wed
     "return mix(mix(hash(i),hash(i+vec2(1,0)),u.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),u.x),u.y);}"+
     "float fbm(vec2 p){float v=0.,a=.5;mat2 m=mat2(1.6,1.2,-1.2,1.6);"+
     "for(int i=0;i<6;i++){v+=a*noise(p);p=m*p;a*=.5;}return v;}"+
-    "void main(){vec2 uv=gl_FragCoord.xy/uRes.xy;vec2 p=(uv-0.5)*vec2(uRes.x/uRes.y,1.)*3.0;"+
-    "float t=uTime*0.025;"+
-    "vec2 q=vec2(fbm(p+vec2(0.,t)),fbm(p+vec2(5.2,1.3-t)));"+
-    "vec2 r=vec2(fbm(p+4.*q+vec2(1.7,9.2)+t*.5),fbm(p+4.*q+vec2(8.3,2.8)-t*.5));"+
-    "float f=fbm(p+4.*r);"+
+    "void main(){vec2 uv=gl_FragCoord.xy/uRes.xy;vec2 c=(uv-0.5)*vec2(uRes.x/uRes.y,1.);"+
+    "float t=uTime*0.10;"+
+    "float ang=t*0.7+length(c)*1.5;float s=sin(ang),co=cos(ang);c=mat2(co,-s,s,co)*c;"+ // swirl
+    "vec2 p=c*3.0;"+
+    "vec2 q=vec2(fbm(p+vec2(1.4*sin(t*0.7),t)),fbm(p+vec2(5.2-t,1.3+1.4*cos(t*0.6))));"+
+    "vec2 r=vec2(fbm(p+4.*q+vec2(1.7,9.2)+1.2*t),fbm(p+4.*q+vec2(8.3,2.8)-1.2*t));"+
+    "float f=fbm(p+4.*r+0.6*q);"+
     "vec3 col=vec3(0.03,0.035,0.085);"+
     "col=mix(col,vec3(0.10,0.12,0.30),clamp(f*f*1.7,0.,1.));"+
     "col=mix(col,vec3(0.30,0.19,0.44),clamp(length(q)*0.55,0.,1.));"+
     "col=mix(col,vec3(0.96,0.72,0.36),clamp(pow(max(r.x,0.),3.)*1.1,0.,1.));"+
-    "float vig=smoothstep(1.25,0.25,length(uv-0.5));col*=0.42+0.58*vig;col*=0.82;"+
+    "float vig=smoothstep(1.3,0.2,length(uv-0.5));col*=0.54+0.52*vig;col*=0.98;"+
     "gl_FragColor=vec4(col,1.);}";
   function sh(t,s){const o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);return o;}
   const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(pr);gl.useProgram(pr);
@@ -344,7 +377,27 @@ function render(t){cur=t;const d=DATA.nights[t-1];$("nlabel").textContent=`night
   $("chips").innerHTML=chip("score",d.score.toFixed(3),"amber")+chip("best",d.best.toFixed(3),"amber")+
     chip("memory",`${d.facts}`)+chip("tokens",d.tokens)+chip("F1",d.f1.toFixed(2),"cyan")+
     chip("recall",d.recall.toFixed(2),"cyan")+chip("noise",d.noise,d.noise?"rose":"")+chip("ops",`<span style='font-size:14px'>${opsGlyph(d.ops)}</span>`);
-  drawConstellation(d);drawTwoBrains(t,d);drawMemory(d);drawBriefing(d);drawLedger(d);drawPolicy(d,t);drawDecisions(t);drawCursor();}
+  drawIntake(t,d);drawConstellation(d);drawTwoBrains(t,d);drawMemory(d);drawBriefing(d);drawLedger(d);drawPolicy(d,t);drawDecisions(t);drawCursor();}
+
+function isNeedle(s){s=(s||"").toLowerCase();return /ablation|reviewer 2|2400|gpu|wednesday|11:00|h100/.test(s);}
+const _STOP=new Set(["the","and","for","you","your","this","new","with","are","was","from","that","has","have","will","not","but","its","week","day","2026","re:"]);
+function _tk(s){return ((s||"").toLowerCase().match(/[a-z0-9]{3,}/g)||[]).filter(w=>!_STOP.has(w));}
+function drawIntake(t,d){
+  const items=(DATA.trace||[]).filter(x=>x.n===t);
+  const memTexts=(d.memory||[]).map(m=>(m.content||"").toLowerCase()); // match input->memory by content
+  function keptItem(it){
+    if(it.l==="noise")return false;               // noise is always let go (ours never stores it)
+    const A=_tk(it.s);let best=0;for(const mc of memTexts){let n=0;for(const x of A)if(mc.indexOf(x)>=0)n++;if(n>best)best=n;}
+    return it.l==="needle"?best>=1:best>=2;        // a needle counts as kept if it survived in memory
+  }
+  const flags=items.map(keptItem), nk=flags.filter(Boolean).length;
+  $("intake-sum").innerHTML=`<b>${items.length}</b> items arrived tonight → `+
+    `<b style="color:var(--amber)">${nk}</b> entered memory · <b>${items.length-nk}</b> let go &nbsp;`+
+    `<span style="color:var(--faint)">tonight's ops: ${opsGlyph(d.ops)}</span>`;
+  const rows=items.map((it,i)=>{const k=flags[i];
+    return `<div class="it ${k?'kept':'dropped'}"><span class="src">${it.src}</span><span class="lab ${it.l}">${it.l}</span><span title="${esc(it.s)}">${esc(it.s)}</span><span class="st ${k?'k':'d'}">${k?'✓ kept':'· let go'}</span></div>`;});
+  fadeSwap($("intake"),rows.join("")||"<span style='color:var(--faint)'>a quiet night — nothing arrived</span>");
+}
 
 function nodesByThread(mem){const g={};mem.forEach(it=>{const th=threadOf(it.content);(g[th.key]=g[th.key]||{th,items:[]}).items.push(it);});return g;}
 const SVGNS="http://www.w3.org/2000/svg";
@@ -392,26 +445,33 @@ function drawConstellation(d){
 
 function drawTwoBrains(t,d){
   const W=460,H=240,cx=W/2,cy=H/2;
-  // ours — cross-fade between configurations
+  // OURS — bounded constellation; real items; hover to read; the needles highlighted + connected
   const ob=$("b-ours"); ob.style.opacity=".3";
   let so=`<rect width="${W}" height="${H}" rx="12" fill="rgba(8,9,18,.4)"/>`;
-  const mem=d.memory.slice().sort((a,b)=>b.weight-a.weight).slice(0,14);
-  mem.forEach((it,i)=>{const a=(i/Math.max(1,mem.length))*6.283,r=40+(i%3)*22,x=cx+Math.cos(a)*r*1.5,y=cy+Math.sin(a)*r;
-    if(i>0){const a0=((i-1)/Math.max(1,mem.length))*6.283,r0=40+((i-1)%3)*22;so+=`<line x1="${(cx+Math.cos(a0)*r0*1.5).toFixed(1)}" y1="${(cy+Math.sin(a0)*r0).toFixed(1)}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="#f4b860" stroke-opacity=".3"/>`;}
-    so+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(3+it.weight*3).toFixed(1)}" fill="#f4b860"/>`;});
+  const mem=d.memory.slice().sort((a,b)=>b.weight-a.weight).slice(0,16);
+  const pts=mem.map((it,i)=>{const a=(i/Math.max(1,mem.length))*6.283,r=42+(i%3)*20;return{x:cx+Math.cos(a)*r*1.5,y:cy+Math.sin(a)*r,it};});
+  pts.forEach((p,i)=>{if(i>0)so+=`<line x1="${pts[i-1].x.toFixed(1)}" y1="${pts[i-1].y.toFixed(1)}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="#f4b860" stroke-opacity=".28"/>`;});
+  pts.forEach(p=>{const nd=isNeedle(p.it.content);so+=`<circle class="${nd?'needle':''}" data-c="${esc(p.it.content)}" data-n="${nd?1:0}" style="cursor:pointer" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${(3.4+p.it.weight*3).toFixed(1)}" fill="${nd?'#f4b860':'#d9b25a'}" ${nd?'stroke="#fff8e6" stroke-width="1"':''}><title>${esc(p.it.content)}</title></circle>`;});
   ob.innerHTML=so; requestAnimationFrame(()=>requestAnimationFrame(()=>ob.style.opacity="1"));
-  $("ours-sub").textContent=`${d.facts} stars · one figure you can hold in your head`;
-  // catalog — dots fade in and STAY as the night advances (it never forgets); fade out on rewind
-  const lib=DATA.brains.gbrain_accumulate, libN=lib?lib.facts[t-1]:0, target=Math.min(libN,520);
-  const svg=$("b-lib");
-  if(!svg._g){svg.innerHTML=`<rect width="${W}" height="${H}" rx="12" fill="rgba(8,9,18,.4)"/><g></g>`;svg._g=svg.querySelector("g");svg._dots=[];svg._s=98765;}
-  const g=svg._g,dots=svg._dots,rnd=()=>{svg._s=(svg._s*9301+49297)%233280;return svg._s/233280;};
-  while(dots.length<target){const c=document.createElementNS(SVGNS,"circle");
-    c.setAttribute("cx",(rnd()*W).toFixed(1));c.setAttribute("cy",(rnd()*H).toFixed(1));c.setAttribute("r",(rnd()*1.3+.5).toFixed(2));
-    c.setAttribute("fill","#7fa8ff");c.setAttribute("fill-opacity","0");c.style.transition="fill-opacity .6s ease";
-    g.appendChild(c);dots.push(c);const o=(.3+rnd()*.5).toFixed(2);requestAnimationFrame(()=>c.setAttribute("fill-opacity",o));}
-  while(dots.length>target){const c=dots.pop();c.setAttribute("fill-opacity","0");setTimeout(()=>{try{g.removeChild(c);}catch(e){}},500);}
-  $("lib-sub").textContent=`${libN} pages · every star kept, none connected`;}
+  ob.querySelectorAll("circle").forEach(c=>c.onclick=()=>setBI(c.dataset.n==="1"?"★ needle · in the constellation":"memory star",c.dataset.c));
+  $("ours-sub").textContent=`${d.facts} stars · the ${mem.filter(m=>isNeedle(m.content)).length} that matter, legible & connected`;
+  // CATALOG — every stream item kept; REAL & labelled; hover to read; needles buried + pulsing gold
+  const items=(DATA.trace||[]).filter(x=>x.n<=t), svg=$("b-lib");
+  if(!svg._g){svg.innerHTML=`<rect width="${W}" height="${H}" rx="12" fill="rgba(8,9,18,.4)"/><g></g>`;svg._g=svg.querySelector("g");svg._n=0;svg._s=98765;}
+  const g=svg._g,rnd=()=>{svg._s=(svg._s*9301+49297)%233280;return svg._s/233280;};
+  if(items.length<svg._n){g.innerHTML="";svg._n=0;svg._s=98765;}           // rewound -> rebuild
+  for(;svg._n<items.length;svg._n++){const it=items[svg._n],nd=it.l==="needle";
+    const c=document.createElementNS(SVGNS,"circle");
+    c.setAttribute("cx",(rnd()*W).toFixed(1));c.setAttribute("cy",(rnd()*H).toFixed(1));
+    c.setAttribute("r",(nd?2.8:(rnd()*1.1+.5)).toFixed(2));c.setAttribute("fill",nd?"#f4b860":"#7fa8ff");
+    c.setAttribute("fill-opacity","0");c.style.transition="fill-opacity .6s ease";
+    if(nd){c.setAttribute("stroke","#fff8e6");c.setAttribute("stroke-width","1");c.setAttribute("class","needle");}
+    c.style.cursor="pointer";c.onclick=((it,nd)=>()=>setBI(nd?"★ needle · buried in the catalog":"catalog page · "+it.l, it.s))(it,nd);
+    const tt=document.createElementNS(SVGNS,"title");tt.textContent=(nd?"★ NEEDLE — ":"")+it.s;c.appendChild(tt);
+    g.appendChild(c);const o=(nd?.98:(.22+rnd()*.32)).toFixed(2);requestAnimationFrame(()=>c.setAttribute("fill-opacity",o));}
+  const libNeed=items.filter(x=>x.l==="needle").length;
+  $("lib-sub").textContent=`${items.length} pages · ${libNeed} needles buried — click to hunt`;}
+function setBI(tag,text){$("brain-inspector").innerHTML=`<b>${tag}</b> — ${esc(text)}`;}
 
 function drawMemory(d){const items=d.memory.slice().sort((a,b)=>b.weight-a.weight);
   fadeSwap($("mem"),items.length?items.map(it=>`<li onclick="document.getElementById('inspector').innerHTML='<b>★</b> '+this.dataset.c+' <span style=color:var(--faint)>why: ['+this.dataset.p+']</span>'" data-c="${esc(it.content)}" data-p="${esc((it.provenance||[]).join(', ')||'—')}"><span class="w">${it.weight.toFixed(2)}</span><span class="tier ${it.tier}">${it.tier.replace("_"," ")}</span><span>${esc(it.content)}</span></li>`).join(""):`<li style="color:var(--faint)">empty</li>`);}
@@ -425,7 +485,8 @@ function drawBriefing(d){const el=$("briefing");const full=d.briefing||"";const 
 function fadeSwap(el,html){el.classList.add("fade");el.innerHTML=html;el.style.opacity="0";
   requestAnimationFrame(()=>requestAnimationFrame(()=>{el.style.opacity="1";}));}
 function drawLedger(d){if(!d.ledger||!d.ledger.length){$("ledger").innerHTML="<span style='color:var(--faint)'>no hypotheses yet</span>";return;}
-  const a=d.ledger.slice().sort((x,y)=>(y.status==="confirmed")-(x.status==="confirmed")||y.confidence-x.confidence).slice(0,4);
+  const rec=h=>Math.max(h.confirmed_night||0,h.proposed_night||0); // most-recent activity first
+  const a=d.ledger.slice().sort((x,y)=>rec(y)-rec(x)||y.confidence-x.confidence).slice(0,5);
   fadeSwap($("ledger"),a.map(h=>`<div class="hyp ${h.status}"><div>${h.status==="confirmed"?"✦ ":""}${esc(h.statement)}</div><div class="meta">${h.status} · conf ${h.confidence.toFixed(2)}${h.confirmed_night?` · confirmed night ${h.confirmed_night}`:""}</div></div>`).join(""));}
 function drawPolicy(d,t){if(!d.policy||!d.policy.length){$("policy").innerHTML="<span style='color:var(--faint)'>seed policy</span>";return;}
   fadeSwap($("policy"),d.policy.slice().sort((a,b)=>b.weight-a.weight).map(p=>`<div class="pol ${p.learned_night===t?'fresh':''}"><div>${esc(p.content)}</div><div class="ln">w=${p.weight.toFixed(2)} · learned night ${p.learned_night}${p.learned_night===t?' · NEW':''}</div></div>`).join(""));}
