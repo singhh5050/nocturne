@@ -75,10 +75,9 @@ def _art_uri(name: str) -> str:
 
 
 def build(bundle: dict, out_path: Path) -> Path:
+    # background + ornaments are now fully procedural (WebGL nebula + SVG); no embedded raster art
     html = (_TEMPLATE
             .replace("__FONTS__", _font_face_css())
-            .replace("__NEBULA__", _art_uri("nebula"))
-            .replace("__PARCH__", _art_uri("parchment"))
             .replace("__DATA__", json.dumps(_compact(bundle))))
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -104,12 +103,11 @@ __FONTS__
 html{background:#05060d}
 body{margin:0;background:transparent;color:var(--fg);font-family:var(--sans);font-size:14px;line-height:1.55}
 /* art = atmosphere only: a full-bleed generated nebula, dark-overlaid for legibility */
-#bg{position:fixed;inset:0;z-index:-3;background:#05060d url(__NEBULA__) center/cover no-repeat;
-  filter:saturate(1.12) brightness(1.08);animation:drift 90s ease-in-out infinite alternate}
-@keyframes drift{from{transform:scale(1.04) translate(-1%,-1%)}to{transform:scale(1.12) translate(2%,1.5%)}}
-body::before{content:"";position:fixed;inset:0;z-index:-2;background:
-  radial-gradient(1100px 640px at 50% -8%, rgba(217,178,90,.18), transparent 62%),
-  linear-gradient(180deg, rgba(6,7,15,.20), rgba(5,6,12,.42) 55%, rgba(4,5,11,.62));}
+#bg{position:fixed;inset:0;z-index:-3;display:block;width:100%;height:100%;background:#05060d}
+body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background:
+  radial-gradient(1200px 720px at 50% -10%, rgba(217,178,90,.12), transparent 60%),
+  radial-gradient(900px 820px at 85% 112%, rgba(121,90,200,.12), transparent 60%),
+  linear-gradient(180deg, rgba(6,7,16,.32), rgba(4,5,12,.52) 55%, rgba(3,4,10,.68));}
 #stars{position:fixed;inset:0;z-index:-1;pointer-events:none}
 /* smoothness: SVG geometry + opacity transitions */
 #cl-nodes circle{transition:cx .9s cubic-bezier(.3,.75,.2,1), cy .9s cubic-bezier(.3,.75,.2,1), r .5s ease, fill-opacity .6s ease}
@@ -152,7 +150,7 @@ button:hover{border-color:var(--gold);color:var(--amber)}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:18px 20px;
   backdrop-filter:blur(10px);box-shadow:0 24px 60px rgba(0,0,0,.5);position:relative;overflow:hidden;
   opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
-.card::after{content:"";position:absolute;inset:0;background:url(__PARCH__) center/cover no-repeat;opacity:.04;pointer-events:none;mix-blend-mode:overlay}
+.card::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(130% 130% at 0% 0%, rgba(217,178,90,.05), transparent 55%)}
 .card>*{position:relative;z-index:1}
 .card:nth-child(1){animation-delay:.05s}.card:nth-child(2){animation-delay:.12s}
 .card:nth-child(3){animation-delay:.19s}.card:nth-child(4){animation-delay:.26s}
@@ -201,7 +199,7 @@ svg{display:block;width:100%}
 @media(max-width:1040px){.wrap,.charts,.brains{grid-template-columns:1fr}}
 </style></head>
 <body>
-<div id="bg"></div><div id="stars"></div>
+<canvas id="bg"></canvas><div id="stars"></div>
 <header>
   <div class="eyebrow">harmonia macrocosmica · sleep-time compute</div>
   <h1><span class="moon">◗</span> nocturne</h1>
@@ -298,6 +296,39 @@ let RECON=null; // night where lab meeting reconciled Thu->Wed
 (function(){let s=9301;const r=()=>{s=(s*9301+49297)%233280;return s/233280;};let h="";
   for(let i=0;i<150;i++)h+=`<div class="star" style="left:${(r()*100).toFixed(2)}%;top:${(r()*100).toFixed(2)}%;width:${(r()*1.7+.4).toFixed(2)}px;height:${(r()*1.7+.4).toFixed(2)}px;--d:${(r()*4+2).toFixed(1)}s;animation-delay:${(r()*4).toFixed(1)}s"></div>`;
   $("stars").innerHTML=h;})();
+
+// procedural WebGL nebula — domain-warped fbm that ebbs and flows; crisp at any resolution
+(function(){
+  const cv=$("bg"); let gl=null; try{gl=cv.getContext("webgl")||cv.getContext("experimental-webgl");}catch(e){}
+  if(!gl){document.body.style.background="radial-gradient(1200px 720px at 50% -5%, #15173a, #06070f 60%)";return;}
+  const vs="attribute vec2 a;void main(){gl_Position=vec4(a,0.,1.);}";
+  const fs="precision highp float;uniform vec2 uRes;uniform float uTime;"+
+    "float hash(vec2 p){p=fract(p*vec2(123.34,345.45));p+=dot(p,p+34.345);return fract(p.x*p.y);}"+
+    "float noise(vec2 p){vec2 i=floor(p),f=fract(p);vec2 u=f*f*(3.-2.*f);"+
+    "return mix(mix(hash(i),hash(i+vec2(1,0)),u.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),u.x),u.y);}"+
+    "float fbm(vec2 p){float v=0.,a=.5;mat2 m=mat2(1.6,1.2,-1.2,1.6);"+
+    "for(int i=0;i<6;i++){v+=a*noise(p);p=m*p;a*=.5;}return v;}"+
+    "void main(){vec2 uv=gl_FragCoord.xy/uRes.xy;vec2 p=(uv-0.5)*vec2(uRes.x/uRes.y,1.)*3.0;"+
+    "float t=uTime*0.025;"+
+    "vec2 q=vec2(fbm(p+vec2(0.,t)),fbm(p+vec2(5.2,1.3-t)));"+
+    "vec2 r=vec2(fbm(p+4.*q+vec2(1.7,9.2)+t*.5),fbm(p+4.*q+vec2(8.3,2.8)-t*.5));"+
+    "float f=fbm(p+4.*r);"+
+    "vec3 col=vec3(0.03,0.035,0.085);"+
+    "col=mix(col,vec3(0.10,0.12,0.30),clamp(f*f*1.7,0.,1.));"+
+    "col=mix(col,vec3(0.30,0.19,0.44),clamp(length(q)*0.55,0.,1.));"+
+    "col=mix(col,vec3(0.96,0.72,0.36),clamp(pow(max(r.x,0.),3.)*1.1,0.,1.));"+
+    "float vig=smoothstep(1.25,0.25,length(uv-0.5));col*=0.42+0.58*vig;col*=0.82;"+
+    "gl_FragColor=vec4(col,1.);}";
+  function sh(t,s){const o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);return o;}
+  const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(pr);gl.useProgram(pr);
+  const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+  const la=gl.getAttribLocation(pr,"a");gl.enableVertexAttribArray(la);gl.vertexAttribPointer(la,2,gl.FLOAT,false,0,0);
+  const uRes=gl.getUniformLocation(pr,"uRes"),uTime=gl.getUniformLocation(pr,"uTime");
+  function resize(){const d=Math.min(window.devicePixelRatio||1,2);cv.width=Math.floor(innerWidth*d);cv.height=Math.floor(innerHeight*d);gl.viewport(0,0,cv.width,cv.height);}
+  addEventListener("resize",resize);resize();
+  const t0=performance.now();
+  (function loop(){gl.uniform2f(uRes,cv.width,cv.height);gl.uniform1f(uTime,(performance.now()-t0)/1000);gl.drawArrays(gl.TRIANGLES,0,3);requestAnimationFrame(loop);})();
+})();
 
 $("persona").textContent=DATA.persona;
 $("badges").innerHTML=`<span class="badge">engine <b>${DATA.engine}</b></span>`+
