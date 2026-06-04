@@ -78,20 +78,29 @@ def _model_for(mode: str, settings) -> str | None:
     return settings.nocturne_model
 
 
+def _rem_model_for(mode: str, settings) -> str | None:
+    # heavier model for REM cross-thread synthesis; falls back to the bulk model
+    if mode in ("do", "do-replay"):
+        return settings.openai_rem_model or settings.openai_model or None
+    return None
+
+
 def cmd_eval(args) -> int:
     mode = _engine_mode(args)
     llm, settings = make_engine(mode)
     model = _model_for(mode, settings)
+    rem_model = _rem_model_for(mode, settings)
     trace = load_world()
-    print(f"Running eval (engine={mode}, model={model}) over "
+    print(f"Running eval (engine={mode}, model={model}, rem_model={rem_model}) over "
           f"{trace.num_nights} nights x {len(harness.DEFAULT_ARMS)} arms ...", file=sys.stderr)
 
-    brains = harness.experiment_brains(llm, trace, model=model)
+    brains = harness.experiment_brains(llm, trace, model=model, rem_model=rem_model)
     selfimp = harness.experiment_selfimprove(llm, trace, model=model)
 
     bundle = {
         "engine": mode,
         "model": model or mode,
+        "rem_model": rem_model,
         "persona": trace.persona,
         "num_nights": trace.num_nights,
         "trace_stats": stats(trace),
@@ -149,6 +158,7 @@ def cmd_batch(args) -> int:
     mode = _engine_mode(args)
     settings = get_settings()
     model = _model_for(mode, settings)
+    rem_model = _rem_model_for(mode, settings)
     trace = load_world()
 
     def make_llm(*, temperature=None, seed=None):
@@ -160,7 +170,7 @@ def cmd_batch(args) -> int:
                                temperature=temperature, seed=seed)
 
     from .eval import batch
-    summary = batch.run_batch(make_llm, trace, model=model, seeds=args.seeds,
+    summary = batch.run_batch(make_llm, trace, model=model, rem_model=rem_model, seeds=args.seeds,
                               do_ablations=not args.no_ablations, max_minutes=args.max_minutes)
     # refresh the seed-0 charts + dashboard so artifacts reflect the batch
     if RUN_PATH.exists():

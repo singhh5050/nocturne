@@ -14,7 +14,8 @@ class Settings(BaseSettings):
     # OpenAI-compatible provider (DigitalOcean Gradient / serverless inference).
     openai_base_url: str = "https://inference.do-ai.run/v1"
     openai_api_key: str = ""
-    openai_model: str = ""
+    openai_model: str = ""       # light/bulk model: triage, consolidate, QA, improve, briefing
+    openai_rem_model: str = ""   # heavier model for REM cross-thread synthesis (falls back to bulk)
 
 
 def get_settings() -> Settings:

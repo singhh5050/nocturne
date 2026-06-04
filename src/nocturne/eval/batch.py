@@ -48,6 +48,7 @@ def run_batch(
     trace: WorldTrace,
     *,
     model: str | None,
+    rem_model: str | None = None,
     seeds: int = 5,
     do_ablations: bool = True,
     outdir: Path = Path("runs/batch"),
@@ -69,9 +70,10 @@ def run_batch(
         temp = round(0.3 + 0.1 * i, 2)
         print(f"[batch] seed {i} (temperature={temp}) ...", flush=True)
         llm = make_llm(temperature=temp, seed=1000 + i)
-        brains = harness.experiment_brains(llm, trace, model=model)
+        brains = harness.experiment_brains(llm, trace, model=model, rem_model=rem_model)
         selfimp = harness.experiment_selfimprove(llm, trace, model=model)
-        bundle = {"engine": "do", "model": model, "seed": i, "temperature": temp,
+        bundle = {"engine": "do", "model": model, "rem_model": rem_model,
+                  "seed": i, "temperature": temp,
                   "persona": trace.persona, "num_nights": trace.num_nights,
                   "brains": brains, "selfimprove": selfimp}
         (outdir / f"seed_{i}.json").write_text(json.dumps(bundle))

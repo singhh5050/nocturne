@@ -35,6 +35,7 @@ ROLLBACK_MARGIN = 0.05
 def run_our_arm(
     llm: LLM, trace: WorldTrace, *,
     model: str | None = None,
+    rem_model: str | None = None,   # heavier model for REM synthesis (falls back to `model`)
     self_improve: bool = True,
     do_rem: bool = True,
     do_briefing: bool = True,
@@ -62,7 +63,8 @@ def run_our_arm(
 
         rem_props: list[str] = []
         if do_rem:
-            rem_props = rem_mod.rem_synthesize(llm, store=store, ledger=ledger, night=n, model=model)
+            rem_props = rem_mod.rem_synthesize(llm, store=store, ledger=ledger, night=n,
+                                               model=(rem_model or model))
         if insight_found_night is None and M.insight_found(
             [h.statement for h in ledger.hypotheses], trace
         ):
@@ -153,13 +155,14 @@ DEFAULT_ARMS = ["rewrite", "gbrain_accumulate", "append", "window"]
 
 
 def experiment_brains(llm: LLM, trace: WorldTrace, *, arms: list[str] | None = None,
-                      model: str | None = None) -> dict:
+                      model: str | None = None, rem_model: str | None = None) -> dict:
     arms = arms or DEFAULT_ARMS
     results = {}
     for a in arms:
         if a == "rewrite":
-            results[a] = run_our_arm(llm, trace, model=model, self_improve=True,
-                                     do_rem=True, do_briefing=True, label="rewrite")
+            results[a] = run_our_arm(llm, trace, model=model, rem_model=rem_model,
+                                     self_improve=True, do_rem=True, do_briefing=True,
+                                     label="rewrite")
         else:
             results[a] = run_baseline_arm(llm, trace, a, model=model)
     return results
