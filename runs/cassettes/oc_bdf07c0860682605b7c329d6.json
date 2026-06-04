@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"#lab: rebuttal plan \u2014 advisor: Let's prioritize the rewrite-vs-append ablation for the rebuttal. Rebuttal deadline is day 19 \u2014 we need results well before then.\",\"weight\":0.8,\"tags\":[\"lab\",\"rebuttal\",\"plan\"],\"provenance\":[\"n04-slack-1\"]},{\"op\":\"merge\",\"source_ids\":[\"b68746a0\"],\"tier\":\"in_progress\",\"content\":\"Co-author invitation: Hey Maya \u2014 want to co-author a quick workshop paper on agent-memory benchmarks? Could be low effort. Let me know! In follow-up, a rough outline has been sketched\u2014take a look when you have a sec.\",\"weight\":0.9,\"tags\":[\"email\",\"coauthor\",\"followup\"],\"provenance\":[\"n04-gmail-2\"]},{\"op\":\"drop\",\"id\":\"n04-noise-1\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-2\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-3\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-4\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-5\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-6\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-7\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-8\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-9\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-10\",\"reason\":\"routine, low-signal chatter.\"},{\"op\":\"drop\",\"id\":\"n04-noise-11\",\"reason\":\"routine, low-signal chatter.\"}]}",
+  "usage": {
+    "input_tokens": 1428,
+    "output_tokens": 1362,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

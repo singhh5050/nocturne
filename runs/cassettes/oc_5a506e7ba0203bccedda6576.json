@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"6cca29a7\",\"reason\":\"Uncertainty rule leads to over-retention; better to seek clarification before storing.\"},{\"op\":\"add\",\"content\":\"When uncertain about relevance, seek clarification from the researcher before storing an item.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 528,
+    "output_tokens": 410,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

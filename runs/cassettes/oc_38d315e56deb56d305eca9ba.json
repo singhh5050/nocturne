@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Periodically consolidating the model's context (e.g., rewriting stored facts into a compact summary) will eliminate the sharp QA accuracy drop observed when the store exceeds ~40 items, replicating the ~9\u202fF1 improvement of the rewrite ablation over naive append and avoiding token\u2011budget overflow.\",\"confidence\":0.78,\"support_ids\":[\"81d02abc\",\"f1bc2caa\",\"17d25ddc\",\"5beb6fb6\"],\"tags\":[\"memory\",\"interference\",\"consolidation\"]},{\"statement\":\"Integrating MemGPT\u2011style external memory paging with a rewrite\u2011based consolidation policy can sustain large working\u2011set sizes without exceeding token limits, thereby preserving performance where the naive append baseline runs out of budget after ~20 days of simulation.\",\"confidence\":0.65,\"support_ids\":[\"b9cd6a13\",\"5beb6fb6\",\"81d02abc\"],\"tags\":[\"memory\",\"external\",\"paging\"]}]}",
+  "usage": {
+    "input_tokens": 1430,
+    "output_tokens": 639,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

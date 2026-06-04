@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"5beb6fb6\",\"n19-gmail-1\"],\"tier\":\"in_progress\",\"content\":\"Updated rebuttal plan: Day 19 deadline confirmed; author response received. Revision strategy includes prioritizing ablation results and reinforcing rewrite versus naive append findings.\",\"weight\":0.35,\"tags\":[\"ICLR\",\"ablation\",\"review\",\"submission\"]},{\"op\":\"drop\",\"id\":\"n19-noise-1\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-2\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-3\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-4\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-5\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-6\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-7\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-8\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-9\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-10\",\"reason\":\"routine promotional chatter\"},{\"op\":\"drop\",\"id\":\"n19-noise-11\",\"reason\":\"routine promotional chatter\"}]}",
+  "usage": {
+    "input_tokens": 1810,
+    "output_tokens": 2084,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

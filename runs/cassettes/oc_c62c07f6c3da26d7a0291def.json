@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"f3b7e840\",\"n16-notes-1\"],\"tier\":\"in_progress\",\"content\":\"Conduct rewrite vs append ablation results: Rewrite beats naive append by ~9 F1 points on needle survival; append blows token budget by day 20.\", \"weight\":1.0,\"tags\":[\"ablation\",\"rewrite\",\"append\",\"deadline\",\"rebuttal\",\"result\"],\"provenance\":[\"n16-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1693,
+    "output_tokens": 573,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

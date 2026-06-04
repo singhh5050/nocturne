@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"5ba5fa7e\",\"n06-slack-1\"],\"tier\":\"in_progress\",\"content\":\"Co-author workshop paper on agent\u2011memory benchmarks (outline attached). Following up on draft, incorporating requested rough outline. Action: prepare paper abstract and methodology sections. Slack DM from d.okafor: still keen on that workshop paper? no rush at all.\",\"weight\":0.64,\"tags\":[\"coauthor\",\"outline\",\"workshop\",\"slack\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New technique: periodically consolidating accumulated context into a compact summary reduces interference between unrelated facts, improving downstream recall.\",\"weight\":0.5,\"tags\":[\"arxiv\",\"technique\",\"memory\",\"consolidation\"],\"provenance\":[\"n06-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"n06-noise-1\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-2\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-3\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-4\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-5\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-6\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-7\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-8\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-9\",\"reason\":\"low-signal routine chatter\"},{\"op\":\"drop\",\"id\":\"n06-noise-10\",\"reason\":\"low-signal routine chatter\"}]}",
+  "usage": {
+    "input_tokens": 1372,
+    "output_tokens": 1593,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

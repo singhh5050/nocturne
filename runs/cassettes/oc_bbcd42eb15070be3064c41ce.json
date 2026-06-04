@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The accuracy drop observed in the naive\u2011append baseline after ~40 items is caused by cross\u2011fact interference that can be mitigated by periodically consolidating the growing store into a compact summary, as described in the consolidation literature, thereby narrowing the performance gap between append and rewrite strategies.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"e8a6939f\", \"98edf81f\", \"dca96840\"],\n      \"tags\": [\"interference\", \"consolidation\", \"append\", \"rewrite\", \"ablation\"]\n    },\n    {\n      \"statement\": \"Applying MemGPT\u2011style virtual context management (dynamic paging between in\u2011context and external memory) to the naive\u2011append baseline will reduce token\u2011budget blow\u2011up and improve needle\u2011survival F1, approaching the rewrite\u2011only performance.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"e8a6939f\", \"4779d87a\", \"df71618a\"],\n      \"tags\": [\"paging\", \"token_budget\", \"append\", \"rewrite\", \"MemGPT\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 957,
+    "output_tokens": 528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

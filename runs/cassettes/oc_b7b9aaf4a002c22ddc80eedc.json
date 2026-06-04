@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n20-noise-1\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-2\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-3\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-4\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-5\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-6\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-7\",\"reason\":\"policy 6e29bf0e\"},{\"op\":\"drop\",\"id\":\"n20-noise-8\",\"reason\":\"policy 6e29bf0e\"}]}",
+  "usage": {
+    "input_tokens": 1658,
+    "output_tokens": 308,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

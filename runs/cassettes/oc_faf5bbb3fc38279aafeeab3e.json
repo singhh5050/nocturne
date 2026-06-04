@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"6759b4da\"],\"tier\":\"episodic\",\"content\":\"Experiment log (6759b4da): A weird accuracy drop in the append baseline was observed. Now, Bounded\u2011memory variant clears the accuracy drop\u2014recall remains flat as the stream grows, thanks to aggressive consolidation.\",\"weight\":0.10,\"tags\":[\"experiment\",\"accuracy\",\"append\",\"size\",\"bounded-memory\",\"consolidation\"],\"provenance\":[\"n22-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1882,
+    "output_tokens": 508,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

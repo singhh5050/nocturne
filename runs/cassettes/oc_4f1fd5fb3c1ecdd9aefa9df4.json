@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"6d94732c\",\"reason\":\"lab meeting time changed as per email n11-gmail-1\"},{\"op\":\"add\",\"tier\":\"preferences\",\"content\":\"weekly lab meeting scheduled: every Wednesday 11:00\",\"weight\":0.01,\"tags\":[\"agenda\",\"lab\",\"meeting\",\"weekly\"],\"provenance\":[\"n11-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1586,
+    "output_tokens": 930,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

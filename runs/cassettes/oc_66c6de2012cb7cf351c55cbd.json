@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"DM from d.okafor: 'still keen on that workshop paper? no rush at all.'\",\"weight\":1.5,\"tags\":[\"workshop\",\"dm\",\"MemGPT\"],\"provenance\":[\"n06-slack-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Arxiv paper: Consolidation reduces cross-fact interference \u2014 technique paper showing that periodically consolidating accumulated context into a compact summary reduces interference and improves downstream recall.\",\"weight\":1.0,\"tags\":[\"arxiv\",\"memorization\",\"consolidation\"],\"provenance\":[\"n06-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"55e819e5\",\"reason\":\"promotional newsletter\"},{\"op\":\"drop\",\"id\":\"85ba52a5\",\"reason\":\"promotional message\"},{\"op\":\"drop\",\"id\":\"ade025b1\",\"reason\":\"promotional message\"},{\"op\":\"drop\",\"id\":\"2d90817f\",\"reason\":\"promotional message\"},{\"op\":\"drop\",\"id\":\"8693f7e8\",\"reason\":\"promotional message\"},{\"op\":\"drop\",\"id\":\"33e4ccb5\",\"reason\":\"promotional message\"},{\"op\":\"drop\",\"id\":\"cd8af2f6\",\"reason\":\"promotional message\"},{\"op\":\"drop\",\"id\":\"4a09f398\",\"reason\":\"promotional reminder\"}]}",
+  "usage": {
+    "input_tokens": 1965,
+    "output_tokens": 1508,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

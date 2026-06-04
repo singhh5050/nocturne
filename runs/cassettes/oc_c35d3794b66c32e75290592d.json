@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The improvements attributed to the structured memory rewrite in the ICLR submission are primarily caused by periodic consolidation of memory (which reduces cross\u2011fact interference) rather than the rewrite operation itself, so a baseline that performs only consolidation without rewrite should achieve comparable scores.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"9868c237\", \"98edf81f\"],\n      \"tags\": [\"ablation\", \"memory_consolidation\", \"rewrite_vs_append\"]\n    },\n    {\n      \"statement\": \"A naive append baseline that leverages MemGPT\u2019s virtual context management (paging between in\u2011context and external memory) will narrow the performance gap with the rewrite system, implying that earlier append baselines were limited by context size rather than the lack of rewrite.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"9868c237\", \"df71618a\", \"4779d87a\", \"e72f1500\"],\n      \"tags\": [\"append_baseline\", \"MemGPT\", \"GPU_allocation\", \"ablation\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 796,
+    "output_tokens": 700,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

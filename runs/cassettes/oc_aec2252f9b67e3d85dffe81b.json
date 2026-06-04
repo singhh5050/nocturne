@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The accuracy drop observed in the append\u2011baseline after ~40 items (81d02abc) is caused by interference from accumulated context, and can be mitigated by periodically consolidating the stored items into a compact summary as described in the consolidation papers (f1bc2caa, 17d25ddc).\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"81d02abc\", \"f1bc2caa\", \"17d25ddc\"],\n      \"tags\": [\"interference\", \"consolidation\", \"accuracy\", \"memory\"]\n    },\n    {\n      \"statement\": \"MemGPT\u2019s external\u2011memory paging architecture (b9cd6a13) can be combined with the periodic\u2011consolidation strategy (17d25ddc) to implement the lifelong memory framework proposed in the new arXiv paper (fc772846), thereby preventing the performance degradation seen in naive append\u2011only stores (81d02abc).\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"fc772846\", \"b9cd6a13\", \"81d02abc\", \"17d25ddc\"],\n      \"tags\": [\"MemGPT\", \"lifelong memory\", \"paging\", \"consolidation\", \"scalability\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 545,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

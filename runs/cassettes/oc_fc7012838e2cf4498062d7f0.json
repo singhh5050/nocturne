@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"n04-gmail-2\"],\"tier\":\"in_progress\",\"content\":\"Co-author a workshop paper with Maya on agent-memory benchmarks. Low effort, quick output. Sketched rough outline in email\",\"weight\":0.5,\"tags\":[\"coauthor\",\"workshop\",\"paper\",\"agenda\",\"outline\"]},{\"op\":\"merge\",\"source_ids\":[\"n04-slack-1\"],\"tier\":\"episodic\",\"content\":\"Your ICLR submission: reviews available \u2014 Scores: 6, 6, 4. Reviewer 2: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs. naive append is needed; without it I lean reject.' Plan: prioritize rewrite\u2011vs\u2011append ablation for rebuttal; results needed before day 19.\",\"weight\":0.9,\"tags\":[\"email\",\"paper\",\"review\",\"reviewer2\",\"ablation\",\"deadline\"]},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Conduct rewrite vs append ablation and generate results before day 19 for rebuttal submission\",\"weight\":0.6,\"tags\":[\"ablation\",\"rewrite\",\"append\",\"deadline\",\"rebuttal\"],\"provenance\":[\"n04-slack-1\"]}]}",
+  "usage": {
+    "input_tokens": 1397,
+    "output_tokens": 1707,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

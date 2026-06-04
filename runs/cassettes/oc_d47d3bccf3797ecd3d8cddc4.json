@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The observed QA accuracy drop after the store exceeds ~40 items is caused by token\u2011budget\u2011induced context interference, and it will be mitigated by periodically consolidating (rewriting) the stored context into a summary, as described in the consolidation paper and the recent arXiv technique.\",\"confidence\":0.78,\"support_ids\":[\"81d02abc\",\"f1bc2caa\",\"17d25ddc\",\"5beb6fb6\"],\"tags\":[\"interference\",\"consolidation\",\"token_budget\",\"accuracy_drop\"]},{\"statement\":\"The rewrite\u2011based ablation outperforms naive append because it implicitly compresses the context, thereby reducing token consumption and preventing budget overruns; consequently, the rewrite method should stay within the daily token budget beyond day 20 where the append method exceeds it.\",\"confidence\":0.71,\"support_ids\":[\"5beb6fb6\",\"f1bc2caa\",\"b9cd6a13\"],\"tags\":[\"ablation\",\"compression\",\"token_budget\",\"rewrite_vs_append\"]}]}",
+  "usage": {
+    "input_tokens": 1498,
+    "output_tokens": 662,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

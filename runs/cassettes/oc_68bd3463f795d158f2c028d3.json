@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Periodically consolidating the stored context into a compact summary (as described in the memory consolidation paper and the new technique arXiv note) will eliminate the sharp QA accuracy drop observed when the append-only store exceeds ~40 items.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"81d02abc\", \"f1bc2caa\", \"17d25ddc\"],\n      \"tags\": [\"accuracy\", \"consolidation\", \"interference\", \"experiment\"]\n    },\n    {\n      \"statement\": \"Switching from an append\u2011only memory to a sliding\u2011window (or rewrite) strategy, as highlighted in the ICLR review ablation plan, will prevent the interference effect causing accuracy degradation after ~40 items, yielding stable performance across larger store sizes.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"7ed212c7\", \"81d02abc\", \"17d25ddc\"],\n      \"tags\": [\"window\", \"ablation\", \"memory\", \"accuracy\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1461,
+    "output_tokens": 686,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n28-noise-1\",\"reason\":\"Low-signal promotional calendar reminder\"},{\"op\":\"drop\",\"id\":\"n28-noise-2\",\"reason\":\"Low-signal promotional calendar reminder\"},{\"op\":\"drop\",\"id\":\"n28-noise-3\",\"reason\":\"Low-signal promotional email\"},{\"op\":\"drop\",\"id\":\"n28-noise-4\",\"reason\":\"Low-signal promotional slack remark\"},{\"op\":\"drop\",\"id\":\"n28-noise-5\",\"reason\":\"Low-signal promotional arXiv notice\"},{\"op\":\"drop\",\"id\":\"n28-noise-6\",\"reason\":\"Low-signal promotional GitHub job posting\"},{\"op\":\"drop\",\"id\":\"n28-noise-7\",\"reason\":\"Low-signal promotional calendar offer\"},{\"op\":\"drop\",\"id\":\"n28-noise-8\",\"reason\":\"Low-signal promotional gmail notification\"},{\"op\":\"drop\",\"id\":\"n28-noise-9\",\"reason\":\"Low-signal promotional calendar reminder\"}]}",
+  "usage": {
+    "input_tokens": 1675,
+    "output_tokens": 454,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

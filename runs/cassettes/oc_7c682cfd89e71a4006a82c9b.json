@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The ~9\u202fF1 point advantage of the rewrite strategy over naive append is likely driven by reduced cross\u2011fact interference, as demonstrated in consolidation research; therefore, adding a consolidation/compression step to the append baseline should narrow the performance gap, and an ablation comparing rewrite vs. append+consolidation will isolate the true source of gains.\",\"confidence\":0.78,\"support_ids\":[\"c0fbabea\",\"5f5331d2\",\"579b3852\",\"03c1d4c1\"],\"tags\":[\"ablation\",\"memory\",\"consolidation\",\"rewrite\"]},{\"statement\":\"The token\u2011budget overflow observed for the naive append approach by day\u202f20 can be alleviated by incorporating external memory paging (e.g., MemGPT) to offload older context, enabling append\u2011based agents to operate over longer horizons without exceeding token limits.\",\"confidence\":0.65,\"support_ids\":[\"c0fbabea\",\"f167ace6\",\"f327063e\"],\"tags\":[\"token_budget\",\"append\",\"external_memory\",\"MemGPT\"]}]}",
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 567,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

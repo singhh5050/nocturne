@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The rewrite method\u2019s ~9\u202fF1 advantage over naive append reported in the ablation (c0fbabea) stems from reduced cross\u2011fact interference, a phenomenon documented in consolidation research (579b3852, 03c1d4c1); therefore, applying periodic consolidation to the append strategy should significantly narrow the performance gap, a prediction reviewers (5f5331d2) implicitly seek to test.\",\"confidence\":0.78,\"support_ids\":[\"c0fbabea\",\"5f5331d2\",\"579b3852\",\"03c1d4c1\"],\"tags\":[\"rewrite\",\"append\",\"consolidation\",\"interference\",\"ablation\"]},{\"statement\":\"Appending exceeds the token budget by day\u202f20 (c0fbabea); coupling the naive append approach with MemGPT\u2019s external memory paging (f167ace6) will keep token usage within limits while preserving the added information, potentially achieving performance comparable to rewrite and satisfying the reviewer\u2019s ablation demand (5f5331d2).\",\"confidence\":0.65,\"support_ids\":[\"c0fbabea\",\"f167ace6\",\"5f5331d2\"],\"tags\":[\"append\",\"token_budget\",\"MemGPT\",\"external_memory\",\"ablation\"]}]}",
+  "usage": {
+    "input_tokens": 882,
+    "output_tokens": 724,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

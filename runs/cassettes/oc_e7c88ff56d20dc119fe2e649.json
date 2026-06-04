@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying the periodic consolidation technique to in\u2011context memory will lower the GPU memory footprint and required GPU\u2011hours for large\u2011scale QA tasks without degrading recall performance.\",\"confidence\":0.78,\"support_ids\":[\"b9cd6a13\",\"17d25ddc\",\"b854e77d\",\"eed14d58\"],\"tags\":[\"memory\",\"gpu\",\"efficiency\",\"consolidation\"]},{\"statement\":\"Incorporating periodic context consolidation into agent memory architectures will yield higher scores on lifelong memory benchmark suites than approaches that rely on naive append\u2011only replay.\",\"confidence\":0.72,\"support_ids\":[\"fc772846\",\"5b4ba95b\",\"17d25ddc\",\"b9cd6a13\"],\"tags\":[\"memory\",\"benchmarks\",\"lifelong\",\"consolidation\"]}]}",
+  "usage": {
+    "input_tokens": 1050,
+    "output_tokens": 563,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

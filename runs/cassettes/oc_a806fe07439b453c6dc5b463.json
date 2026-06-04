@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Introducing a periodic consolidation step (e.g., summarizing the stored context every ~40 items) will eliminate the observed QA accuracy drop that occurs when the append-only memory exceeds ~40 entries, by reducing interference from older material.\",\"confidence\":0.78,\"support_ids\":[\"81d02abc\",\"f1bc2caa\",\"17d25ddc\"],\"tags\":[\"memory\",\"consolidation\",\"interference\",\"accuracy\"]},{\"statement\":\"Implementing MemGPT\u2019s external memory paging mechanism for long-context QA tasks will maintain higher accuracy than a naive append-only baseline as the store grows, because paging emulates periodic summarization and selective retrieval.\",\"confidence\":0.65,\"support_ids\":[\"81d02abc\",\"b9cd6a13\",\"f1bc2caa\"],\"tags\":[\"MemGPT\",\"paging\",\"context management\",\"accuracy\"]}]}",
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 345,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

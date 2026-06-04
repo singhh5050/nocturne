@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"09fb8256\",\"n10-github-1\"],\"tier\":\"in_progress\",\"content\":\"ICLR submission reviews: scores 6,6,4. Reviewer 2 notes need rewrite versus naive append ablation. New plan: prioritize ablation, generate results before rebuttal deadline (day\u00a019). Ablation sweep tracking issue opened for the rebuttal ablation sweep (rewrite vs append vs window).\",\"weight\":0.02,\"tags\":[\"ICLR\",\"review\",\"submission\",\"ablation\"]}]}",
+  "usage": {
+    "input_tokens": 1726,
+    "output_tokens": 903,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Ablation studies that compare naive in-context memory appends versus periodic consolidation (summarization) will demonstrate that the consolidation approach significantly reduces QA accuracy degradation under bounded\u2011memory conditions, confirming that interference mitigation is the primary driver of performance gains.\",\n      \"confidence\": 0.72,\n      \"support_ids\": [\"43f1138a\", \"b854e77d\", \"17d25ddc\", \"f1bc2caa\"],\n      \"tags\": [\"ablation\", \"memory\", \"consolidation\", \"accuracy_drop\"]\n    },\n    {\n      \"statement\": \"Incorporating MemGPT's virtual context paging mechanism into the agent\u2011memory benchmark suite will yield measurable improvements in lifelong learning metrics, suggesting that externalized paging is a key factor for scaling memory\u2011intensive tasks.\",\n      \"confidence\": 0.66,\n      \"support_ids\": [\"b9cd6a13\", \"5b4ba95b\", \"fc772846\"],\n      \"tags\": [\"memgpt\", \"benchmark\", \"lifelong_memory\", \"agent_memory\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 989,
+    "output_tokens": 617,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

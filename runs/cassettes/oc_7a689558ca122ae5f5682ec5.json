@@ -1,0 +1,9 @@
+{
+  "text": "Day\u00a019.",
+  "usage": {
+    "input_tokens": 793,
+    "output_tokens": 124,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

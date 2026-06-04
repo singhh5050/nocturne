@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"tier\":\"in_progress\",\"source_ids\":[\"e8a6939f\"],\"content\":\"Your ICLR submission: reviews available \u2014 \u2018Structured Memory Rewrite for Sleep\u2011Time Agents\u2019. Scores: 6, 6, 4. Reviewer 2 (score 4) pointed out that the paper does not isolate whether gains come from rewrite operations or simply from having any memory. An ablation comparing rewrite vs naive append is required. Experimental log shows a weird accuracy drop in the append baseline: QA accuracy declines once the store grows beyond ~40 items, despite the target fact still being present; the extra material appears to interfere. Consolidation literature indicates that compression beats accumulation for working sets, supporting the idea that a rewrite strategy may mitigate the interference observed. A new GitHub issue (#214) tracks rewrite\u2011vs\u2011append ablation runs across rewrite, append, and window. Results from these experiments are critical for the rebuttal deadline on day\u00a019. Advisor: prioritize rewrite\u2011vs\u2011append ablation for rebuttal. New Abstraction: Ablation results show that rewrite beats naive append by ~9 F1 points on needle survival; append blows the token budget by day\u202f20 of the sim. This clean result is crucial for the rebuttal. **Bounded\u2011memory variant works \u2014 Ran the bounded\u2011memory variant: the accuracy drop is gone \u2014 recall held flat as the stream grew. Aggressive consolidation fixed it.**\",\"weight\":2.0,\"tags\":[\"ICLR\",\"ablation\",\"consolidation\",\"experiment\",\"feedback\",\"github\",\"issue\",\"reviews\",\"rewrite\",\"submission\"],\"provenance\":[\"n22-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1878,
+    "output_tokens": 1693,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

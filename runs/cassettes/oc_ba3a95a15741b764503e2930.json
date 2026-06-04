@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"ICLR submission reviews available: scores 6,6,4. Reviewer 2 (score 4) requires address.\",\"weight\":1.0,\"tags\":[\"review\",\"ICLR\",\"submission\"],\"provenance\":[\"n02-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1266,
+    "output_tokens": 297,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

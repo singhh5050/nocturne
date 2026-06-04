@@ -1,0 +1,9 @@
+{
+  "text": "They want a rewrite\u2011vs\u2011append ablation to isolate whether the gains come from rewrite operations or merely from having any memory.",
+  "usage": {
+    "input_tokens": 568,
+    "output_tokens": 245,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Introducing a periodic consolidation step that summarizes accumulated rewritten context will diminish cross\u2011fact interference and improve downstream recall, providing a natural ablation to test whether performance gains stem from the rewrite mechanism itself rather than from increased memory capacity.\",\"confidence\":0.73,\"support_ids\":[\"5f5331d2\",\"579b3852\",\"f167ace6\"],\"tags\":[\"memory-rewrite\",\"consolidation\",\"ablation\"]},{\"statement\":\"Combining MemGPT\u2019s external\u2011memory paging with the current rewrite\u2011based agent memory will keep total memory size constant across conditions, allowing a clean comparison between rewrite\u2011enhanced memory and a naive append baseline as demanded by reviewer 2.\",\"confidence\":0.65,\"support_ids\":[\"5f5331d2\",\"f167ace6\",\"f2587f73\"],\"tags\":[\"memory-management\",\"ablation\",\"benchmark\"]}]}",
+  "usage": {
+    "input_tokens": 1133,
+    "output_tokens": 528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

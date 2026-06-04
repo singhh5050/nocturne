@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The QA accuracy degradation observed after the append baseline exceeds ~40 items is likely caused by cross\u2011fact interference, a phenomenon that the consolidation literature (e.g., papers 03c1d4c1 and 579b3852) shows can be alleviated by periodically compressing accumulated context into summaries; integrating a consolidation step into the append pipeline should restore accuracy.\",\"confidence\":0.78,\"support_ids\":[\"3095e59c\",\"03c1d4c1\",\"579b3852\"],\"tags\":[\"accuracy\",\"interference\",\"consolidation\",\"append\"]},{\"statement\":\"Implementing a rewrite\u2011based memory update (instead of naive append) may not only address the reviewer\u2019s demand for an ablation but also reduce the total token volume processed per training step, thereby conserving H100 GPU\u2011hour usage under the newly approved allocation (f327063e).\",\"confidence\":0.63,\"support_ids\":[\"3095e59c\",\"5f5331d2\",\"f327063e\"],\"tags\":[\"ablation\",\"resource\u2011efficiency\",\"rewrite\",\"gpu\u2011hours\"]}]}",
+  "usage": {
+    "input_tokens": 812,
+    "output_tokens": 484,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

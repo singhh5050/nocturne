@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The accuracy drop observed when the memory store exceeds ~40 items is caused by exceeding the model's effective context window, and can be mitigated by integrating MemGPT-style virtual context paging, which implicitly performs the periodic consolidation (compression) described in the consolidation paper, thereby extending the usable store size without interference.\",\n      \"confidence\": 0.68,\n      \"support_ids\": [\"e8a6939f\", \"98edf81f\", \"df71618a\"],\n      \"tags\": [\"interference\", \"paging\", \"consolidation\", \"rewrite\"]\n    },\n    {\n      \"statement\": \"Using the allocated H100 GPU resources to train a learned rewrite/compression policy will replicate the benefits of periodic consolidation, reducing the token budget growth seen in the append baseline by ~30% while maintaining recall, allowing simulations to run beyond day\u202f20 without exceeding token limits.\",\n      \"confidence\": 0.55,\n      \"support_ids\": [\"e8a6939f\", \"e72f1500\", \"98edf81f\"],\n      \"tags\": [\"token_budget\", \"GPU\", \"learned_compression\", \"append_vs_rewrite\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 877,
+    "output_tokens": 772,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

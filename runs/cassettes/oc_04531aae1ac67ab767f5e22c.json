@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Applying periodic consolidation (summarizing the stored context) to the append baseline will prevent the observed QA accuracy drop that occurs after the store exceeds ~40 items, because consolidation reduces interference between stored facts.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"81d02abc\", \"f1bc2caa\", \"17d25ddc\", \"b9cd6a13\"],\n      \"tags\": [\"memory\", \"consolidation\", \"interference\", \"experiment\"]\n    },\n    {\n      \"statement\": \"Utilizing the newly approved 2400 H100 GPU-hours together with the 50% cloud GPU discount promotion will provide sufficient compute budget to run the full ablation sweep (rewrite vs append vs window) before the ICLR rebuttal deadline, thereby improving the likelihood of higher review scores.\",\n      \"confidence\": 0.62,\n      \"support_ids\": [\"eed14d58\", \"bfe0766d\", \"b9b95427\", \"7ed212c7\"],\n      \"tags\": [\"resource-allocation\", \"ablation\", \"ICLR\", \"rebuttal\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1461,
+    "output_tokens": 673,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n25-noise-1\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-2\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-3\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-4\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-5\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-6\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-7\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"},{\"op\":\"drop\",\"id\":\"n25-noise-8\",\"reason\":\"duplicate low\u2011signal; safe to ignore\"}]}",
+  "usage": {
+    "input_tokens": 1687,
+    "output_tokens": 1016,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

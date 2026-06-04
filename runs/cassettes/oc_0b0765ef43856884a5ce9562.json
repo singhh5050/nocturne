@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"a2b43d0f\",\"reason\":\"Outdated weekly lab meeting time\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Weekly lab meeting moved to Wednesday 11:00 starting next week.\",\"weight\":0.7,\"tags\":[\"calendar\"],\"provenance\":[\"n11-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n11-noise-1\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-2\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-3\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-4\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-5\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-6\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-7\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-8\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-9\",\"reason\":\"Low-signal promotional content\"},{\"op\":\"drop\",\"id\":\"n11-noise-10\",\"reason\":\"Low-signal promotional content\"}]}",
+  "usage": {
+    "input_tokens": 1624,
+    "output_tokens": 754,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

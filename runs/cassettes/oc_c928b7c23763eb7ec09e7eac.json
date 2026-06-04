@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"reweight\",\"id\":\"8790f921\",\"weight\":0.2},{\"op\":\"add\",\"content\":\"Drop promotional newsletters and recruiter mail; never store them.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"Merge duplicate or related items into a single entry to avoid clutter.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 527,
+    "output_tokens": 640,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

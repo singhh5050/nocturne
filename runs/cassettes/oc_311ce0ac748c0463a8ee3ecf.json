@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Applying periodic consolidation (compression) to the append\u2011only memory store after it exceeds ~40 items will recover the QA accuracy loss observed, indicating that cross\u2011fact interference\u2014not raw size\u2014is the primary cause of degradation.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"3095e59c\", \"579b3852\", \"03c1d4c1\"],\n      \"tags\": [\"ablation\", \"consolidation\", \"accuracy\", \"interference\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT\u2011style paging (selective external memory loading) with the naive append baseline will achieve performance comparable to the rewrite operation, suggesting that the rewrite advantage arises mainly from efficient memory retrieval rather than intrinsic rewriting.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"5f5331d2\", \"f167ace6\", \"3095e59c\"],\n      \"tags\": [\"rewrite\", \"append\", \"memgpt\", \"ablation\", \"retrieval\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 812,
+    "output_tokens": 556,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

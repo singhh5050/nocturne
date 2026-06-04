@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Rebuttal received for ICLR submission 4127; author response received by day 19 deadline.\",\"weight\":0.7,\"tags\":[\"rebuttal\",\"iclr\",\"submission\",\"deadline\"],\"provenance\":[\"n19-gmail-1\"]}]}",
+  "usage": {
+    "input_tokens": 1769,
+    "output_tokens": 1009,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

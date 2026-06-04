@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Combining MemGPT's virtual context paging mechanism with the memory rewrite compression will mitigate the accuracy drop seen when appending beyond ~40 items, yielding higher QA performance than rewrite\u2011only or append\u2011only strategies.\",\"confidence\":0.71,\"support_ids\":[\"39d173d0\",\"df71618a\",\"4779d87a\"],\"tags\":[\"memory\",\"paging\",\"rewrite\",\"interference\"]},{\"statement\":\"The ~40\u2011item interference point observed in the append baseline reflects a universal working\u2011set capacity limit predicted by consolidation theory, implying that uncompressed in\u2011context stores begin to degrade recall once they occupy roughly 3\u20115% of the model's total context window across agents.\",\"confidence\":0.66,\"support_ids\":[\"39d173d0\",\"98edf81f\"],\"tags\":[\"capacity\",\"consolidation\",\"interference\",\"benchmark\"]}]}",
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 698,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

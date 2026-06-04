@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Rebuttal received: author response for submission 4127 received (deadline day 19).\",\"weight\":1.0,\"tags\":[\"email\",\"rebuttal\",\"deadline\"],\"provenance\":[\"n19-gmail-1\"]},{\"op\":\"drop\",\"id\":\"n19-noise-1\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-2\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-3\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-4\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-5\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-6\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-7\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-8\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-9\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-10\",\"reason\":\"promotional low-signal\"},{\"op\":\"drop\",\"id\":\"n19-noise-11\",\"reason\":\"promotional low-signal\"]}",
+  "usage": {
+    "input_tokens": 1705,
+    "output_tokens": 757,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

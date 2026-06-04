@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The superior F1 performance of the rewrite strategy over naive append observed in the ablation study is likely due to reduced cross-fact interference, analogous to the benefits of memory consolidation/compression reported in recent papers on working\u2011set compression.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"c0fbabea\", \"03c1d4c1\", \"579b3852\"],\n      \"tags\": [\"ablation\", \"rewrite\", \"memory-consolidation\", \"interference\"]\n    },\n    {\n      \"statement\": \"Adopting the rewrite-based memory management will not only improve accuracy but also significantly lower GPU-hour consumption compared to append, helping the project stay within the approved 2400 H100 GPU\u2011hour monthly quota.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"c0fbabea\", \"f327063e\"],\n      \"tags\": [\"gpu-allocation\", \"efficiency\", \"rewrite\", \"resource-management\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 471,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

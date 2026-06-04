@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Incorporating periodic context consolidation (as described in 17d25ddc) into the MemGPT virtual context management system (b9cd6a13) will further reduce interference between unrelated facts and improve recall stability in long-running LLM agents.\",\n      \"confidence\": 0.73,\n      \"support_ids\": [\"17d25ddc\", \"b9cd6a13\", \"b854e77d\"],\n      \"tags\": [\"memory\", \"consolidation\", \"MemGPT\", \"interference\", \"recall\"]\n    },\n    {\n      \"statement\": \"Applying the aggressive bounded-memory consolidation strategy (b854e77d) to the agent\u2011memory benchmark suite planned for the workshop paper (5b4ba95b) will yield measurable gains in benchmark scores, demonstrating the practical benefit of consolidation for standardized evaluation.\",\n      \"confidence\": 0.68,\n      \"support_ids\": [\"b854e77d\", \"5b4ba95b\", \"17d25ddc\"],\n      \"tags\": [\"benchmark\", \"agent-memory\", \"consolidation\", \"evaluation\", \"workshop\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1047,
+    "output_tokens": 488,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

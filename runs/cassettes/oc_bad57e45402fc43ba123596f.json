@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Bounded\u2011memory variant works \u2014 accuracy drop is gone, recall held flat as stream grew, aggressive consolidation fixed it.\",\"weight\":1.0,\"tags\":[\"bounded\",\"memory\",\"variant\",\"ablation\",\"accuracy\"],\"provenance\":[\"n22-notes-1\"]},{\"op\":\"drop\",\"id\":\"n22-noise-1\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-2\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-3\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-4\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-5\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-6\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-7\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-8\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-9\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-10\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-11\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"},{\"op\":\"drop\",\"id\":\"n22-noise-12\",\"reason\":\"low\u2011signal promotional content per policy 9df7949b\"]}",
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1090,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

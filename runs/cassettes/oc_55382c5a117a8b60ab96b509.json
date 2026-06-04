@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n29-noise-1\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-2\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-3\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-4\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-5\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-6\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-7\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-8\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-9\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-10\",\"reason\":\"duplicate promotional newsletter\"},{\"op\":\"drop\",\"id\":\"n29-noise-11\",\"reason\":\"duplicate promotional newsletter\"}]}",
+  "usage": {
+    "input_tokens": 2250,
+    "output_tokens": 400,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "Memory\u202fmanagement and consolidation for large\u2011language\u2011model agents.",
+  "usage": {
+    "input_tokens": 1407,
+    "output_tokens": 257,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

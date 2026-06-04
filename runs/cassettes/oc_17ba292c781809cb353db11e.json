@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop promotional newsletters, advertisements, and other low-signal items; never store them in memory.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"When an item is a revision or update of an existing memory, replace the old item instead of adding a new one to keep the memory lean.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 527,
+    "output_tokens": 429,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

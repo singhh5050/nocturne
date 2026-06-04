@@ -1,0 +1,9 @@
+{
+  "text": "Reviewer\u202f2 wants you to rewrite the paper to include an ablation comparing your method to a naive\u2010append baseline.",
+  "usage": {
+    "input_tokens": 433,
+    "output_tokens": 211,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Introducing a periodic consolidation step (e.g., summarizing or compressing the stored context) once the memory buffer reaches about 40 items will eliminate the observed QA accuracy drop, because consolidation reduces interference from excess material as documented in the memory consolidation literature.\",\"confidence\":0.78,\"support_ids\":[\"81d02abc\",\"f1bc2caa\",\"17d25ddc\"],\"tags\":[\"interference\",\"consolidation\",\"accuracy_drop\"]},{\"statement\":\"The rewrite\u2011based ablation outperforms the naive append strategy primarily because rewrite acts as an implicit consolidation of the context, lowering token usage and interference\u2014effects that parallel findings from consolidation techniques and MemGPT\u2019s external\u2011memory paging.\",\"confidence\":0.65,\"support_ids\":[\"5beb6fb6\",\"f1bc2caa\",\"17d25ddc\",\"b9cd6a13\"],\"tags\":[\"rewrite\",\"ablation\",\"consolidation\",\"memory_management\"]}]}",
+  "usage": {
+    "input_tokens": 955,
+    "output_tokens": 697,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

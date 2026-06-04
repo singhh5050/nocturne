@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n26-noise-1\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-2\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-3\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-4\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-5\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-6\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-7\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-8\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-9\",\"reason\":\"promo/low-signal\"},{\"op\":\"drop\",\"id\":\"n26-noise-10\",\"reason\":\"promo/low-signal\"}]}",
+  "usage": {
+    "input_tokens": 1686,
+    "output_tokens": 464,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

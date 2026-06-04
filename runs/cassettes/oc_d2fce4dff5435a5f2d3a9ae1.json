@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"e7274165\"],\"tier\":\"episodic\",\"content\":\"Import AI: policy roundup\",\"weight\":0.21,\"tags\":[\"alert\",\"news\",\"policy\"],\"provenance\":[\"n29-noise-1\",\"n29-noise-9\"]},{\"op\":\"merge\",\"source_ids\":[\"fb2ada75\"],\"tier\":\"episodic\",\"content\":\"Is your RAG stack slow? Try our managed vector DB\",\"weight\":0.21,\"tags\":[\"low_signal\",\"promo\"],\"provenance\":[\"n29-noise-2\",\"n29-noise-10\"]},{\"op\":\"merge\",\"source_ids\":[\"4fdb8879\"],\"tier\":\"episodic\",\"content\":\"Exciting Staff ML Engineer opportunity!\",\"weight\":0.21,\"tags\":[\"low_signal\",\"opportunity\",\"promo\",\"staff\"],\"provenance\":[\"n29-noise-5\"]},{\"op\":\"merge\",\"source_ids\":[\"b361bdfb\",\"97059074\"],\"tier\":\"episodic\",\"content\":\"50% off your favorite cloud GPUs (limited time)\",\"weight\":0.21,\"tags\":[\"low_signal\",\"promo\"],\"provenance\":[\"n29-noise-6\"]},{\"op\":\"merge\",\"source_ids\":[\"0a779de2\",\"bb7e64cf\"],\"tier\":\"episodic\",\"content\":\"You have 7 new connection requests\",\"weight\":0.21,\"tags\":[\"connections\",\"low_signal\",\"social\"],\"provenance\":[\"n29-noise-7\"]},{\"op\":\"merge\",\"source_ids\":[\"ec11c4d2\"],\"tier\":\"episodic\",\"content\":\"Reminder: campus parking permit renewal\",\"weight\":0.21,\"tags\":[\"parking\",\"reminder\"],\"provenance\":[\"n29-noise-8\"]}]}",
+  "usage": {
+    "input_tokens": 1940,
+    "output_tokens": 2899,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

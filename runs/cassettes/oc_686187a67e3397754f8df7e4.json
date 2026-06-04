@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The accuracy drop observed in the naive append baseline is caused by cross\u2011fact interference, which is alleviated by the periodic consolidation step used in the bounded\u2011memory variant; therefore, the reported gains of the rewrite strategy may be primarily due to its implicit consolidation effect rather than the rewrite operation itself.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"1de56b7a\", \"98edf81f\", \"dca96840\"],\n      \"tags\": [\"consolidation\", \"interference\", \"ablation\", \"memory-rewrite\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT\u2019s virtual context management (paging between in\u2011context and external memory) into the naive append baseline could prevent the token\u2011budget overflow and the associated performance degradation, offering a viable alternative to the rewrite approach for maintaining accuracy as the memory store grows.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"1de56b7a\", \"4779d87a\", \"df71618a\"],\n      \"tags\": [\"MemGPT\", \"paging\", \"append-baseline\", \"token-budget\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1546,
+    "output_tokens": 673,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

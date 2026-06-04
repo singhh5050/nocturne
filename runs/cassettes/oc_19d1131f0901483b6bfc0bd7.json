@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop promotional newsletters and other low-signal items; never store them.\",\"weight\":1.5},{\"op\":\"add\",\"content\":\"When duplicate or similar content exists, merge into a single item rather than storing duplicates.\",\"weight\":1.2},{\"op\":\"add\",\"content\":\"Automatic forgetting: drop items older than 30 days unless they have a high urgency or are referenced again.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 527,
+    "output_tokens": 546,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

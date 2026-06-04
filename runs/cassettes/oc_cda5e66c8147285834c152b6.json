@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved to read: MemGPT \u2014 Virtual context management, paging between in-context and external memory. Relevant to memory rewrite idea.\",\"weight\":1.0,\"tags\":[\"notes\",\"MemGPT\"],\"provenance\":[\"n01-notes-1\"]}]}",
+  "usage": {
+    "input_tokens": 1114,
+    "output_tokens": 462,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

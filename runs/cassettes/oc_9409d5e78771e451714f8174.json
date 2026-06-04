@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The performance gain of the rewrite strategy over na\u00efve append observed in the ablation (\u22489 F1 points) is likely due to implicit memory consolidation, which reduces cross-fact interference\u2014a phenomenon described in the consolidation papers (03c1d4c1, 579b3852). Thus, rewrite serves as a form of on\u2011the\u2011fly consolidation, explaining both the reviewer\u2019s concern and the empirical results.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"c0fbabea\", \"5f5331d2\", \"03c1d4c1\", \"579b3852\"],\n      \"tags\": [\"rewrite\", \"consolidation\", \"interference\", \"ablation\"]\n    },\n    {\n      \"statement\": \"The H100 GPU-hour allocation (2400 hours per month) imposes a hard limit that makes the na\u00efve append approach exceed the token budget by day\u202f20, suggesting that resource constraints, not just algorithmic inefficiency, drive the superiority of the rewrite method in practice.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"f327063e\", \"c0fbabea\"],\n      \"tags\": [\"resource\", \"gpu\", \"token_budget\", \"append\", \"rewrite\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 489,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

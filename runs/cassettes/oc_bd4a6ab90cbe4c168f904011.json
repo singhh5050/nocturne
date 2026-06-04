@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"lifelong memory for agents \u2014 New arXiv paper saved to reading list.\",\"weight\":0.5,\"tags\":[\"arxiv\",\"reading_list\",\"memory\"],\"provenance\":[\"n18-arxiv-1\"]},{\"op\":\"drop\",\"id\":\"5bf4e72d\",\"reason\":\"duplicate promotional offer, low weight\"},{\"op\":\"drop\",\"id\":\"bfa15d19\",\"reason\":\"duplicate promotional offer, low weight\"},{\"op\":\"drop\",\"id\":\"839fdd26\",\"reason\":\"duplicate promotional offer, low weight\"},{\"op\":\"drop\",\"id\":\"b493b595\",\"reason\":\"duplicate RAG promotion, low weight\"},{\"op\":\"drop\",\"id\":\"030420d8\",\"reason\":\"duplicate RAG promotion, low weight\"},{\"op\":\"drop\",\"id\":\"42a53037\",\"reason\":\"duplicate RAG promotion, low weight\"},{\"op\":\"drop\",\"id\":\"5d84a47e\",\"reason\":\"duplicate course recommendation, low weight\"},{\"op\":\"drop\",\"id\":\"8ae265c6\",\"reason\":\"duplicate course recommendation, low weight\"},{\"op\":\"drop\",\"id\":\"7ec61836\",\"reason\":\"duplicate course recommendation, low weight\"},{\"op\":\"drop\",\"id\":\"8dc9e449\",\"reason\":\"duplicate AI news, low weight\"},{\"op\":\"drop\",\"id\":\"472cdcbe\",\"reason\":\"duplicate AI news, low weight\"},{\"op\":\"drop\",\"id\":\"5018ddeb\",\"reason\":\"duplicate AI news, low weight\"},{\"op\":\"drop\",\"id\":\"e9babb07\",\"reason\":\"duplicate connection request, low weight\"},{\"op\":\"drop\",\"id\":\"64f585a9\",\"reason\":\"duplicate connection request, low weight\"},{\"op\":\"drop\",\"id\":\"2ebc1563\",\"reason\":\"duplicate parking reminder, low weight\"},{\"op\":\"drop\",\"id\":\"a88f64ff\",\"reason\":\"duplicate parking reminder, low weight\"},{\"op\":\"drop\",\"id\":\"cebe0444\",\"reason\":\"duplicate policy alert, low weight\"}]}",
+  "usage": {
+    "input_tokens": 2209,
+    "output_tokens": 1478,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

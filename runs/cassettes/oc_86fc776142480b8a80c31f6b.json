@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"merge\",\"source_ids\":[\"27ed11ef\"],\"tier\":\"episodic\",\"content\":\"Exciting Staff ML Engineer opportunity!\",\"weight\":0.0,\"tags\":[],\"provenance\":[\"n23-noise-3\"]},{\"op\":\"merge\",\"source_ids\":[\"1c6a129e\"],\"tier\":\"episodic\",\"content\":\"You have 7 new connection requests\",\"weight\":0.0,\"tags\":[],\"provenance\":[\"n23-noise-5\"]},{\"op\":\"merge\",\"source_ids\":[\"0a6cfc88\"],\"tier\":\"episodic\",\"content\":\"Reminder: campus parking permit renewal\",\"weight\":0.0,\"tags\":[],\"provenance\":[\"n23-noise-6\"]},{\"op\":\"merge\",\"source_ids\":[\"fe6b7ea2\"],\"tier\":\"episodic\",\"content\":\"Import AI: policy roundup\",\"weight\":0.0,\"tags\":[],\"provenance\":[\"n23-noise-7\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"New course recommendations for you (23.1)\",\"weight\":0.2,\"tags\":[\"promo\",\"low_signal\"],\"provenance\":[\"n23-noise-1\"]},{\"op\":\"merge\",\"source_ids\":[\"mem_n23-noise-1\"],\"tier\":\"episodic\",\"content\":\"New course recommendations for you (23.1)\",\"weight\":0.2,\"tags\":[],\"provenance\":[\"n23-noise-9\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"The Batch: this week in AI (23.2)\",\"weight\":0.2,\"tags\":[\"promo\",\"low_signal\"],\"provenance\":[\"n23-noise-2\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"50% off your favorite cloud GPUs (limited time) (23.4)\",\"weight\":0.2,\"tags\":[\"promo\",\"low_signal\"],\"provenance\":[\"n23-noise-4\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Is your RAG stack slow? Try our managed vector DB (23.8)\",\"weight\":0.2,\"tags\":[\"promo\",\"low_signal\"],\"provenance\":[\"n23-noise-8\"]}]}",
+  "usage": {
+    "input_tokens": 1558,
+    "output_tokens": 3555,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

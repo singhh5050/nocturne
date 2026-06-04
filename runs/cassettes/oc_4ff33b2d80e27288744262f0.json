@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"The accuracy drop observed in the naive\u2011append baseline of the ICLR rewrite\u2011vs\u2011append ablation is caused by cross\u2011fact interference that grows with store size, as documented in the consolidation literature; therefore, inserting a periodic consolidation step that compresses the accumulated store into a summary should restore QA accuracy to near\u2011rewrite levels.\",\"confidence\":0.78,\"support_ids\":[\"e8a6939f\",\"98edf81f\"],\"tags\":[\"interference\",\"consolidation\",\"ablation\",\"memory\"]},{\"statement\":\"Applying MemGPT\u2019s virtual context paging mechanism to the append baseline will offload older or less relevant items to external memory, preventing token\u2011budget overflow by day\u202f20 while preserving performance, effectively combining paging with the rewrite strategy for scalable memory management.\",\"confidence\":0.65,\"support_ids\":[\"e8a6939f\",\"df71618a\",\"4779d87a\"],\"tags\":[\"MemGPT\",\"paging\",\"token_budget\",\"rewrite\",\"scalability\"]}]}",
+  "usage": {
+    "input_tokens": 910,
+    "output_tokens": 744,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

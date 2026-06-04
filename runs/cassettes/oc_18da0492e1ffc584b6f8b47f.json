@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"n28-noise-1\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-2\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-3\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-4\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-5\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-6\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-7\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-8\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"},{\"op\":\"drop\",\"id\":\"n28-noise-9\",\"reason\":\"promotional, low-signal per policy (6e29bf0e)\"}]}",
+  "usage": {
+    "input_tokens": 1661,
+    "output_tokens": 508,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

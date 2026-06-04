@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"8790f921\",\"reason\":\"causes unnecessary retention of uncertain items, increasing noise\"},{\"op\":\"add\",\"content\":\"Drop promotional newsletters, recruiter mail, and other low\u2011signal communication; never store them.\",\"weight\":1.0},{\"op\":\"add\",\"content\":\"When multiple items concern the same event or topic from the same source, merge them into a single entry and drop older duplicates.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 527,
+    "output_tokens": 823,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

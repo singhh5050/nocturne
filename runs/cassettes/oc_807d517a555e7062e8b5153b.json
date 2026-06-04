@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Integrating a periodic consolidation/compression step (as described in the consolidation vs accumulation papers) into the memory rewrite pipeline will reduce token-budget overflow seen with naive append while preserving the performance gains of rewrite, effectively combining the benefits of both strategies.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"c0fbabea\", \"5f5331d2\", \"579b3852\", \"03c1d4c1\"],\n      \"tags\": [\"memory-rewrite\", \"consolidation\", \"token-budget\", \"ablation\"]\n    },\n    {\n      \"statement\": \"Leveraging the approved 2400 H100 GPU-hours to run MemGPT-style external memory paging can enable scalable execution of the rewrite approach without hitting token limits, allowing more frequent rewrites and higher F1 gains within the same compute budget.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"f327063e\", \"f167ace6\", \"c0fbabea\"],\n      \"tags\": [\"resource-allocation\", \"MemGPT\", \"external-memory\", \"rewrite\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 394,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"drop\",\"id\":\"711567b5\",\"reason\":\"replaced with updated evidence\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Your ICLR submission: reviews available \u2014 'Structured Memory Rewrite for Sleep-Time Agents'. Scores: 6, 6, 4. Reviewer 2 (score 4) is the one to address. Reviewer 2's detailed comments: 'The paper does not isolate whether gains come from the rewrite operations or merely from having any memory. An ablation comparing rewrite vs naive append is needed; without it I lean reject.' Additional note: Rebuttal deadline day 19; need results well before then. Advisor: prioritize rewrite\u2011vs\u2011append ablation for the rebuttal.\",\"weight\":1.1,\"tags\":[\"ICLR\",\"ablation\",\"feedback\",\"reviews\",\"rewrite\",\"submission\"],\"provenance\":[\"711567b5\",\"n04-slack-1\"]},{\"op\":\"drop\",\"id\":\"68c3cc8e\",\"reason\":\"replaced with updated evidence\"},{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"Saved to read: MemGPT \u2014 Virtual context management, paging between in-context and external memory. Relevant to memory rewrite idea. Follow-up: co-author workshop paper: rough outline sketched. Maya invites co\u2011authoring a quick workshop paper on agent\u2011memory benchmarks. Low effort, potential quick outcome.\",\"weight\":1.1,\"tags\":[\"workshop\",\"coauthor\",\"benchmarks\",\"notes\",\"MemGPT\"],\"provenance\":[\"68c3cc8e\",\"n04-gmail-2\"]}]}",
+  "usage": {
+    "input_tokens": 1408,
+    "output_tokens": 1773,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating MemGPT's virtual context paging (dynamic external memory swapping) as a rewrite mechanism will further mitigate the cross\u2011fact interference observed in the append baseline of the ICLR submission, outperforming the static bounded\u2011memory variant.\",\"confidence\":0.78,\"support_ids\":[\"390f7816\",\"98edf81f\",\"df71618a\",\"4779d87a\",\"dca96840\"],\"tags\":[\"memory-rewrite\",\"paging\",\"interference\",\"consolidation\"]},{\"statement\":\"Augmenting the rewrite strategy with episodic tagging\u2014drawing on insights from the episodic memory survey\u2014will enable selective recall of recent facts, reducing interference and improving long\u2011term recall accuracy beyond what pure compression achieves.\",\"confidence\":0.71,\"support_ids\":[\"c7a6892a\",\"390f7816\",\"98edf81f\",\"dca96840\"],\"tags\":[\"episodic-memory\",\"selective-recall\",\"consolidation\",\"rewrite\"]}]}",
+  "usage": {
+    "input_tokens": 1327,
+    "output_tokens": 580,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The observed ~9 F1 point advantage of the rewrite strategy over naive append is primarily due to reduced cross-fact interference, a benefit that arises when periodic memory consolidation compresses accumulated facts into compact summaries.\",\n      \"confidence\": 0.71,\n      \"support_ids\": [\"c0fbabea\", \"579b3852\"],\n      \"tags\": [\"rewrite\", \"append\", \"consolidation\", \"interference\"]\n    },\n    {\n      \"statement\": \"Integrating MemGPT's virtual context management (paging between in\u2011context and external memory) into the rewrite pipeline will keep token usage within budget beyond day 20, eliminating the budget overflow seen with naive append.\",\n      \"confidence\": 0.66,\n      \"support_ids\": [\"c0fbabea\", \"f167ace6\"],\n      \"tags\": [\"MemGPT\", \"rewrite\", \"append\", \"token_budget\", \"paging\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 513,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

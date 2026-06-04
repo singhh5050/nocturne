@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"in_progress\",\"content\":\"H100 allocation approved \u2014 Your May allocation is approved: 2400 H100 GPU-hours. Quota resets monthly.\",\"weight\":1.0,\"tags\":[\"allocation\",\"h100\",\"gpu\",\"resource\"],\"provenance\":[\"n09-gmail-1\"]},{\"op\":\"drop\",\"id\":\"129e5a6d\",\"reason\":\"Promotional recruitment content not relevant\"},{\"op\":\"drop\",\"id\":\"6709c719\",\"reason\":\"Promotional discount not relevant\"},{\"op\":\"drop\",\"id\":\"47254543\",\"reason\":\"Social connection request notification not relevant\"},{\"op\":\"drop\",\"id\":\"6ce795a6\",\"reason\":\"Parking reminder not relevant\"},{\"op\":\"drop\",\"id\":\"86ba0491\",\"reason\":\"Promotional email not relevant\"},{\"op\":\"drop\",\"id\":\"3ea1b2d4\",\"reason\":\"Promotional Slack message not relevant\"},{\"op\":\"drop\",\"id\":\"ee471088\",\"reason\":\"Promotional email not relevant\"},{\"op\":\"drop\",\"id\":\"fd13ded8\",\"reason\":\"Promotional newsletter not relevant\"}]}",
+  "usage": {
+    "input_tokens": 2048,
+    "output_tokens": 1684,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

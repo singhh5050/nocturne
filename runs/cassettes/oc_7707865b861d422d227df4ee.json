@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"content\":\"Drop low\u2011signal and promotional items such as marketing emails, newsletters, generic news updates, and social media posts; do not store them in memory unless explicitly relevant to the researcher.\",\"weight\":1.0}]}",
+  "usage": {
+    "input_tokens": 512,
+    "output_tokens": 323,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

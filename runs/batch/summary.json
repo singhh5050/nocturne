@@ -416,6 +416,47 @@
       }
     }
   },
-  "ablations": {},
+  "ablations": {
+    "rem_off": {
+      "tokens": 355,
+      "facts": 12,
+      "f1": 0.5,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "noise": 0,
+      "qa": 0.8333,
+      "insight_night": null
+    },
+    "decay_off": {
+      "tokens": 648,
+      "facts": 22,
+      "f1": 0.3077,
+      "precision": 0.1818,
+      "recall": 1.0,
+      "noise": 3,
+      "qa": 0.8333,
+      "insight_night": 6
+    },
+    "budget_off": {
+      "tokens": 435,
+      "facts": 12,
+      "f1": 0.5,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "noise": 0,
+      "qa": 0.8333,
+      "insight_night": 6
+    },
+    "improve_off": {
+      "tokens": 442,
+      "facts": 18,
+      "f1": 0.3636,
+      "precision": 0.2222,
+      "recall": 1.0,
+      "noise": 0,
+      "qa": 0.8333,
+      "insight_night": 6
+    }
+  },
   "minutes": 493.9
 }

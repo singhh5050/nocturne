@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Applying a periodic consolidation step (summarizing the accumulated context) to the current append\u2011based memory store will eliminate the observed QA accuracy drop that occurs once the store exceeds ~40 items.\",\"confidence\":0.78,\"support_ids\":[\"81d02abc\",\"f1bc2caa\",\"17d25ddc\"],\"tags\":[\"memory\",\"consolidation\",\"interference\",\"accuracy\"]},{\"statement\":\"Switching from a pure append strategy to a sliding\u2011window retrieval scheme (as explored in the ICLR ablation plan) will prevent the interference effect causing accuracy degradation beyond 40 stored items.\",\"confidence\":0.65,\"support_ids\":[\"7ed212c7\",\"81d02abc\",\"f1bc2caa\"],\"tags\":[\"memory\",\"window\",\"append\",\"ablation\",\"interference\"]}]}",
+  "usage": {
+    "input_tokens": 1126,
+    "output_tokens": 417,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"Implementing the rewrite operation using MemGPT's virtual context management (paging between in\u2011context and external memory) will improve task performance over a naive append\u2011only memory, when controlled for total memory size.\",\n      \"confidence\": 0.68,\n      \"support_ids\": [\"b9cd6a13\", \"e959bcd0\"],\n      \"tags\": [\"ablation\", \"memory-rewrite\", \"MemGPT\", \"agent-performance\"]\n    },\n    {\n      \"statement\": \"A benchmark suite that incorporates MemGPT\u2011style dynamic memory rewriting will be more sensitive to algorithmic variations than current static\u2011memory agent benchmarks, enabling clearer isolation of rewrite\u2011vs\u2011append effects in workshop papers.\",\n      \"confidence\": 0.55,\n      \"support_ids\": [\"aa871420\", \"b9cd6a13\", \"e959bcd0\"],\n      \"tags\": [\"benchmark\", \"agent-memory\", \"memory-rewrite\", \"workshop\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 448,
+    "output_tokens": 483,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

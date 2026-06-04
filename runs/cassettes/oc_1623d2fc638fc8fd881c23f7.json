@@ -1,0 +1,9 @@
+{
+  "text": "{\"ops\":[{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Experiment log: odd accuracy drop \u2013 QA accuracy for append baseline drops once store grows past ~40 items. Target fact is still present; not a retrieval miss but extra material seems to interfere.\",\"weight\":1.0,\"tags\":[\"notes\",\"experiment\",\"accuracy_drop\"],\"provenance\":[\"n13-notes-1\"]},{\"op\":\"add\",\"tier\":\"episodic\",\"content\":\"Saved memory paper arguing compression (consolidation) beats accumulation for working sets, reinforcing idea that periodically summarizing context reduces interference.\",\"weight\":1.0,\"tags\":[\"notes\",\"memory\",\"consolidation\",\"paper\"],\"provenance\":[\"n13-notes-2\"]}]}",
+  "usage": {
+    "input_tokens": 1839,
+    "output_tokens": 1324,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

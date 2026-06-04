@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The observed ~9 F1 point gain of the rewrite strategy over naive append is likely due to reduced cross\u2011fact interference, mirroring the benefits of memory consolidation mechanisms that compress accumulated context into compact summaries.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"c0fbabea\", \"5f5331d2\", \"579b3852\"],\n      \"tags\": [\"rewrite\", \"ablation\", \"consolidation\", \"interference\"]\n    },\n    {\n      \"statement\": \"Utilizing the newly approved 2400 H100 GPU\u2011hours to implement MemGPT\u2011style virtual context paging can keep the agent within token budgets, addressing the append strategy\u2019s token overflow by day 20.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"f327063e\", \"f167ace6\", \"c0fbabea\"],\n      \"tags\": [\"gpu\", \"resource\", \"memgpt\", \"token_budget\", \"append\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 551,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

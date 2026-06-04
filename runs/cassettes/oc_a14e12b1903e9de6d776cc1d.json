@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"hypotheses\": [\n    {\n      \"statement\": \"The observed performance gain of the rewrite operation over naive append is likely due to reduced cross-fact interference\u2014a benefit similar to memory consolidation techniques\u2014rather than the rewrite mechanism itself.\",\n      \"confidence\": 0.78,\n      \"support_ids\": [\"c0fbabea\", \"5f5331d2\", \"579b3852\", \"03c1d4c1\"],\n      \"tags\": [\"ablation\", \"memory-consolidation\", \"interference\", \"rewrite\"]\n    },\n    {\n      \"statement\": \"Employing MemGPT\u2011style external memory paging on the newly allocated H100 GPUs can alleviate the token\u2011budget overflow encountered with naive append, potentially making append\u2011based strategies competitive with rewrite approaches.\",\n      \"confidence\": 0.65,\n      \"support_ids\": [\"f327063e\", \"f167ace6\", \"c0fbabea\"],\n      \"tags\": [\"gpu-allocation\", \"MemGPT\", \"token-budget\", \"append\"]\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 928,
+    "output_tokens": 615,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

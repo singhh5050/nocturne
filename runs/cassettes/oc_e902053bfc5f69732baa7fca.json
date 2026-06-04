@@ -1,0 +1,9 @@
+{
+  "text": "{\"hypotheses\":[{\"statement\":\"Integrating periodic consolidation (summarisation of accumulated context) into MemGPT's virtual context management will eliminate the QA accuracy drop observed in bounded\u2011memory agents, yielding stable recall as the data stream grows.\",\"confidence\":0.78,\"support_ids\":[\"17d25ddc\",\"f1bc2caa\",\"b854e77d\",\"b9cd6a13\"],\"tags\":[\"memory\",\"consolidation\",\"LLM\",\"performance\",\"ablation\"]},{\"statement\":\"Agents described in the 'lifelong memory for agents' paper will exhibit greater performance variance on episodic\u2011memory benchmark tasks (as surveyed) when using different consolidation strategies, confirming that lifelong memory design predicts sensitivity to consolidation mechanisms.\",\"confidence\":0.65,\"support_ids\":[\"fc772846\",\"85f87da5\",\"b854e77d\",\"17d25ddc\"],\"tags\":[\"agent-memory\",\"benchmark\",\"episodic\",\"evaluation\",\"memory\"]}]}",
+  "usage": {
+    "input_tokens": 989,
+    "output_tokens": 626,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}
