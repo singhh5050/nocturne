@@ -422,4 +422,7 @@ $("play").onclick=function(){if(timer){clearInterval(timer);timer=null;this.text
 drawTokens();drawLearn();
 const _h=(location.hash.match(/night=(\d+)/)||[])[1];render(_h?Math.max(1,Math.min(N,+_h)):1);
 window.addEventListener("hashchange",()=>{const m=(location.hash.match(/night=(\d+)/)||[])[1];if(m)render(Math.max(1,Math.min(N,+m)));});
+// control channel: lets an embedding deck drive the demo (scrub nights, focus a panel)
+window.addEventListener("message",e=>{try{const m=e.data||{};if(m.nocturne&&m.night)render(Math.max(1,Math.min(N,+m.night)));
+  if(m.nocturne&&m.focus){const el=$(m.focus);if(el)el.scrollIntoView({behavior:"smooth",block:"center"});}}catch(_){}});
 </script></body></html>

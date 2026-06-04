@@ -182,6 +182,15 @@ def cmd_batch(args) -> int:
     return 0
 
 
+def cmd_deck(args) -> int:
+    if RUN_PATH.exists():
+        _build_dashboard(json.loads(RUN_PATH.read_text()))  # deck embeds the current dashboard
+    from .viz import slideshow
+    p = slideshow.build()
+    print(f"Deck -> {p}", file=sys.stderr)
+    return 0
+
+
 def cmd_dashboard(args) -> int:
     if not RUN_PATH.exists():
         print("No runs/run.json — run `python -m nocturne.run eval` first.", file=sys.stderr)
@@ -229,6 +238,7 @@ def main() -> int:
     sp_batch.set_defaults(func=cmd_batch)
 
     sub.add_parser("dashboard").set_defaults(func=cmd_dashboard)
+    sub.add_parser("deck").set_defaults(func=cmd_deck)
 
     args = p.parse_args()
     return args.func(args)
